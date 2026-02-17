@@ -65,7 +65,7 @@ export default function TradingDashboard() {
             <p className="text-sm text-[var(--text-tertiary)]">Monitor strategy performance and trade history</p>
           </div>
           
-          <div className="flex items-center gap-3">
+          <div className="flex items-center" style={{ gap: '12px' }}>
             <button className="btn btn-secondary">
               <Download size={14} />
               Export
@@ -79,12 +79,12 @@ export default function TradingDashboard() {
 
         {/* Strategy Filter */}
         <div className="mb-8">
-          <div className="flex items-center gap-2 mb-4">
+          <div className="flex items-center" style={{ gap: '8px' }}>
             <Filter size={14} className="text-[var(--text-tertiary)]" />
             <span className="section-title">Filter by Strategy</span>
           </div>
           
-          <div className="flex flex-wrap gap-2">
+          <div className="flex flex-wrap" style={{ gap: '8px' }}>
             {strategies.map((strategy) => (
               <button
                 key={strategy}
@@ -99,11 +99,11 @@ export default function TradingDashboard() {
 
         {/* Time Range */}
         <div className="mb-8">
-          <div className="flex items-center gap-2 mb-4">
+          <div className="flex items-center mb-4" style={{ gap: '8px' }}>
             <span className="section-title">Time Range</span>
           </div>
           
-          <div className="flex items-center gap-2">
+          <div className="flex items-center" style={{ gap: '8px' }}>
             {['1H', '6H', '24H', '7D', '30D'].map((range) => (
               <button
                 key={range}

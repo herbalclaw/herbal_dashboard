@@ -35,8 +35,8 @@ export default function Header({ activeTab, onTabChange }: HeaderProps) {
     <header className="sticky top-0 z-50 bg-[var(--bg-secondary)]/90 backdrop-blur-xl border-b border-[var(--border)]">
       <div className="container">
         <div className="flex items-center justify-between h-16">
-          <div className="flex items-center gap-3">
-            <div className="flex items-center gap-2">
+          <div className="flex items-center" style={{ gap: '12px' }}>
+            <div className="flex items-center" style={{ gap: '8px' }}>
               <div className="w-2 h-2 rounded-full bg-[var(--profit)] animate-pulse shadow-[0_0_8px_rgba(34,197,94,0.5)]" />
               <span className="text-lg font-semibold tracking-tight">Herbal</span>
             </div>
@@ -45,7 +45,7 @@ export default function Header({ activeTab, onTabChange }: HeaderProps) {
             </span>
           </div>
 
-          <div className="flex items-center gap-4">
+          <div className="flex items-center" style={{ gap: '16px' }}>
             <div className="mono text-sm text-[var(--text-tertiary)]">
               {time} UTC
             </div>
@@ -55,7 +55,7 @@ export default function Header({ activeTab, onTabChange }: HeaderProps) {
           </div>
         </div>
 
-        <nav className="flex gap-1 -mb-px">
+        <nav className="flex" style={{ gap: '4px' }}>
           {tabs.map((tab) => {
             const Icon = tab.icon
             return (
@@ -63,12 +63,13 @@ export default function Header({ activeTab, onTabChange }: HeaderProps) {
                 key={tab.id}
                 onClick={() => onTabChange(tab.id)}
                 className={`
-                  flex items-center gap-2 px-5 py-4 text-sm font-medium transition-colors relative
+                  flex items-center px-5 py-4 text-sm font-medium transition-colors relative
                   ${activeTab === tab.id 
                     ? 'text-[var(--text-primary)]' 
                     : 'text-[var(--text-tertiary)] hover:text-[var(--text-secondary)]'
                   }
                 `}
+                style={{ gap: '8px' }}
               >
                 <Icon size={16} strokeWidth={2} />
                 {tab.label}
