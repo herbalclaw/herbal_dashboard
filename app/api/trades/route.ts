@@ -102,7 +102,7 @@ export async function GET() {
 }
 
 function generateMockTrades(count: number) {
-  const strategies = ['MOMENTUM', 'ARBITRAGE', 'VWAP', 'LEAD_LAG', 'SENTIMENT', 'ORDER_BOOK', 'SHARP_MONEY', 'VOLATILITY', 'BREAKOUT', 'HIGH_PROB']
+  const strategies = ['Momentum', 'Arbitrage', 'VWAP', 'LeadLag', 'Sentiment', 'OrderBookImbalance', 'SharpMoney', 'VolatilityScorer', 'BreakoutMomentum', 'HighProbConvergence', 'MarketMaking', 'CopyTrading']
   const trades = []
   
   for (let i = count; i > count - 50; i--) {
