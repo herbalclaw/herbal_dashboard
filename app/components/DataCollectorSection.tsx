@@ -18,13 +18,13 @@ export default function DataCollectorSection() {
 
   return (
     <section className="animate-fade-in">
-      <div className="container-center">
-        <div className="flex items-center justify-between mb-4">
+      <div className="container">
+        <div className="section-header">
           <h2 className="section-title">Data Feed</h2>
         </div>
 
-        <div className="card overflow-hidden">
-          <div className="grid grid-cols-5 divide-x divide-[var(--border)]">
+        <div className="card">
+          <div className="grid grid-cols-5 divide-x divide-[#27272a]">
             <MetricBox label="Total Updates" value={stats.totalUpdates.toLocaleString()} />
             <MetricBox label="Updates/Sec" value={stats.updatesPerSecond.toFixed(1)} />
             <MetricBox label="Active Windows" value={stats.activeWindows.toString()} />
@@ -43,17 +43,15 @@ export default function DataCollectorSection() {
 
 function MetricBox({ label, value, positive }: { label: string; value: string; positive?: boolean }) {
   return (
-    <div className="p-5 text-center transition-colors hover:bg-[var(--bg-tertiary)]">
-      <div className={`font-mono text-lg font-semibold mb-2 ${
-        positive === true ? 'text-[var(--success)]' : 
-        positive === false ? 'text-[var(--danger)]' : 
+    <div className="p-6 text-center transition-colors hover:bg-[#1a1a1d]">
+      <div className={`metric-value ${
+        positive === true ? 'text-[#22c55e]' : 
+        positive === false ? 'text-[#ef4444]' : 
         'text-white'
       }`}>
         {value}
       </div>
-      <div className="text-xs text-[var(--text-muted)] uppercase tracking-wider">
-        {label}
-      </div>
+      <div className="metric-label">{label}</div>
     </div>
   )
 }

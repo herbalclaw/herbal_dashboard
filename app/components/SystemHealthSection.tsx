@@ -33,10 +33,10 @@ export default function SystemHealthSection() {
 
   return (
     <section className="animate-fade-in">
-      <div className="container-center">
-        <div className="flex items-center justify-between mb-4">
+      <div className="container">
+        <div className="section-header">
           <h2 className="section-title">System Status</h2>
-          <span className="text-xs text-[var(--text-muted)]">Auto-refresh: 30s</span>
+          <span className="text-xs text-[#71717a]">Auto-refresh: 30s</span>
         </div>
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
@@ -46,12 +46,15 @@ export default function SystemHealthSection() {
               className="card p-5 animate-fade-in"
               style={{ animationDelay: `${idx * 100}ms` }}
             >
-              <div className="flex items-center gap-3 mb-3">
-                <div className={`status-dot ${service.status === 'online' ? 'status-online' : 'status-offline'}`} />
-                <span className="text-sm font-medium">{service.name}</span>
+              <div className="flex items-center justify-between mb-4">
+                <span className="text-sm font-medium text-[#a1a1aa]">{service.name}</span>
+                <span className={`status-badge ${service.status === 'online' ? 'status-badge-online' : 'status-badge-offline'}`}>
+                  <span className="w-1.5 h-1.5 rounded-full bg-current" />
+                  {service.status}
+                </span>
               </div>
               
-              <div className="font-mono text-xs text-[var(--text-muted)]">
+              <div className="font-mono text-xs text-[#71717a]">
                 Latency: {service.latency}
               </div>
             </div>
