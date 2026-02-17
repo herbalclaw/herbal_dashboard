@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, AreaChart, Area } from 'recharts'
 import { Download, RefreshCw } from 'lucide-react'
 
@@ -40,32 +40,45 @@ const pnlData = [
   { time: '24:00', pnl: -1.7 },
 ]
 
-const tradesData = [
-  { id: 323, time: '17:49:04', strategy: 'MOMENTUM', market: 'BTC-UP-5M', side: 'BUY', entry: 0.52, exit: 0.68, pnl: 0.16, status: 'WIN' },
-  { id: 322, time: '17:49:03', strategy: 'ARBITRAGE', market: 'BTC-DOWN-5M', side: 'SELL', entry: 0.48, exit: 0.32, pnl: 0.16, status: 'WIN' },
-  { id: 321, time: '17:48:53', strategy: 'VWAP', market: 'BTC-UP-5M', side: 'BUY', entry: 0.55, exit: 0.42, pnl: -0.13, status: 'LOSS' },
-  { id: 320, time: '17:48:51', strategy: 'LEAD_LAG', market: 'BTC-DOWN-5M', side: 'SELL', entry: 0.45, exit: 0.38, pnl: 0.07, status: 'WIN' },
-  { id: 319, time: '17:48:42', strategy: 'SENTIMENT', market: 'BTC-UP-5M', side: 'BUY', entry: 0.51, exit: 0.44, pnl: -0.07, status: 'LOSS' },
-  { id: 318, time: '17:48:38', strategy: 'ORDER_BOOK', market: 'BTC-DOWN-5M', side: 'SELL', entry: 0.49, exit: 0.52, pnl: -0.03, status: 'LOSS' },
-  { id: 317, time: '17:48:22', strategy: 'SHARP_MONEY', market: 'BTC-UP-5M', side: 'BUY', entry: 0.53, exit: 0.61, pnl: 0.08, status: 'WIN' },
-  { id: 316, time: '17:48:15', strategy: 'VOLATILITY', market: 'BTC-DOWN-5M', side: 'SELL', entry: 0.47, exit: 0.41, pnl: 0.06, status: 'WIN' },
-  { id: 315, time: '17:48:08', strategy: 'MOMENTUM', market: 'BTC-UP-5M', side: 'BUY', entry: 0.54, exit: 0.62, pnl: 0.08, status: 'WIN' },
-  { id: 314, time: '17:47:52', strategy: 'ARBITRAGE', market: 'BTC-DOWN-5M', side: 'SELL', entry: 0.46, exit: 0.39, pnl: 0.07, status: 'WIN' },
-  { id: 313, time: '17:47:45', strategy: 'VWAP', market: 'BTC-UP-5M', side: 'BUY', entry: 0.52, exit: 0.48, pnl: -0.04, status: 'LOSS' },
-  { id: 312, time: '17:47:38', strategy: 'LEAD_LAG', market: 'BTC-DOWN-5M', side: 'SELL', entry: 0.48, exit: 0.42, pnl: 0.06, status: 'WIN' },
-  { id: 311, time: '17:47:22', strategy: 'SENTIMENT', market: 'BTC-UP-5M', side: 'BUY', entry: 0.50, exit: 0.58, pnl: 0.08, status: 'WIN' },
-  { id: 310, time: '17:47:15', strategy: 'ORDER_BOOK', market: 'BTC-DOWN-5M', side: 'SELL', entry: 0.50, exit: 0.44, pnl: 0.06, status: 'WIN' },
-  { id: 309, time: '17:47:08', strategy: 'SHARP_MONEY', market: 'BTC-UP-5M', side: 'BUY', entry: 0.49, exit: 0.43, pnl: -0.06, status: 'LOSS' },
-  { id: 308, time: '17:46:52', strategy: 'VOLATILITY', market: 'BTC-DOWN-5M', side: 'SELL', entry: 0.47, exit: 0.40, pnl: 0.07, status: 'WIN' },
-  { id: 307, time: '17:46:45', strategy: 'BREAKOUT', market: 'BTC-UP-5M', side: 'BUY', entry: 0.51, exit: 0.59, pnl: 0.08, status: 'WIN' },
-  { id: 306, time: '17:46:38', strategy: 'HIGH_PROB', market: 'BTC-DOWN-5M', side: 'SELL', entry: 0.49, exit: 0.41, pnl: 0.08, status: 'WIN' },
-  { id: 305, time: '17:46:22', strategy: 'MARKET_MAKER', market: 'BTC-UP-5M', side: 'BUY', entry: 0.52, exit: 0.47, pnl: -0.05, status: 'LOSS' },
-  { id: 304, time: '17:46:15', strategy: 'COPY_TRADE', market: 'BTC-DOWN-5M', side: 'SELL', entry: 0.48, exit: 0.52, pnl: -0.04, status: 'LOSS' },
-]
+interface Trade {
+  id: number
+  time: string
+  strategy: string
+  market: string
+  side: 'BUY' | 'SELL'
+  entry: number
+  exit: number
+  pnl: number
+  status: 'WIN' | 'LOSS'
+}
 
 export default function TradingDashboard() {
   const [selectedStrategy, setSelectedStrategy] = useState('ALL')
   const [timeRange, setTimeRange] = useState('24H')
+  const [trades, setTrades] = useState<Trade[]>([])
+  const [totalTrades, setTotalTrades] = useState(0)
+  const [loading, setLoading] = useState(true)
+
+  useEffect(() => {
+    fetchTrades()
+  }, [])
+
+  async function fetchTrades() {
+    try {
+      const response = await fetch('/api/trades')
+      const data = await response.json()
+      setTrades(data.trades)
+      setTotalTrades(data.total)
+    } catch (error) {
+      console.error('Error fetching trades:', error)
+    } finally {
+      setLoading(false)
+    }
+  }
+
+  const filteredTrades = selectedStrategy === 'ALL' 
+    ? trades 
+    : trades.filter(t => t.strategy === selectedStrategy)
 
   return (
     <div className="animate-fade-in">
@@ -194,7 +207,9 @@ export default function TradingDashboard() {
         <div className="panel overflow-hidden">
           <div className="cell-header flex items-center justify-between">
             <span>RECENT TRADES</span>
-            <span className="text-[var(--text-muted)]">323 RECORDS (showing last 20)</span>
+            <span className="text-[var(--text-muted)]">
+              {loading ? 'LOADING...' : `${totalTrades} RECORDS (showing ${filteredTrades.length})`}
+            </span>
           </div>
           
           <div className="overflow-x-auto">
@@ -212,24 +227,38 @@ export default function TradingDashboard() {
                 </tr>
               </thead>
               <tbody>
-                {tradesData.map((trade) => (
-                  <tr key={trade.id}>
-                    <td className="mono">{trade.time}</td>
-                    <td>{trade.strategy}</td>
-                    <td>{trade.market}</td>
-                    <td className={trade.side === 'BUY' ? 'text-up font-semibold' : 'text-down font-semibold'}>
-                      {trade.side}
-                    </td>
-                    <td className="mono">{trade.entry.toFixed(2)}</td>
-                    <td className="mono">{trade.exit.toFixed(2)}</td>
-                    <td className={`mono font-semibold ${trade.pnl >= 0 ? 'text-up' : 'text-down'}`}>
-                      {trade.pnl >= 0 ? '+' : ''}{trade.pnl.toFixed(2)}
-                    </td>
-                    <td className={trade.status === 'WIN' ? 'text-up font-semibold' : 'text-down font-semibold'}>
-                      {trade.status}
+                {loading ? (
+                  <tr>
+                    <td colSpan={8} className="text-center py-8 text-[var(--text-muted)]">
+                      LOADING TRADES...
                     </td>
                   </tr>
-                ))}
+                ) : filteredTrades.length === 0 ? (
+                  <tr>
+                    <td colSpan={8} className="text-center py-8 text-[var(--text-muted)]">
+                      NO TRADES FOUND
+                    </td>
+                  </tr>
+                ) : (
+                  filteredTrades.map((trade) => (
+                    <tr key={trade.id}>
+                      <td className="mono">{trade.time}</td>
+                      <td>{trade.strategy}</td>
+                      <td>{trade.market}</td>
+                      <td className={trade.side === 'BUY' ? 'text-up font-semibold' : 'text-down font-semibold'}>
+                        {trade.side}
+                      </td>
+                      <td className="mono">{trade.entry.toFixed(2)}</td>
+                      <td className="mono">{trade.exit.toFixed(2)}</td>
+                      <td className={`mono font-semibold ${trade.pnl >= 0 ? 'text-up' : 'text-down'}`}>
+                        {trade.pnl >= 0 ? '+' : ''}{trade.pnl.toFixed(2)}
+                      </td>
+                      <td className={trade.status === 'WIN' ? 'text-up font-semibold' : 'text-down font-semibold'}>
+                        {trade.status}
+                      </td>
+                    </tr>
+                  ))
+                )}
               </tbody>
             </table>
           </div>

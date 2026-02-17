@@ -39,7 +39,7 @@ export default function SystemHealthSection() {
           <span className="text-[var(--text-muted)]">REFRESH: 30s</span>
         </div>
 
-        <div className="grid grid-cols-4">
+        <div className="grid grid-cols-2 md:grid-cols-4">
           {services.map((service, idx) => (
             <div 
               key={service.name}

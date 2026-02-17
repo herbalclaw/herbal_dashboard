@@ -31,7 +31,7 @@ export default function PaperTradingSection() {
       <div className="container">
         <div className="section-label">TRADING PERFORMANCE</div>
 
-        <div className="data-grid grid-cols-4">
+        <div className="data-grid grid-cols-2 md:grid-cols-4">
           {metrics.map((metric) => (
             <div key={metric.label} className="data-cell">
               <div className={`mono text-xl font-semibold ${

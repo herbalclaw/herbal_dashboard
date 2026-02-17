@@ -33,7 +33,7 @@ export default function DataCollectorSection() {
       <div className="container">
         <div className="section-label">DATA FEED</div>
 
-        <div className="data-grid grid-cols-5">
+        <div className="data-grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5">
           {metrics.map((metric) => (
             <div key={metric.label} className="data-cell">
               <div className={`mono text-xl font-semibold ${
