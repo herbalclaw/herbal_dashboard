@@ -23,8 +23,8 @@
   --profit: #22c55e;
   --loss: #ef4444;
   
-  --border: #27272a;
-  --border-hover: #3f3f46;
+  --border: #3f3f46;
+  --border-hover: #52525b;
   
   /* Spacing Scale */
   --space-1: 4px;
@@ -125,6 +125,7 @@ body {
   background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
 }
 
 /* Buttons - Consistent sizing and typography */
