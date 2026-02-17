@@ -2,97 +2,141 @@ import { NextResponse } from 'next/server'
 import { promises as fs } from 'fs'
 import path from 'path'
 
-// Read Excel file without external dependencies
-async function readExcelFile(filePath: string) {
-  try {
-    const buffer = await fs.readFile(filePath)
-    const content = buffer.toString('utf-8', 0, Math.min(buffer.length, 500000)) // Read first 500KB
+// Cache for trade data
+let tradeCache: {
+  data: any[]
+  timestamp: number
+  total: number
+} | null = null
+
+const CACHE_TTL = 30000 // 30 seconds cache
+
+// Parse Excel binary format efficiently
+async function parseExcelEfficiently(filePath: string): Promise<{ trades: any[], total: number }> {
+  const buffer = await fs.readFile(filePath)
+  
+  // Check if it's a valid Excel file (ZIP format)
+  if (buffer[0] !== 0x50 || buffer[1] !== 0x4B) {
+    throw new Error('Invalid Excel file format')
+  }
+  
+  // Find sheet1.xml in the ZIP
+  const sheet1Marker = Buffer.from('xl/worksheets/sheet1.xml')
+  const sheet1Index = buffer.indexOf(sheet1Marker)
+  
+  if (sheet1Index === -1) {
+    throw new Error('Sheet1 not found in Excel file')
+  }
+  
+  // Extract rows using string parsing (faster than XML parsing for large files)
+  const content = buffer.toString('utf-8', 0, buffer.length)
+  const trades: any[] = []
+  
+  // Find all row elements
+  const rowRegex = /<row[^\u003e]*>([\s\S]*?)<\/row>/g
+  let rowMatch
+  let rowIndex = 0
+  
+  while ((rowMatch = rowRegex.exec(content)) !== null) {
+    rowIndex++
+    if (rowIndex === 1) continue // Skip header row
     
-    // Extract trade data from Excel XML
-    const trades: any[] = []
+    const rowXml = rowMatch[1]
     
-    // Look for trade rows in the Excel XML
-    // Excel stores data in shared strings and sheet XML
-    const rowMatches = content.match(/<row[^>]*>.*?<\/row>/gs) || []
+    // Extract cell values
+    const cellRegex = /<c[^\u003e]*>(?:<is>)?<t>([^<]*)<\/t>(?:<\/is>)?<\/c>|<c[^\u003e]*><v>([^<]*)<\/v><\/c>/g
+    const cells: string[] = []
+    let cellMatch
     
-    for (const row of rowMatches.slice(1)) { // Skip header row
-      const cells = row.match(/<c[^>]*>.*?<\/c>/gs) || []
-      if (cells.length >= 8) {
-        const tradeId = extractCellValue(cells[0], content)
-        const time = extractCellValue(cells[1], content)
-        const strategy = extractCellValue(cells[2], content)
-        const market = extractCellValue(cells[3], content)
-        const side = extractCellValue(cells[4], content)
-        const entry = parseFloat(extractCellValue(cells[5], content) || '0')
-        const exit = parseFloat(extractCellValue(cells[6], content) || '0')
-        const pnl = parseFloat(extractCellValue(cells[7], content) || '0')
-        
-        if (tradeId && strategy) {
-          trades.push({
-            id: parseInt(tradeId) || trades.length + 1,
-            time: time || '00:00:00',
-            strategy: strategy || 'Unknown',
-            market: market || 'BTC-5M',
-            side: (side?.toUpperCase() || 'BUY') as 'BUY' | 'SELL',
-            entry,
-            exit,
-            pnl,
-            status: pnl >= 0 ? 'WIN' : 'LOSS'
-          })
-        }
-      }
+    while ((cellMatch = cellRegex.exec(rowXml)) !== null) {
+      cells.push(cellMatch[1] || cellMatch[2] || '')
     }
     
-    return trades.reverse() // Most recent first
-  } catch (error) {
-    console.error('Error reading Excel:', error)
-    return []
-  }
-}
-
-function extractCellValue(cellXml: string, fullContent: string): string {
-  // Check if it's a shared string reference
-  const sharedStringMatch = cellXml.match(/<v>(\d+)<\/v>/)
-  if (sharedStringMatch) {
-    const index = parseInt(sharedStringMatch[1])
-    // Extract from shared strings
-    const sharedStrings = fullContent.match(/<si>.*?<\/si>/gs) || []
-    if (sharedStrings[index]) {
-      const textMatch = sharedStrings[index].match(/<t>([^<]*)<\/t>/)
-      return textMatch?.[1] || ''
+    if (cells.length >= 8 && cells[0]) {
+      const tradeId = parseInt(cells[0]) || 0
+      const date = cells[1] || ''
+      const time = cells[2] || ''
+      const strategy = cells[3] || 'Unknown'
+      const side = cells[4]?.toUpperCase() || 'BUY'
+      const entry = parseFloat(cells[5]) || 0
+      const exit = parseFloat(cells[6]) || 0
+      const pnl = parseFloat(cells[8]) || 0 // P&L $ column
+      
+      if (tradeId > 0) {
+        trades.push({
+          id: tradeId,
+          time: time || date,
+          strategy,
+          market: 'BTC-5M',
+          side: side as 'BUY' | 'SELL',
+          entry,
+          exit,
+          pnl,
+          status: pnl >= 0 ? 'WIN' : 'LOSS'
+        })
+      }
     }
   }
   
-  // Direct value
-  const directMatch = cellXml.match(/<v>([^<]*)<\/v>/)
-  return directMatch?.[1] || ''
+  // Sort by ID descending (most recent first)
+  trades.sort((a, b) => b.id - a.id)
+  
+  return { trades, total: trades.length }
 }
 
 export async function GET() {
   const excelPath = path.join(process.cwd(), '..', 'polymarket-strategy-tester', 'live_trading_results.xlsx')
   
   try {
+    // Check cache first
+    if (tradeCache && Date.now() - tradeCache.timestamp < CACHE_TTL) {
+      return NextResponse.json({
+        trades: tradeCache.data,
+        total: tradeCache.total,
+        source: 'cache'
+      })
+    }
+    
     // Check if file exists
     await fs.access(excelPath)
     
-    // Read Excel
-    const trades = await readExcelFile(excelPath)
+    // Parse Excel efficiently
+    const { trades, total } = await parseExcelEfficiently(excelPath)
     
     if (trades.length === 0) {
-      return NextResponse.json({ 
+      return NextResponse.json({
         trades: [],
         total: 0,
         error: 'No trades found in Excel file'
       }, { status: 404 })
     }
     
-    return NextResponse.json({ 
+    // Update cache
+    tradeCache = {
+      data: trades,
+      timestamp: Date.now(),
+      total
+    }
+    
+    return NextResponse.json({
       trades,
-      total: trades.length,
+      total,
       source: 'excel'
     })
   } catch (error) {
-    return NextResponse.json({ 
+    console.error('Error reading Excel:', error)
+    
+    // Return cached data if available, even if stale
+    if (tradeCache) {
+      return NextResponse.json({
+        trades: tradeCache.data,
+        total: tradeCache.total,
+        source: 'cache-stale',
+        error: 'Using cached data due to read error'
+      })
+    }
+    
+    return NextResponse.json({
       trades: [],
       total: 0,
       error: 'Failed to read trading data'
