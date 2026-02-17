@@ -204,7 +204,7 @@ export default function TradingDashboard() {
         </div>
 
         {/* Trades Table */}
-        <div className="panel overflow-hidden">
+        <div className="panel">
           <div className="cell-header flex items-center justify-between">
             <span>RECENT TRADES</span>
             <span className="text-[var(--text-muted)]">
@@ -212,7 +212,7 @@ export default function TradingDashboard() {
             </span>
           </div>
           
-          <div className="overflow-x-auto">
+          <div className="overflow-x-auto bg-[var(--bg-panel)]">
             <table className="table">
               <thead>
                 <tr>
