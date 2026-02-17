@@ -65,7 +65,7 @@ export default function TradingDashboard() {
             <p className="text-sm text-[var(--text-tertiary)]">Monitor strategy performance and trade history</p>
           </div>
           
-          <div className="flex items-center" style={{ gap: '12px' }}>
+          <div className="flex items-center" style={{ gap: '16px' }}>
             <button className="btn btn-secondary">
               <Download size={14} />
               Export
