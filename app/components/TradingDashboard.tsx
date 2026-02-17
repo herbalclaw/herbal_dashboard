@@ -7,7 +7,7 @@ import { Download, RefreshCw } from 'lucide-react'
 const strategies = [
   'ALL',
   'Momentum',
-  'Arbitrage', 
+  'Arbitrage',
   'VWAP',
   'LeadLag',
   'Sentiment',
@@ -19,7 +19,11 @@ const strategies = [
   'MarketMaking',
   'CopyTrading',
   'MicrostructureScalper',
-  'EMAArbitrage'
+  'EMAArbitrage',
+  'LongshotBias',
+  'KalshiArbitrage',
+  'CrossMarketArbitrage',
+  'HighProbabilityBond'
 ]
 
 interface Trade {
@@ -59,34 +63,34 @@ export default function TradingDashboard() {
   }
 
   const filteredTrades = useMemo(() => {
-    return selectedStrategy === 'ALL' 
-      ? trades 
+    return selectedStrategy === 'ALL'
+      ? trades
       : trades.filter(t => t.strategy === selectedStrategy)
   }, [trades, selectedStrategy])
 
   // Calculate summary stats
   const summary = useMemo(() => {
     if (filteredTrades.length === 0) return null
-    
+
     const wins = filteredTrades.filter(t => t.pnl > 0).length
     const losses = filteredTrades.filter(t => t.pnl < 0).length
     const totalPnl = filteredTrades.reduce((sum, t) => sum + t.pnl, 0)
     const avgPnl = totalPnl / filteredTrades.length
     const winRate = (wins / filteredTrades.length) * 100
-    
+
     return { wins, losses, totalPnl, avgPnl, winRate }
   }, [filteredTrades])
 
   // Generate equity curve from trades
   const equityData = useMemo(() => {
     if (filteredTrades.length === 0) return []
-    
+
     let equity = 100
     const data: { time: string; equity: number }[] = []
-    
+
     // Sort trades by time
     const sortedTrades = [...filteredTrades].reverse()
-    
+
     sortedTrades.forEach((trade) => {
       equity += trade.pnl
       data.push({
@@ -94,19 +98,19 @@ export default function TradingDashboard() {
         equity: parseFloat(equity.toFixed(2))
       })
     })
-    
+
     return data
   }, [filteredTrades])
 
   // Generate P&L over time
   const pnlData = useMemo(() => {
     if (filteredTrades.length === 0) return []
-    
+
     let cumulativePnl = 0
     const data: { time: string; pnl: number }[] = []
-    
+
     const sortedTrades = [...filteredTrades].reverse()
-    
+
     sortedTrades.forEach((trade) => {
       cumulativePnl += trade.pnl
       data.push({
@@ -114,7 +118,7 @@ export default function TradingDashboard() {
         pnl: parseFloat(cumulativePnl.toFixed(2))
       })
     })
-    
+
     return data
   }, [filteredTrades])
 
@@ -127,7 +131,7 @@ export default function TradingDashboard() {
             <div className="text-lg font-semibold">PAPER TRADING</div>
             <div className="text-xs text-[var(--text-muted)]">Strategy Performance & Trade History</div>
           </div>
-          
+
           <div className="flex gap-2">
             <button className="btn">
               <Download size={12} />
@@ -182,7 +186,7 @@ export default function TradingDashboard() {
         {/* Strategy Filter */}
         <div className="mb-4">
           <div className="section-label">STRATEGY FILTER</div>
-          
+
           <div className="flex flex-wrap gap-1">
             {strategies.map((strategy) => (
               <button
@@ -199,7 +203,7 @@ export default function TradingDashboard() {
         {/* Time Range */}
         <div className="mb-4">
           <div className="section-label">TIME RANGE</div>
-          
+
           <div className="flex flex-wrap gap-1">
             {['1H', '6H', '24H', '7D', '30D'].map((range) => (
               <button
@@ -231,17 +235,17 @@ export default function TradingDashboard() {
                     <CartesianGrid strokeDasharray="3 3" stroke="#222" />
                     <XAxis dataKey="time" stroke="#555" fontSize={10} tickLine={false} axisLine={false} />
                     <YAxis stroke="#555" fontSize={10} tickLine={false} axisLine={false} />
-                    <Tooltip 
+                    <Tooltip
                       contentStyle={{ background: '#111', border: '1px solid #333', borderRadius: '0' }}
                       itemStyle={{ color: '#e0e0e0', fontFamily: 'JetBrains Mono', fontSize: '12px' }}
                     />
-                    <Area 
-                      type="monotone" 
-                      dataKey="equity" 
-                      stroke="#00d084" 
+                    <Area
+                      type="monotone"
+                      dataKey="equity"
+                      stroke="#00d084"
                       strokeWidth={1.5}
-                      fillOpacity={1} 
-                      fill="url(#equityGradient)" 
+                      fillOpacity={1}
+                      fill="url(#equityGradient)"
                     />
                   </AreaChart>
                 </ResponsiveContainer>
@@ -269,17 +273,17 @@ export default function TradingDashboard() {
                     <CartesianGrid strokeDasharray="3 3" stroke="#222" />
                     <XAxis dataKey="time" stroke="#555" fontSize={10} tickLine={false} axisLine={false} />
                     <YAxis stroke="#555" fontSize={10} tickLine={false} axisLine={false} />
-                    <Tooltip 
+                    <Tooltip
                       contentStyle={{ background: '#111', border: '1px solid #333', borderRadius: '0' }}
                       itemStyle={{ color: '#e0e0e0', fontFamily: 'JetBrains Mono', fontSize: '12px' }}
                     />
-                    <Area 
-                      type="monotone" 
-                      dataKey="pnl" 
-                      stroke="#ff4757" 
+                    <Area
+                      type="monotone"
+                      dataKey="pnl"
+                      stroke="#ff4757"
                       strokeWidth={1.5}
-                      fillOpacity={1} 
-                      fill="url(#pnlGradient)" 
+                      fillOpacity={1}
+                      fill="url(#pnlGradient)"
                     />
                   </AreaChart>
                 </ResponsiveContainer>
@@ -300,7 +304,7 @@ export default function TradingDashboard() {
               {loading ? 'LOADING...' : `${totalTrades} RECORDS (showing ${filteredTrades.length})`}
             </span>
           </div>
-          
+
           <div className="overflow-x-auto bg-[var(--bg-panel)]">
             <table className="table">
               <thead>
