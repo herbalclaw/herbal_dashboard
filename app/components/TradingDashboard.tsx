@@ -17,7 +17,9 @@ const strategies = [
   'BreakoutMomentum',
   'HighProbConvergence',
   'MarketMaking',
-  'CopyTrading'
+  'CopyTrading',
+  'MicrostructureScalper',
+  'EMAArbitrage'
 ]
 
 interface Trade {
