@@ -26,45 +26,48 @@ export default function Header({ activeTab, onTabChange }: HeaderProps) {
 
   const tabs = [
     { id: 'overview', label: 'Overview' },
-    { id: 'data', label: 'Data' },
+    { id: 'data', label: 'Data Feed' },
     { id: 'trading', label: 'Trading' },
   ]
 
   return (
-    <header className="sticky top-0 z-50 glass border-b border-[#262626]">
-      <div className="max-w-5xl mx-auto px-4">
-        <div className="flex items-center justify-between h-14">
+    <header className="glass sticky top-0 z-50">
+      <div className="container-center">
+        <div className="flex items-center justify-between h-16">
+          {/* Logo */}
           <div className="flex items-center gap-3">
             <div className="flex items-center gap-2">
-              <div className="status-dot status-online animate-pulse-slow" />
-              <span className="font-semibold text-sm tracking-tight">Herbal</span>
+              <div className="status-dot status-online animate-pulse" />
+              <span className="text-lg font-bold tracking-tight">Herbal</span>
             </div>
-            <span className="text-xs text-[#737373] px-2 py-0.5 rounded-full bg-[#1a1a1a] border border-[#262626]">
-              v2.1
+            <span className="text-xs text-[var(--text-muted)] px-2 py-1 rounded-full bg-[var(--bg-secondary)] border border-[var(--border)]">
+              Terminal v2.1
             </span>
           </div>
-          
-          <div className="font-mono text-xs text-[#737373]">
+
+          {/* Time */}
+          <div className="font-mono text-sm text-[var(--text-secondary)]">
             {time} UTC
           </div>
         </div>
 
-        <nav className="flex gap-1 -mb-px">
+        {/* Navigation */}
+        <nav className="flex gap-1 pb-0">
           {tabs.map((tab) => (
             <button
               key={tab.id}
               onClick={() => onTabChange(tab.id)}
               className={`
-                relative px-4 py-3 text-xs font-medium transition-colors
+                relative px-6 py-4 text-sm font-medium transition-all duration-200
                 ${activeTab === tab.id 
                   ? 'text-white' 
-                  : 'text-[#737373] hover:text-white'
+                  : 'text-[var(--text-muted)] hover:text-[var(--text-secondary)]'
                 }
               `}
             >
               {tab.label}
               {activeTab === tab.id && (
-                <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-[#00d4aa]" />
+                <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-gradient-to-r from-[var(--accent-primary)] to-[var(--accent-secondary)]" />
               )}
             </button>
           ))}

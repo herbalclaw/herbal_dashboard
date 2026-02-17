@@ -23,7 +23,7 @@ export default function SystemHealthSection() {
         { name: 'Data Collector', status: data.lastUpdate ? 'online' : 'offline', latency: '45ms' },
         { name: 'Paper Trading', status: trading.lastUpdate ? 'online' : 'offline', latency: '23ms' },
         { name: 'Auto Push', status: 'online', latency: '12ms' },
-        { name: 'Monitor', status: 'online', latency: '5ms' },
+        { name: 'Process Monitor', status: 'online', latency: '5ms' },
       ])
     }
     fetchHealth()
@@ -33,30 +33,30 @@ export default function SystemHealthSection() {
 
   return (
     <section className="animate-fade-in">
-      <div className="flex items-center justify-between mb-3">
-        <h2 className="text-xs font-semibold text-[#737373] uppercase tracking-wider">System Status</h2>
-        <span className="text-[10px] text-[#737373]">Auto-refresh: 30s</span>
-      </div>
+      <div className="container-center">
+        <div className="flex items-center justify-between mb-4">
+          <h2 className="section-title">System Status</h2>
+          <span className="text-xs text-[var(--text-muted)]">Auto-refresh: 30s</span>
+        </div>
 
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
-        {services.map((service, idx) => (
-          <div 
-            key={service.name}
-            className="group bg-card rounded-xl border border-[#262626] p-4 transition-all duration-200 hover:border-[#404040] bg-card-hover animate-fade-in"
-            style={{ animationDelay: `${idx * 100}ms` }}
-          >
-            <div className="flex items-start justify-between mb-3">
-              <div className="flex items-center gap-2">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+          {services.map((service, idx) => (
+            <div 
+              key={service.name}
+              className="card p-5 animate-fade-in"
+              style={{ animationDelay: `${idx * 100}ms` }}
+            >
+              <div className="flex items-center gap-3 mb-3">
                 <div className={`status-dot ${service.status === 'online' ? 'status-online' : 'status-offline'}`} />
-                <span className="text-xs font-medium text-white">{service.name}</span>
+                <span className="text-sm font-medium">{service.name}</span>
+              </div>
+              
+              <div className="font-mono text-xs text-[var(--text-muted)]">
+                Latency: {service.latency}
               </div>
             </div>
-            
-            <div className="font-mono text-xs text-[#737373]">
-              {service.latency}
-            </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </section>
   )
