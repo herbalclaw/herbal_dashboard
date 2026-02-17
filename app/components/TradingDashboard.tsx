@@ -245,7 +245,7 @@ export default function TradingDashboard() {
                       <td className="mono">{trade.time}</td>
                       <td>{trade.strategy}</td>
                       <td className="hidden sm:table-cell">{trade.market}</td>
-                      <td className={trade.side === 'BUY' ? 'text-up font-semibold' : 'text-down font-semibold'}>
+                      <td style={{ color: trade.side === 'BUY' ? '#00d084' : '#ff4757', fontWeight: 600 }}>
                         {trade.side}
                       </td>
                       <td className="mono">{trade.entry.toFixed(2)}</td>
