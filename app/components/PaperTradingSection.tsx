@@ -17,40 +17,33 @@ export default function PaperTradingSection() {
 
   const metrics = [
     { 
-      label: 'Total P&L', 
+      label: 'P&L', 
       value: `$${stats.totalPnl.toFixed(2)}`,
       positive: stats.totalPnl >= 0
     },
-    { label: 'Total Trades', value: stats.totalTrades.toString() },
-    { label: 'Win Rate', value: `${stats.winRate.toFixed(0)}%` },
-    { label: 'Open Positions', value: stats.openPositions.toString() },
+    { label: 'TRADES', value: stats.totalTrades.toString() },
+    { label: 'WIN_RATE', value: `${stats.winRate.toFixed(0)}%` },
+    { label: 'OPEN', value: stats.openPositions.toString() },
   ]
 
   return (
     <section className="animate-fade-in">
       <div className="container">
-        <div className="section-header">
-          <span className="section-title">Trading Performance</span>
-        </div>
+        <div className="section-label">TRADING PERFORMANCE</div>
 
-        <div className="card">
-          <div className="grid grid-cols-4 divide-x divide-[var(--border)]">
-            {metrics.map((metric, idx) => (
-              <div 
-                key={metric.label}
-                className="p-6 text-center transition-colors hover:bg-[var(--bg-hover)]"
-              >
-                <div className={`metric-value-sm ${
-                  'positive' in metric 
-                    ? metric.positive ? 'text-[var(--profit)]' : 'text-[var(--loss)]'
-                    : 'text-[var(--text-primary)]'
-                }`}>
-                  {metric.value}
-                </div>
-                <div className="metric-label">{metric.label}</div>
+        <div className="data-grid grid-cols-4">
+          {metrics.map((metric) => (
+            <div key={metric.label} className="data-cell">
+              <div className={`mono text-xl font-semibold ${
+                'positive' in metric 
+                  ? metric.positive ? 'text-up' : 'text-down'
+                  : 'text-primary'
+              }`}>
+                {metric.value}
               </div>
-            ))}
-          </div>
+              <div className="text-xs text-[var(--text-muted)] mt-1">{metric.label}</div>
+            </div>
+          ))}
         </div>
       </div>
     </section>

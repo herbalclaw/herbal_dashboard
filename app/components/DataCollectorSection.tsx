@@ -17,12 +17,12 @@ export default function DataCollectorSection() {
   }, [])
 
   const metrics = [
-    { label: 'Total Updates', value: stats.totalUpdates.toLocaleString() },
-    { label: 'Updates/Sec', value: stats.updatesPerSecond.toFixed(1) },
-    { label: 'Active Windows', value: stats.activeWindows.toString() },
-    { label: 'Last Price', value: `$${stats.lastPrice.toFixed(3)}` },
+    { label: 'UPDATES', value: stats.totalUpdates.toLocaleString() },
+    { label: 'PER_SEC', value: stats.updatesPerSecond.toFixed(1) },
+    { label: 'WINDOWS', value: stats.activeWindows.toString() },
+    { label: 'PRICE', value: `$${stats.lastPrice.toFixed(3)}` },
     { 
-      label: 'Change', 
+      label: 'CHANGE', 
       value: `${stats.priceChange >= 0 ? '+' : ''}${(stats.priceChange * 100).toFixed(1)}%`,
       positive: stats.priceChange >= 0
     },
@@ -31,28 +31,21 @@ export default function DataCollectorSection() {
   return (
     <section className="animate-fade-in">
       <div className="container">
-        <div className="section-header">
-          <span className="section-title">Data Feed</span>
-        </div>
+        <div className="section-label">DATA FEED</div>
 
-        <div className="card">
-          <div className="grid grid-cols-5 divide-x divide-[var(--border)]">
-            {metrics.map((metric, idx) => (
-              <div 
-                key={metric.label}
-                className="p-6 text-center transition-colors hover:bg-[var(--bg-hover)]"
-              >
-                <div className={`metric-value-sm ${
-                  'positive' in metric 
-                    ? metric.positive ? 'text-[var(--profit)]' : 'text-[var(--loss)]'
-                    : 'text-[var(--text-primary)]'
-                }`}>
-                  {metric.value}
-                </div>
-                <div className="metric-label">{metric.label}</div>
+        <div className="data-grid grid-cols-5">
+          {metrics.map((metric) => (
+            <div key={metric.label} className="data-cell">
+              <div className={`mono text-xl font-semibold ${
+                'positive' in metric 
+                  ? metric.positive ? 'text-up' : 'text-down'
+                  : 'text-primary'
+              }`}>
+                {metric.value}
               </div>
-            ))}
-          </div>
+              <div className="text-xs text-[var(--text-muted)] mt-1">{metric.label}</div>
+            </div>
+          ))}
         </div>
       </div>
     </section>

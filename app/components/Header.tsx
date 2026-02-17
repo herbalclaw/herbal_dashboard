@@ -26,56 +26,49 @@ export default function Header({ activeTab, onTabChange }: HeaderProps) {
   }, [])
 
   const tabs = [
-    { id: 'overview', label: 'Overview', icon: Activity },
-    { id: 'data', label: 'Data Feed', icon: Database },
-    { id: 'trading', label: 'Paper Trading', icon: TrendingUp },
+    { id: 'overview', label: 'OVERVIEW', icon: Activity },
+    { id: 'data', label: 'DATA', icon: Database },
+    { id: 'trading', label: 'TRADING', icon: TrendingUp },
   ]
 
   return (
-    <header className="sticky top-0 z-50 bg-[var(--bg-secondary)]/90 backdrop-blur-xl border-b border-[var(--border)]">
+    <header className="border-b border-[var(--border)]">
       <div className="container">
-        <div className="flex items-center justify-between h-16">
-          <div className="flex items-center" style={{ gap: '12px' }}>
-            <div className="flex items-center" style={{ gap: '8px' }}>
-              <div className="w-2 h-2 rounded-full bg-[var(--profit)] animate-pulse shadow-[0_0_8px_rgba(34,197,94,0.5)]" />
-              <span className="text-lg font-semibold tracking-tight">Herbal</span>
-            </div>
-            <span className="text-[10px] text-[var(--text-tertiary)] px-2 py-1 rounded bg-[var(--bg-tertiary)] border border-[var(--border)]">
-              Terminal v2.1
-            </span>
+        {/* Top Bar */}
+        <div className="flex items-center justify-between py-2 border-b border-[var(--border)]">
+          <div className="flex items-center gap-2">
+            <span className="status-dot status-online" />
+            <span className="text-sm font-semibold">HERBAL</span>
+            <span className="text-xs text-[var(--text-muted)]">TERMINAL v2.1</span>
           </div>
 
-          <div className="flex items-center" style={{ gap: '16px' }}>
-            <div className="mono text-sm text-[var(--text-tertiary)]">
-              {time} UTC
-            </div>
-            <button className="btn btn-ghost p-2">
-              <Settings size={16} />
+          <div className="flex items-center gap-4">
+            <span className="mono text-sm text-[var(--text-secondary)]">{time} UTC</span>
+            <button className="btn">
+              <Settings size={12} />
             </button>
           </div>
         </div>
 
-        <nav className="flex" style={{ gap: '4px' }}>
+        {/* Navigation */}
+        <nav className="flex">
           {tabs.map((tab) => {
             const Icon = tab.icon
+            const isActive = activeTab === tab.id
             return (
               <button
                 key={tab.id}
                 onClick={() => onTabChange(tab.id)}
                 className={`
-                  flex items-center px-5 py-4 text-sm font-medium transition-colors relative
-                  ${activeTab === tab.id 
-                    ? 'text-[var(--text-primary)]' 
-                    : 'text-[var(--text-tertiary)] hover:text-[var(--text-secondary)]'
+                  flex items-center gap-2 px-4 py-2 text-xs font-medium border-r border-[var(--border)]
+                  ${isActive 
+                    ? 'bg-[var(--bg-cell)] text-[var(--text-primary)] border-b-2 border-b-[var(--accent)]' 
+                    : 'text-[var(--text-muted)] hover:text-[var(--text-secondary)] hover:bg-[var(--bg-cell)]'
                   }
                 `}
-                style={{ gap: '8px' }}
               >
-                <Icon size={16} strokeWidth={2} />
+                <Icon size={12} />
                 {tab.label}
-                {activeTab === tab.id && (
-                  <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-[var(--accent)]" />
-                )}
               </button>
             )
           })}

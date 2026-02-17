@@ -20,10 +20,10 @@ export default function SystemHealthSection() {
       ])
 
       setServices([
-        { name: 'Data Collector', status: data.lastUpdate ? 'online' : 'offline', latency: '45ms' },
-        { name: 'Paper Trading', status: trading.lastUpdate ? 'online' : 'offline', latency: '23ms' },
-        { name: 'Auto Push', status: 'online', latency: '12ms' },
-        { name: 'Process Monitor', status: 'online', latency: '5ms' },
+        { name: 'DATA_COLLECTOR', status: data.lastUpdate ? 'online' : 'offline', latency: '45ms' },
+        { name: 'PAPER_TRADING', status: trading.lastUpdate ? 'online' : 'offline', latency: '23ms' },
+        { name: 'AUTO_PUSH', status: 'online', latency: '12ms' },
+        { name: 'MONITOR', status: 'online', latency: '5ms' },
       ])
     }
     fetchHealth()
@@ -34,28 +34,25 @@ export default function SystemHealthSection() {
   return (
     <section className="animate-fade-in">
       <div className="container">
-        <div className="section-header">
-          <span className="section-title">System Status</span>
-          <span className="text-xs text-[var(--text-tertiary)]">Auto-refresh: 30s</span>
+        <div className="section-label flex items-center justify-between">
+          <span>SYSTEM STATUS</span>
+          <span className="text-[var(--text-muted)]">REFRESH: 30s</span>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div className="grid grid-cols-4">
           {services.map((service, idx) => (
             <div 
               key={service.name}
-              className="status-card animate-fade-in"
-              style={{ animationDelay: `${idx * 100}ms` }}
+              className="cell border-r-0 last:border-r"
+              style={{ animationDelay: `${idx * 50}ms` }}
             >
-              <div className="flex items-center justify-between mb-3">
-                <span className="text-sm font-medium text-[var(--text-secondary)]">{service.name}</span>
-                <span className={`badge ${service.status === 'online' ? 'badge-success' : 'badge-error'}`}>
-                  <span className="w-1.5 h-1.5 rounded-full bg-current" />
-                  {service.status}
-                </span>
+              <div className="flex items-center justify-between mb-2">
+                <span className="text-xs text-[var(--text-secondary)]">{service.name}</span>
+                <span className={`status-dot ${service.status === 'online' ? 'status-online' : 'status-offline'}`} />
               </div>
               
-              <div className="mono text-xs text-[var(--text-tertiary)]">
-                Latency: {service.latency}
+              <div className="mono text-xs text-[var(--text-muted)]">
+                LATENCY: {service.latency}
               </div>
             </div>
           ))}

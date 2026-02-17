@@ -14,7 +14,7 @@ export default function Home() {
     <div className="min-h-screen bg-[var(--bg-primary)]">
       <Header activeTab={activeTab} onTabChange={setActiveTab} />
       
-      <main className="py-8 space-y-8">
+      <main className="py-4 space-y-4">
         {activeTab === 'overview' && (
           <>
             <SystemHealthSection />
