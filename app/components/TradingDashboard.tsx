@@ -80,12 +80,12 @@ export default function TradingDashboard() {
     if (filteredTrades.length === 0) return []
     
     let equity = 100
-    const data = []
+    const data: { time: string; equity: number }[] = []
     
     // Sort trades by time
     const sortedTrades = [...filteredTrades].reverse()
     
-    sortedTrades.forEach((trade, index) => {
+    sortedTrades.forEach((trade) => {
       equity += trade.pnl
       data.push({
         time: trade.time,
@@ -101,7 +101,7 @@ export default function TradingDashboard() {
     if (filteredTrades.length === 0) return []
     
     let cumulativePnl = 0
-    const data = []
+    const data: { time: string; pnl: number }[] = []
     
     const sortedTrades = [...filteredTrades].reverse()
     
