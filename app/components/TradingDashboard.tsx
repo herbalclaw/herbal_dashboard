@@ -17,12 +17,9 @@ const strategies = [
   'BreakoutMomentum',
   'HighProbConvergence',
   'MarketMaking',
-  'CopyTrading',
   'MicrostructureScalper',
   'EMAArbitrage',
   'LongshotBias',
-  'KalshiArbitrage',
-  'CrossMarketArbitrage',
   'HighProbabilityBond'
 ]
 
