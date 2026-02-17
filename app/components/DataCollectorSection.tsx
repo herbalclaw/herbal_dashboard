@@ -2,7 +2,6 @@
 
 import { useState, useEffect } from 'react'
 import { fetchRepoStatus } from '../../lib/github'
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 
 interface DataCollectorSectionProps {
   compact?: boolean
@@ -21,35 +20,45 @@ export default function DataCollectorSection({ compact = false }: DataCollectorS
     fetchRepoStatus('polymarket-data-collector')
   }, [])
 
-  return (
-    <Card>
-      <CardHeader className="pb-3">
-        <CardTitle className="text-xs font-semibold uppercase tracking-wider text-primary">Data Feed</CardTitle>
-      </CardHeader>
-      <CardContent className="space-y-4">
-        <div className="grid grid-cols-5 gap-2">
-          <Metric value={stats.totalUpdates.toLocaleString()} label="Updates" />
-          <Metric value={stats.updatesPerSecond.toFixed(1)} label="/Sec" />
-          <Metric value={stats.activeWindows.toString()} label="Windows" />
-          <Metric value={`$${stats.lastPrice.toFixed(3)}`} label="Price" />
-          <Metric 
-            value={`${stats.priceChange >= 0 ? '+' : ''}${(stats.priceChange * 100).toFixed(1)}%`} 
-            label="Change"
-            positive={stats.priceChange >= 0}
-          />
-        </div>
-      </CardContent>
-    </Card>
-  )
-}
+  const metrics = [
+    { label: 'Total Updates', value: stats.totalUpdates.toLocaleString() },
+    { label: 'Updates/Sec', value: stats.updatesPerSecond.toFixed(1) },
+    { label: 'Active Windows', value: stats.activeWindows.toString() },
+    { label: 'Last Price', value: `$${stats.lastPrice.toFixed(3)}` },
+    { 
+      label: 'Change', 
+      value: `${stats.priceChange >= 0 ? '+' : ''}${(stats.priceChange * 100).toFixed(1)}%`,
+      positive: stats.priceChange >= 0
+    },
+  ]
 
-function Metric({ value, label, positive }: { value: string; label: string; positive?: boolean }) {
   return (
-    <div className="rounded-lg border bg-secondary/50 p-2 text-center">
-      <div className={`font-mono text-sm font-bold truncate ${positive === true ? 'text-emerald-500' : positive === false ? 'text-red-500' : ''}`}>
-        {value}
+    <section className="animate-fade-in delay-100">
+      <div className="flex items-center justify-between mb-3">
+        <h2 className="text-xs font-semibold text-[#737373] uppercase tracking-wider">Data Feed</h2>
       </div>
-      <div className="text-[10px] text-muted-foreground uppercase mt-1">{label}</div>
-    </div>
+
+      <div className="bg-card rounded-xl border border-[#262626] overflow-hidden">
+        <div className="grid grid-cols-5 divide-x divide-[#262626]">
+          {metrics.map((metric, idx) => (
+            <div 
+              key={metric.label}
+              className="p-4 text-center transition-colors hover:bg-[#1a1a1a]"
+            >
+              <div className={`font-mono text-sm font-semibold mb-1 ${
+                'positive' in metric 
+                  ? metric.positive ? 'text-[#22c55e]' : 'text-[#ef4444]'
+                  : 'text-white'
+              }`}>
+                {metric.value}
+              </div>
+              <div className="text-[10px] text-[#737373] uppercase tracking-wider">
+                {metric.label}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
   )
 }

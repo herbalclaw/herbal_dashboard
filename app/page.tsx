@@ -10,12 +10,12 @@ export default function Home() {
   const [activeTab, setActiveTab] = useState('overview')
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-black">
       <Header activeTab={activeTab} onTabChange={setActiveTab} />
       
-      <main className="p-4 max-w-5xl mx-auto">
+      <main className="max-w-5xl mx-auto px-4 py-6">
         {activeTab === 'overview' && (
-          <div className="space-y-4">
+          <div className="space-y-6">
             <SystemHealthSection />
             <DataCollectorSection />
             <PaperTradingSection />
