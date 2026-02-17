@@ -45,7 +45,7 @@ export default function TradingDashboard() {
 
   async function fetchTrades() {
     try {
-      const response = await fetch('/api/trades')
+      const response = await fetch('/trades.json')
       const data = await response.json()
       setTrades(data.trades)
       setTotalTrades(data.total)
