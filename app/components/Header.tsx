@@ -51,7 +51,7 @@ export default function Header({ activeTab, onTabChange }: HeaderProps) {
         </div>
 
         {/* Navigation */}
-        <nav className="flex">
+        <nav className="flex flex-wrap border-b border-[var(--border)]">
           {tabs.map((tab) => {
             const Icon = tab.icon
             const isActive = activeTab === tab.id
@@ -60,7 +60,7 @@ export default function Header({ activeTab, onTabChange }: HeaderProps) {
                 key={tab.id}
                 onClick={() => onTabChange(tab.id)}
                 className={`
-                  flex items-center gap-2 px-4 py-2 text-xs font-medium border-r border-[var(--border)]
+                  flex items-center gap-2 px-4 py-3 text-xs font-medium border-r border-[var(--border)]
                   ${isActive 
                     ? 'bg-[var(--bg-cell)] text-[var(--text-primary)] border-b-2 border-b-[var(--accent)]' 
                     : 'text-[var(--text-muted)] hover:text-[var(--text-secondary)] hover:bg-[var(--bg-cell)]'

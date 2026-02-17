@@ -59,13 +59,13 @@ export default function TradingDashboard() {
     <div className="animate-fade-in">
       <div className="container">
         {/* Header */}
-        <div className="flex items-center justify-between py-4 border-b border-[var(--border)] mb-4">
+        <div className="flex flex-col md:flex-row md:items-center justify-between py-4 border-b border-[var(--border)] mb-4 gap-4">
           <div>
             <div className="text-lg font-semibold">PAPER TRADING</div>
             <div className="text-xs text-[var(--text-muted)]">Strategy Performance & Trade History</div>
           </div>
           
-          <div className="flex" style={{ gap: '8px' }}>
+          <div className="flex gap-2">
             <button className="btn">
               <Download size={12} />
               EXPORT
@@ -81,7 +81,7 @@ export default function TradingDashboard() {
         <div className="mb-4">
           <div className="section-label">STRATEGY FILTER</div>
           
-          <div className="flex flex-wrap" style={{ gap: '4px' }}>
+          <div className="flex flex-wrap gap-1">
             {strategies.map((strategy) => (
               <button
                 key={strategy}
@@ -98,7 +98,7 @@ export default function TradingDashboard() {
         <div className="mb-4">
           <div className="section-label">TIME RANGE</div>
           
-          <div className="flex" style={{ gap: '4px' }}>
+          <div className="flex flex-wrap gap-1">
             {['1H', '6H', '24H', '7D', '30D'].map((range) => (
               <button
                 key={range}
@@ -112,11 +112,11 @@ export default function TradingDashboard() {
         </div>
 
         {/* Charts */}
-        <div className="grid grid-cols-2 gap-4 mb-4">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mb-4">
           {/* Equity Chart */}
           <div className="panel">
             <div className="cell-header">EQUITY CURVE</div>
-            <div className="h-64 p-4">
+            <div className="h-48 md:h-64 p-4">
               <ResponsiveContainer width="100%" height="100%">
                 <AreaChart data={equityData}>
                   <defs>
@@ -148,7 +148,7 @@ export default function TradingDashboard() {
           {/* PNL Chart */}
           <div className="panel">
             <div className="cell-header">P&L OVER TIME</div>
-            <div className="h-64 p-4">
+            <div className="h-48 md:h-64 p-4">
               <ResponsiveContainer width="100%" height="100%">
                 <AreaChart data={pnlData}>
                   <defs>
@@ -179,7 +179,7 @@ export default function TradingDashboard() {
         </div>
 
         {/* Trades Table */}
-        <div className="panel">
+        <div className="panel overflow-hidden">
           <div className="cell-header flex items-center justify-between">
             <span>RECENT TRADES</span>
             <span className="text-[var(--text-muted)]">{tradesData.length} RECORDS</span>
@@ -205,7 +205,7 @@ export default function TradingDashboard() {
                     <td className="mono">{trade.time}</td>
                     <td>{trade.strategy}</td>
                     <td>{trade.market}</td>
-                    <td className={trade.side === 'BUY' ? 'text-up' : 'text-down'}>
+                    <td className={trade.side === 'BUY' ? 'text-up font-semibold' : 'text-down font-semibold'}>
                       {trade.side}
                     </td>
                     <td className="mono">{trade.entry.toFixed(2)}</td>
@@ -213,10 +213,8 @@ export default function TradingDashboard() {
                     <td className={`mono font-semibold ${trade.pnl >= 0 ? 'text-up' : 'text-down'}`}>
                       {trade.pnl >= 0 ? '+' : ''}{trade.pnl.toFixed(2)}
                     </td>
-                    <td>
-                      <span className={trade.status === 'WIN' ? 'text-up' : 'text-down'}>
-                        {trade.status}
-                      </span>
+                    <td className={trade.status === 'WIN' ? 'text-up font-semibold' : 'text-down font-semibold'}>
+                      {trade.status}
                     </td>
                   </tr>
                 ))}
