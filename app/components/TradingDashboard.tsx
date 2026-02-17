@@ -218,12 +218,12 @@ export default function TradingDashboard() {
                 <tr>
                   <th>TIME</th>
                   <th>STRATEGY</th>
-                  <th>MARKET</th>
+                  <th className="hidden sm:table-cell">MARKET</th>
                   <th>SIDE</th>
                   <th>ENTRY</th>
                   <th>EXIT</th>
                   <th>P&L</th>
-                  <th>STATUS</th>
+                  <th className="hidden sm:table-cell">STATUS</th>
                 </tr>
               </thead>
               <tbody>
@@ -244,7 +244,7 @@ export default function TradingDashboard() {
                     <tr key={trade.id}>
                       <td className="mono">{trade.time}</td>
                       <td>{trade.strategy}</td>
-                      <td>{trade.market}</td>
+                      <td className="hidden sm:table-cell">{trade.market}</td>
                       <td className={trade.side === 'BUY' ? 'text-up font-semibold' : 'text-down font-semibold'}>
                         {trade.side}
                       </td>
@@ -253,7 +253,7 @@ export default function TradingDashboard() {
                       <td className={`mono font-semibold ${trade.pnl >= 0 ? 'text-up' : 'text-down'}`}>
                         {trade.pnl >= 0 ? '+' : ''}{trade.pnl.toFixed(2)}
                       </td>
-                      <td className={trade.status === 'WIN' ? 'text-up font-semibold' : 'text-down font-semibold'}>
+                      <td className={`hidden sm:table-cell ${trade.status === 'WIN' ? 'text-up font-semibold' : 'text-down font-semibold'}`}>
                         {trade.status}
                       </td>
                     </tr>

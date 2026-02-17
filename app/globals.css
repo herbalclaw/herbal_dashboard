@@ -62,9 +62,12 @@ body {
 .grid-cols-4 { grid-template-columns: repeat(4, 1fr); }
 .grid-cols-5 { grid-template-columns: repeat(5, 1fr); }
 
+.hidden { display: none; }
+
 @media (min-width: 640px) {
   .sm\:grid-cols-2 { grid-template-columns: repeat(2, 1fr); }
   .sm\:grid-cols-3 { grid-template-columns: repeat(3, 1fr); }
+  .sm\:table-cell { display: table-cell; }
 }
 
 @media (min-width: 768px) {
@@ -240,28 +243,29 @@ body {
 /* Table - Bloomberg style */
 .table {
   width: 100%;
-  min-width: 700px;
   border-collapse: collapse;
   font-family: var(--font-mono);
-  font-size: 12px;
+  font-size: 11px;
 }
 
 .table th {
   background: var(--bg-panel);
   border: 1px solid var(--border);
-  padding: 8px 12px;
+  padding: 6px 8px;
   text-align: left;
-  font-size: 10px;
+  font-size: 9px;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   color: var(--text-muted);
+  white-space: nowrap;
 }
 
 .table td {
   border: 1px solid var(--border);
-  padding: 8px 12px;
+  padding: 6px 8px;
   color: var(--text-secondary);
+  white-space: nowrap;
 }
 
 .table tr:hover td {
