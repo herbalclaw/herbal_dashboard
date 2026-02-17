@@ -4,6 +4,10 @@ const nextConfig = {
   distDir: 'dist',
   images: {
     unoptimized: true
+  },
+  swcMinify: true,
+  experimental: {
+    optimizeCss: true
   }
 }
 
