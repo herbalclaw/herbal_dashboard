@@ -34,9 +34,9 @@ export default function SystemHealthSection() {
   return (
     <section className="animate-fade-in">
       <div className="container">
-        <div className="section-header">
-          <h2 className="section-title">System Status</h2>
-          <span className="text-xs text-[#71717a]">Auto-refresh: 30s</span>
+        <div className="flex items-center justify-between mb-5">
+          <span className="section-title">System Status</span>
+          <span className="text-xs text-[var(--text-tertiary)]">Auto-refresh: 30s</span>
         </div>
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
@@ -47,14 +47,14 @@ export default function SystemHealthSection() {
               style={{ animationDelay: `${idx * 100}ms` }}
             >
               <div className="flex items-center justify-between mb-4">
-                <span className="text-sm font-medium text-[#a1a1aa]">{service.name}</span>
-                <span className={`status-badge ${service.status === 'online' ? 'status-badge-online' : 'status-badge-offline'}`}>
+                <span className="text-sm font-medium text-[var(--text-secondary)]">{service.name}</span>
+                <span className={`badge ${service.status === 'online' ? 'badge-success' : 'badge-error'}`}>
                   <span className="w-1.5 h-1.5 rounded-full bg-current" />
                   {service.status}
                 </span>
               </div>
               
-              <div className="font-mono text-xs text-[#71717a]">
+              <div className="mono text-xs text-[var(--text-tertiary)]">
                 Latency: {service.latency}
               </div>
             </div>

@@ -11,10 +11,10 @@ export default function Home() {
   const [activeTab, setActiveTab] = useState('overview')
 
   return (
-    <div className="min-h-screen bg-black">
+    <div className="min-h-screen bg-[var(--bg-primary)]">
       <Header activeTab={activeTab} onTabChange={setActiveTab} />
       
-      <main className="py-6 space-y-6">
+      <main className="py-8 space-y-8">
         {activeTab === 'overview' && (
           <>
             <SystemHealthSection />

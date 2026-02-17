@@ -20,7 +20,6 @@ const strategies = [
   'CopyTrading'
 ]
 
-// Mock data for equity curve
 const equityData = [
   { time: '00:00', equity: 100 },
   { time: '04:00', equity: 98.5 },
@@ -31,7 +30,6 @@ const equityData = [
   { time: '24:00', equity: 98.3 },
 ]
 
-// Mock data for PNL
 const pnlData = [
   { time: '00:00', pnl: 0 },
   { time: '04:00', pnl: -1.5 },
@@ -42,7 +40,6 @@ const pnlData = [
   { time: '24:00', pnl: -1.7 },
 ]
 
-// Mock trades data
 const tradesData = [
   { id: 1, time: '16:45:23', strategy: 'Momentum', market: 'BTC-UP-5M', side: 'BUY', entry: 0.52, exit: 0.68, pnl: 0.16, status: 'WIN' },
   { id: 2, time: '16:40:12', strategy: 'Arbitrage', market: 'BTC-DOWN-5M', side: 'SELL', entry: 0.48, exit: 0.32, pnl: 0.16, status: 'WIN' },
@@ -59,16 +56,16 @@ export default function TradingDashboard() {
   const [timeRange, setTimeRange] = useState('24H')
 
   return (
-    <div className="space-y-6 animate-fade-in">
+    <div className="space-y-8 animate-fade-in">
       <div className="container">
-        {/* Header with filters */}
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
-          <div className="flex items-center gap-2">
-            <Filter size={14} className="text-[#71717a]" />
-            <span className="section-title">Strategy Filter</span>
+        {/* Page Header */}
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-8">
+          <div>
+            <h1 className="page-title mb-2">Paper Trading</h1>
+            <p className="text-sm text-[var(--text-tertiary)]">Monitor strategy performance and trade history</p>
           </div>
           
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-3">
             <button className="btn btn-secondary">
               <Download size={14} />
               Export
@@ -80,39 +77,52 @@ export default function TradingDashboard() {
           </div>
         </div>
 
-        {/* Strategy Pills */}
-        <div className="flex flex-wrap gap-2 mb-6">
-          {strategies.map((strategy) => (
-            <button
-              key={strategy}
-              onClick={() => setSelectedStrategy(strategy)}
-              className={`filter-pill ${selectedStrategy === strategy ? 'active' : ''}`}
-            >
-              {strategy}
-            </button>
-          ))}
+        {/* Strategy Filter */}
+        <div className="mb-8">
+          <div className="flex items-center gap-2 mb-4">
+            <Filter size={14} className="text-[var(--text-tertiary)]" />
+            <span className="section-title">Filter by Strategy</span>
+          </div>
+          
+          <div className="flex flex-wrap gap-2">
+            {strategies.map((strategy) => (
+              <button
+                key={strategy}
+                onClick={() => setSelectedStrategy(strategy)}
+                className={`filter-pill ${selectedStrategy === strategy ? 'active' : ''}`}
+              >
+                {strategy}
+              </button>
+            ))}
+          </div>
         </div>
 
-        {/* Time Range Selector */}
-        <div className="flex items-center gap-2 mb-6">
-          {['1H', '6H', '24H', '7D', '30D'].map((range) => (
-            <button
-              key={range}
-              onClick={() => setTimeRange(range)}
-              className={`filter-pill ${timeRange === range ? 'active' : ''}`}
-            >
-              {range}
-            </button>
-          ))}
+        {/* Time Range */}
+        <div className="mb-8">
+          <div className="flex items-center gap-2 mb-4">
+            <span className="section-title">Time Range</span>
+          </div>
+          
+          <div className="flex items-center gap-2">
+            {['1H', '6H', '24H', '7D', '30D'].map((range) => (
+              <button
+                key={range}
+                onClick={() => setTimeRange(range)}
+                className={`filter-pill ${timeRange === range ? 'active' : ''}`}
+              >
+                {range}
+              </button>
+            ))}
+          </div>
         </div>
 
-        {/* Charts Grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
+        {/* Charts */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
           {/* Equity Chart */}
-          <div className="card p-5">
-            <div className="flex items-center justify-between mb-4">
-              <h3 className="section-title">Equity Curve</h3>
-              <span className="text-xs text-[#71717a]">{selectedStrategy}</span>
+          <div className="card p-6">
+            <div className="flex items-center justify-between mb-6">
+              <span className="section-title">Equity Curve</span>
+              <span className="text-xs text-[var(--text-tertiary)]">{selectedStrategy}</span>
             </div>
             <div className="h-64">
               <ResponsiveContainer width="100%" height="100%">
@@ -124,11 +134,11 @@ export default function TradingDashboard() {
                     </linearGradient>
                   </defs>
                   <CartesianGrid strokeDasharray="3 3" stroke="#27272a" />
-                  <XAxis dataKey="time" stroke="#71717a" fontSize={11} />
-                  <YAxis stroke="#71717a" fontSize={11} domain={['dataMin - 2', 'dataMax + 2']} />
+                  <XAxis dataKey="time" stroke="#71717a" fontSize={11} tickLine={false} axisLine={false} />
+                  <YAxis stroke="#71717a" fontSize={11} tickLine={false} axisLine={false} domain={['dataMin - 2', 'dataMax + 2']} />
                   <Tooltip 
                     contentStyle={{ background: '#141416', border: '1px solid #27272a', borderRadius: '6px' }}
-                    itemStyle={{ color: '#fafafa' }}
+                    itemStyle={{ color: '#fafafa', fontFamily: 'JetBrains Mono' }}
                   />
                   <Area 
                     type="monotone" 
@@ -144,10 +154,10 @@ export default function TradingDashboard() {
           </div>
 
           {/* PNL Chart */}
-          <div className="card p-5">
-            <div className="flex items-center justify-between mb-4">
-              <h3 className="section-title">P&L Over Time</h3>
-              <span className="text-xs text-[#71717a]">{selectedStrategy}</span>
+          <div className="card p-6">
+            <div className="flex items-center justify-between mb-6">
+              <span className="section-title">P&L Over Time</span>
+              <span className="text-xs text-[var(--text-tertiary)]">{selectedStrategy}</span>
             </div>
             <div className="h-64">
               <ResponsiveContainer width="100%" height="100%">
@@ -159,11 +169,11 @@ export default function TradingDashboard() {
                     </linearGradient>
                   </defs>
                   <CartesianGrid strokeDasharray="3 3" stroke="#27272a" />
-                  <XAxis dataKey="time" stroke="#71717a" fontSize={11} />
-                  <YAxis stroke="#71717a" fontSize={11} />
+                  <XAxis dataKey="time" stroke="#71717a" fontSize={11} tickLine={false} axisLine={false} />
+                  <YAxis stroke="#71717a" fontSize={11} tickLine={false} axisLine={false} />
                   <Tooltip 
                     contentStyle={{ background: '#141416', border: '1px solid #27272a', borderRadius: '6px' }}
-                    itemStyle={{ color: '#fafafa' }}
+                    itemStyle={{ color: '#fafafa', fontFamily: 'JetBrains Mono' }}
                   />
                   <Area 
                     type="monotone" 
@@ -181,9 +191,9 @@ export default function TradingDashboard() {
 
         {/* Trades Table */}
         <div className="card overflow-hidden">
-          <div className="flex items-center justify-between p-4 border-b border-[#27272a]">
-            <h3 className="section-title">Recent Trades</h3>
-            <span className="text-xs text-[#71717a]">Showing {tradesData.length} trades</span>
+          <div className="flex items-center justify-between p-5 border-b border-[var(--border)]">
+            <span className="section-title">Recent Trades</span>
+            <span className="text-xs text-[var(--text-tertiary)]">Showing {tradesData.length} trades</span>
           </div>
           
           <div className="overflow-x-auto">
@@ -203,17 +213,17 @@ export default function TradingDashboard() {
               <tbody>
                 {tradesData.map((trade) => (
                   <tr key={trade.id}>
-                    <td className="font-mono">{trade.time}</td>
+                    <td className="mono">{trade.time}</td>
                     <td>{trade.strategy}</td>
                     <td>{trade.market}</td>
                     <td>
-                      <span className={`text-xs font-medium ${trade.side === 'BUY' ? 'text-[#22c55e]' : 'text-[#ef4444]'}`}>
+                      <span className={`text-xs font-medium ${trade.side === 'BUY' ? 'text-[var(--profit)]' : 'text-[var(--loss)]'}`}>
                         {trade.side}
                       </span>
                     </td>
-                    <td className="font-mono">{trade.entry.toFixed(2)}</td>
-                    <td className="font-mono">{trade.exit.toFixed(2)}</td>
-                    <td className={`font-mono font-medium ${trade.pnl >= 0 ? 'text-[#22c55e]' : 'text-[#ef4444]'}`}>
+                    <td className="mono">{trade.entry.toFixed(2)}</td>
+                    <td className="mono">{trade.exit.toFixed(2)}</td>
+                    <td className={`mono font-medium ${trade.pnl >= 0 ? 'text-[var(--profit)]' : 'text-[var(--loss)]'}`}>
                       {trade.pnl >= 0 ? '+' : ''}{trade.pnl.toFixed(2)}
                     </td>
                     <td>

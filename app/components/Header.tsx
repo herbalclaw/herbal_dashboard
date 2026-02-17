@@ -32,21 +32,21 @@ export default function Header({ activeTab, onTabChange }: HeaderProps) {
   ]
 
   return (
-    <header className="sticky top-0 z-50 bg-[#0a0a0c]/90 backdrop-blur-xl border-b border-[#27272a]">
+    <header className="sticky top-0 z-50 bg-[var(--bg-secondary)]/90 backdrop-blur-xl border-b border-[var(--border)]">
       <div className="container">
-        <div className="flex items-center justify-between h-14">
+        <div className="flex items-center justify-between h-16">
           <div className="flex items-center gap-3">
             <div className="flex items-center gap-2">
-              <div className="w-2 h-2 rounded-full bg-[#22c55e] animate-pulse shadow-[0_0_8px_rgba(34,197,94,0.5)]" />
-              <span className="text-lg font-bold tracking-tight">Herbal</span>
+              <div className="w-2 h-2 rounded-full bg-[var(--profit)] animate-pulse shadow-[0_0_8px_rgba(34,197,94,0.5)]" />
+              <span className="text-lg font-semibold tracking-tight">Herbal</span>
             </div>
-            <span className="text-[10px] text-[#71717a] px-2 py-0.5 rounded bg-[#141416] border border-[#27272a]">
+            <span className="text-[10px] text-[var(--text-tertiary)] px-2 py-1 rounded bg-[var(--bg-tertiary)] border border-[var(--border)]">
               Terminal v2.1
             </span>
           </div>
 
           <div className="flex items-center gap-4">
-            <div className="font-mono text-sm text-[#71717a]">
+            <div className="mono text-sm text-[var(--text-tertiary)]">
               {time} UTC
             </div>
             <button className="btn btn-ghost p-2">
@@ -63,17 +63,17 @@ export default function Header({ activeTab, onTabChange }: HeaderProps) {
                 key={tab.id}
                 onClick={() => onTabChange(tab.id)}
                 className={`
-                  flex items-center gap-2 px-4 py-3 text-sm font-medium transition-colors
+                  flex items-center gap-2 px-5 py-4 text-sm font-medium transition-colors relative
                   ${activeTab === tab.id 
-                    ? 'text-white' 
-                    : 'text-[#71717a] hover:text-[#a1a1aa]'
+                    ? 'text-[var(--text-primary)]' 
+                    : 'text-[var(--text-tertiary)] hover:text-[var(--text-secondary)]'
                   }
                 `}
               >
-                <Icon size={16} />
+                <Icon size={16} strokeWidth={2} />
                 {tab.label}
                 {activeTab === tab.id && (
-                  <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-[#10b981]" />
+                  <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-[var(--accent)]" />
                 )}
               </button>
             )
