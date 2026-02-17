@@ -6,18 +6,18 @@ import { Download, RefreshCw } from 'lucide-react'
 
 const strategies = [
   'ALL',
-  'MOMENTUM',
-  'ARBITRAGE', 
+  'Momentum',
+  'Arbitrage', 
   'VWAP',
-  'LEAD_LAG',
-  'SENTIMENT',
-  'ORDER_BOOK',
-  'SHARP_MONEY',
-  'VOLATILITY',
-  'BREAKOUT',
-  'HIGH_PROB',
-  'MARKET_MAKER',
-  'COPY_TRADE'
+  'LeadLag',
+  'Sentiment',
+  'OrderBookImbalance',
+  'SharpMoney',
+  'VolatilityScorer',
+  'BreakoutMomentum',
+  'HighProbConvergence',
+  'MarketMaking',
+  'CopyTrading'
 ]
 
 interface Trade {
