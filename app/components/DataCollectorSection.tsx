@@ -16,42 +16,45 @@ export default function DataCollectorSection() {
     fetchRepoStatus('polymarket-data-collector')
   }, [])
 
+  const metrics = [
+    { label: 'Total Updates', value: stats.totalUpdates.toLocaleString() },
+    { label: 'Updates/Sec', value: stats.updatesPerSecond.toFixed(1) },
+    { label: 'Active Windows', value: stats.activeWindows.toString() },
+    { label: 'Last Price', value: `$${stats.lastPrice.toFixed(3)}` },
+    { 
+      label: 'Change', 
+      value: `${stats.priceChange >= 0 ? '+' : ''}${(stats.priceChange * 100).toFixed(1)}%`,
+      positive: stats.priceChange >= 0
+    },
+  ]
+
   return (
     <section className="animate-fade-in">
       <div className="container">
-        <div className="flex items-center justify-between mb-5">
+        <div className="section-header">
           <span className="section-title">Data Feed</span>
         </div>
 
         <div className="card">
           <div className="grid grid-cols-5 divide-x divide-[var(--border)]">
-            <MetricBox label="Total Updates" value={stats.totalUpdates.toLocaleString()} />
-            <MetricBox label="Updates/Sec" value={stats.updatesPerSecond.toFixed(1)} />
-            <MetricBox label="Active Windows" value={stats.activeWindows.toString()} />
-            <MetricBox label="Last Price" value={`$${stats.lastPrice.toFixed(3)}`} />
-            <MetricBox 
-              label="Change" 
-              value={`${stats.priceChange >= 0 ? '+' : ''}${(stats.priceChange * 100).toFixed(1)}%`}
-              positive={stats.priceChange >= 0}
-            />
+            {metrics.map((metric, idx) => (
+              <div 
+                key={metric.label}
+                className="p-6 text-center transition-colors hover:bg-[var(--bg-hover)]"
+              >
+                <div className={`metric-value-sm ${
+                  'positive' in metric 
+                    ? metric.positive ? 'text-[var(--profit)]' : 'text-[var(--loss)]'
+                    : 'text-[var(--text-primary)]'
+                }`}>
+                  {metric.value}
+                </div>
+                <div className="metric-label">{metric.label}</div>
+              </div>
+            ))}
           </div>
         </div>
       </div>
     </section>
-  )
-}
-
-function MetricBox({ label, value, positive }: { label: string; value: string; positive?: boolean }) {
-  return (
-    <div className="p-6 text-center transition-colors hover:bg-[var(--bg-hover)]">
-      <div className={`mono text-xl font-semibold mb-2 ${
-        positive === true ? 'text-[var(--profit)]' : 
-        positive === false ? 'text-[var(--loss)]' : 
-        'text-[var(--text-primary)]'
-      }`}>
-        {value}
-      </div>
-      <div className="section-title">{label}</div>
-    </div>
   )
 }

@@ -15,41 +15,44 @@ export default function PaperTradingSection() {
     fetchRepoStatus('polymarket-strategy-tester')
   }, [])
 
+  const metrics = [
+    { 
+      label: 'Total P&L', 
+      value: `$${stats.totalPnl.toFixed(2)}`,
+      positive: stats.totalPnl >= 0
+    },
+    { label: 'Total Trades', value: stats.totalTrades.toString() },
+    { label: 'Win Rate', value: `${stats.winRate.toFixed(0)}%` },
+    { label: 'Open Positions', value: stats.openPositions.toString() },
+  ]
+
   return (
     <section className="animate-fade-in">
       <div className="container">
-        <div className="flex items-center justify-between mb-5">
+        <div className="section-header">
           <span className="section-title">Trading Performance</span>
         </div>
 
         <div className="card">
           <div className="grid grid-cols-4 divide-x divide-[var(--border)]">
-            <MetricBox 
-              label="Total P&L" 
-              value={`$${stats.totalPnl.toFixed(2)}`}
-              positive={stats.totalPnl >= 0}
-            />
-            <MetricBox label="Total Trades" value={stats.totalTrades.toString()} />
-            <MetricBox label="Win Rate" value={`${stats.winRate.toFixed(0)}%`} />
-            <MetricBox label="Open Positions" value={stats.openPositions.toString()} />
+            {metrics.map((metric, idx) => (
+              <div 
+                key={metric.label}
+                className="p-6 text-center transition-colors hover:bg-[var(--bg-hover)]"
+              >
+                <div className={`metric-value-sm ${
+                  'positive' in metric 
+                    ? metric.positive ? 'text-[var(--profit)]' : 'text-[var(--loss)]'
+                    : 'text-[var(--text-primary)]'
+                }`}>
+                  {metric.value}
+                </div>
+                <div className="metric-label">{metric.label}</div>
+              </div>
+            ))}
           </div>
         </div>
       </div>
     </section>
-  )
-}
-
-function MetricBox({ label, value, positive }: { label: string; value: string; positive?: boolean }) {
-  return (
-    <div className="p-6 text-center transition-colors hover:bg-[var(--bg-hover)]">
-      <div className={`mono text-xl font-semibold mb-2 ${
-        positive === true ? 'text-[var(--profit)]' : 
-        positive === false ? 'text-[var(--loss)]' : 
-        'text-[var(--text-primary)]'
-      }`}>
-        {value}
-      </div>
-      <div className="section-title">{label}</div>
-    </div>
   )
 }

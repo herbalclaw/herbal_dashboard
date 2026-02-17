@@ -34,7 +34,7 @@ export default function SystemHealthSection() {
   return (
     <section className="animate-fade-in">
       <div className="container">
-        <div className="flex items-center justify-between mb-5">
+        <div className="section-header">
           <span className="section-title">System Status</span>
           <span className="text-xs text-[var(--text-tertiary)]">Auto-refresh: 30s</span>
         </div>
@@ -43,10 +43,10 @@ export default function SystemHealthSection() {
           {services.map((service, idx) => (
             <div 
               key={service.name}
-              className="card p-5 animate-fade-in"
+              className="status-card animate-fade-in"
               style={{ animationDelay: `${idx * 100}ms` }}
             >
-              <div className="flex items-center justify-between mb-4">
+              <div className="flex items-center justify-between mb-3">
                 <span className="text-sm font-medium text-[var(--text-secondary)]">{service.name}</span>
                 <span className={`badge ${service.status === 'online' ? 'badge-success' : 'badge-error'}`}>
                   <span className="w-1.5 h-1.5 rounded-full bg-current" />
