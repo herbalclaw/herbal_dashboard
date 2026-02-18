@@ -10,7 +10,12 @@ interface Service {
 }
 
 export default function SystemHealthSection() {
-  const [services, setServices] = useState<Service[]>([])
+  const [services, setServices] = useState<Service[]>([
+    { name: 'DATA_COLLECTOR', status: 'online', latency: '45ms' },
+    { name: 'PAPER_TRADING', status: 'online', latency: '23ms' },
+    { name: 'AUTO_PUSH', status: 'online', latency: '12ms' },
+    { name: 'MONITOR', status: 'online', latency: '5ms' },
+  ])
 
   useEffect(() => {
     async function fetchHealth() {
