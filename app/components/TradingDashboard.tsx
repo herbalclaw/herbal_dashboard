@@ -12,7 +12,6 @@ const strategies = [
   'EMAArbitrage',
   'MarketMaking',
   'ContrarianFader',
-  'KalshiArbitrage',
   'ProfessionalMarketMaker'
 ]
 
