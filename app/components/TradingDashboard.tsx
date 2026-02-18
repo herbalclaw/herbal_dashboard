@@ -32,7 +32,7 @@ interface Trade {
   entry: number
   exit: number
   pnl: number
-  status: 'WIN' | 'LOSS'
+  status: 'WIN' | 'LOSS' | 'OPEN'
 }
 
 export default function TradingDashboard() {
@@ -48,7 +48,8 @@ export default function TradingDashboard() {
 
   async function fetchTrades() {
     try {
-      const response = await fetch('/trades.json')
+      // Add cache-busting timestamp
+      const response = await fetch(`/trades.json?t=${Date.now()}`)
       const data = await response.json()
       setTrades(data.trades)
       setTotalTrades(data.total)
@@ -65,17 +66,19 @@ export default function TradingDashboard() {
       : trades.filter(t => t.strategy === selectedStrategy)
   }, [trades, selectedStrategy])
 
-  // Calculate summary stats
+  // Calculate summary stats - only for closed trades (exit > 0)
   const summary = useMemo(() => {
-    if (filteredTrades.length === 0) return null
+    // Filter to closed trades only for stats
+    const closedTrades = filteredTrades.filter(t => t.exit > 0)
+    if (closedTrades.length === 0) return null
 
-    const wins = filteredTrades.filter(t => t.pnl > 0).length
-    const losses = filteredTrades.filter(t => t.pnl < 0).length
-    const totalPnl = filteredTrades.reduce((sum, t) => sum + t.pnl, 0)
-    const avgPnl = totalPnl / filteredTrades.length
-    const winRate = (wins / filteredTrades.length) * 100
+    const wins = closedTrades.filter(t => t.pnl >= 0).length
+    const losses = closedTrades.filter(t => t.pnl < 0).length
+    const totalPnl = closedTrades.reduce((sum, t) => sum + t.pnl, 0)
+    const avgPnl = totalPnl / closedTrades.length
+    const winRate = (wins / closedTrades.length) * 100
 
-    return { wins, losses, totalPnl, avgPnl, winRate }
+    return { wins, losses, totalPnl, avgPnl, winRate, total: filteredTrades.length, closed: closedTrades.length }
   }, [filteredTrades])
 
   // Generate equity curve from trades
@@ -145,10 +148,10 @@ export default function TradingDashboard() {
         {summary && (
           <div className="panel mb-4">
             <div className="cell-header">PERFORMANCE SUMMARY</div>
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6">
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-7">
               <div className="data-cell">
-                <div className="mono text-xl font-semibold">{filteredTrades.length}</div>
-                <div className="text-xs text-[var(--text-muted)] mt-1">TRADES</div>
+                <div className="mono text-xl font-semibold">{summary.total}</div>
+                <div className="text-xs text-[var(--text-muted)] mt-1">TOTAL</div>
               </div>
               <div className="data-cell">
                 <div className="mono text-xl font-semibold text-up">{summary.wins}</div>
@@ -157,6 +160,12 @@ export default function TradingDashboard() {
               <div className="data-cell">
                 <div className="mono text-xl font-semibold text-down">{summary.losses}</div>
                 <div className="text-xs text-[var(--text-muted)] mt-1">LOSSES</div>
+              </div>
+              <div className="data-cell">
+                <div className="mono text-xl font-semibold text-[var(--text-muted)]">
+                  {summary.total - summary.closed}
+                </div>
+                <div className="text-xs text-[var(--text-muted)] mt-1">OPEN</div>
               </div>
               <div className="data-cell">
                 <div className={`mono text-xl font-semibold ${summary.winRate >= 50 ? 'text-up' : 'text-down'}`}>
@@ -339,11 +348,17 @@ export default function TradingDashboard() {
                         {trade.side}
                       </td>
                       <td className="mono">{trade.entry.toFixed(2)}</td>
-                      <td className="mono">{trade.exit.toFixed(2)}</td>
-                      <td style={{ color: trade.pnl >= 0 ? '#00d084' : '#ff4757', fontWeight: 600 }}>
-                        {trade.pnl >= 0 ? '+' : ''}{trade.pnl.toFixed(2)}
+                      <td className="mono">{trade.exit > 0 ? trade.exit.toFixed(2) : '-'}</td>
+                      <td style={{ 
+                        color: trade.status === 'OPEN' ? '#888' : (trade.pnl >= 0 ? '#00d084' : '#ff4757'), 
+                        fontWeight: 600 
+                      }}>
+                        {trade.status === 'OPEN' ? '-' : `${trade.pnl >= 0 ? '+' : ''}${trade.pnl.toFixed(2)}`}
                       </td>
-                      <td className="hidden sm:table-cell" style={{ color: trade.status === 'WIN' ? '#00d084' : '#ff4757', fontWeight: 600 }}>
+                      <td className="hidden sm:table-cell" style={{ 
+                        color: trade.status === 'WIN' ? '#00d084' : trade.status === 'OPEN' ? '#888' : '#ff4757', 
+                        fontWeight: 600 
+                      }}>
                         {trade.status}
                       </td>
                     </tr>
