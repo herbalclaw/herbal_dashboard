@@ -1,6 +1,50 @@
 {
   "trades": [
     {
+      "id": 868,
+      "time": "14:30:58",
+      "strategy": "EMAArbitrage",
+      "market": "BTC-5M",
+      "side": "UP",
+      "entry": 0.46,
+      "exit": 0.0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 867,
+      "time": "14:30:47",
+      "strategy": "EMAArbitrage",
+      "market": "BTC-5M",
+      "side": "UP",
+      "entry": 0.44,
+      "exit": 0.44,
+      "pnl": 0.0,
+      "status": "WIN"
+    },
+    {
+      "id": 866,
+      "time": "14:30:15",
+      "strategy": "momentum",
+      "market": "BTC-5M",
+      "side": "UP",
+      "entry": 0.45,
+      "exit": 0.0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 865,
+      "time": "14:30:04",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "DOWN",
+      "entry": 0.53,
+      "exit": 0.0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
       "id": 864,
       "time": "14:29:40",
       "strategy": "EMAArbitrage",
@@ -18,8 +62,8 @@
       "market": "BTC-5M",
       "side": "UP",
       "entry": 0.34,
-      "exit": 0.0,
-      "pnl": 0.0,
+      "exit": 0.471143,
+      "pnl": 0.66,
       "status": "WIN"
     },
     {
@@ -40,9 +84,9 @@
       "market": "BTC-5M",
       "side": "DOWN",
       "entry": 0.35,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "WIN"
+      "exit": 0.53,
+      "pnl": -0.9,
+      "status": "LOSS"
     },
     {
       "id": 860,
@@ -62,9 +106,9 @@
       "market": "BTC-5M",
       "side": "DOWN",
       "entry": 0.34,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "WIN"
+      "exit": 0.51,
+      "pnl": -0.85,
+      "status": "LOSS"
     },
     {
       "id": 858,
@@ -9505,5 +9549,5 @@
       "status": "LOSS"
     }
   ],
-  "total": 864
+  "total": 868
 }
