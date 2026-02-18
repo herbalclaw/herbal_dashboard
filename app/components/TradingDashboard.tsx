@@ -10,7 +10,10 @@ const strategies = [
   'VolatilityScorer',
   'HighProbConvergence',
   'EMAArbitrage',
-  'MarketMaking'
+  'MarketMaking',
+  'ContrarianFader',
+  'KalshiArbitrage',
+  'ProfessionalMarketMaker'
 ]
 
 interface Trade {
