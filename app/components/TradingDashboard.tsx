@@ -59,6 +59,14 @@ const strategies = [
   'LiquidityRewardOptimized',
   'AsymmetricMomentum',
   'VolumeProfileReversion',
+  'FlashCrash',
+  'FlowToxicity',
+  'MomentumReversal',
+  'StaleQuoteArbitrage',
+  'InformedTraderFlow',
+  'ProbabilityConstraintArbitrage',
+  'InformationDivergence',
+  'TimeWeightedMicrostructure',
 ]
 
 interface Trade {
