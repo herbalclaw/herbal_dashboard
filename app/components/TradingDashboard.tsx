@@ -53,6 +53,9 @@ const strategies = [
   'LatencyArbitrage',
   'CombinatorialArbitrage',
   'TWAPDetector',
+  'RetailSentimentFade',
+  'ImpliedVolatilitySkew',
+  'FundingRateArbitrage',
 ]
 
 interface Trade {
