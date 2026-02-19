@@ -6,6 +6,7 @@ import SystemHealthSection from './components/SystemHealthSection'
 import DataCollectorSection from './components/DataCollectorSection'
 import PaperTradingSection from './components/PaperTradingSection'
 import TradingDashboard from './components/TradingDashboard'
+import ArenaBattle from './components/ArenaBattle'
 
 export default function Home() {
   const [activeTab, setActiveTab] = useState('overview')
@@ -25,6 +26,7 @@ export default function Home() {
         
         {activeTab === 'data' && <DataCollectorSection />}
         {activeTab === 'trading' && <TradingDashboard />}
+        {activeTab === 'arena' && <ArenaBattle />}
       </main>
     </div>
   )

@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import { Activity, Database, TrendingUp, Settings } from 'lucide-react'
+import { Activity, Database, TrendingUp, Settings, Zap } from 'lucide-react'
 
 interface HeaderProps {
   activeTab: string
@@ -29,6 +29,7 @@ export default function Header({ activeTab, onTabChange }: HeaderProps) {
     { id: 'overview', label: 'OVERVIEW', icon: Activity },
     { id: 'data', label: 'DATA', icon: Database },
     { id: 'trading', label: 'TRADING', icon: TrendingUp },
+    { id: 'arena', label: 'ARENA', icon: Zap },
   ]
 
   return (
