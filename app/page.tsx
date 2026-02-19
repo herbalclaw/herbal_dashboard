@@ -9,7 +9,7 @@ import TradingDashboard from './components/TradingDashboard'
 import ArenaBattle from './components/ArenaBattle'
 
 export default function Home() {
-  const [activeTab, setActiveTab] = useState('arena')
+  const [activeTab, setActiveTab] = useState('overview')
 
   return (
     <div className="min-h-screen bg-[var(--bg-primary)]">
