@@ -24,7 +24,10 @@ const strategies = [
   'OrderFlowImbalance',
   'VolatilityExpansion',
   'InformedTraderFlow',
-  'ContrarianExtreme'
+  'ContrarianExtreme',
+  'FeeOptimizedScalper',
+  'TickSizeArbitrage',
+  'IVMR'
 ]
 
 interface Trade {
