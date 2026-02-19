@@ -44,7 +44,12 @@ const strategies = [
   'SmartMoneyFlow',
   'KellyCriterion',
   'TimeDecayAlpha',
-  'ToxicFlowDetector'
+  'ToxicFlowDetector',
+  'DualClassArbitrage',
+  'NoFarming',
+  'HighProbabilityCompounding',
+  'InventorySkew',
+  'AdverseSelectionFlow',
 ]
 
 interface Trade {
