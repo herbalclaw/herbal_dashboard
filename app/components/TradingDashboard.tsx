@@ -15,7 +15,10 @@ const strategies = [
   'ProfessionalMarketMaker',
   'TimeDecay',
   'BollingerBands',
-  'SpreadCapture'
+  'SpreadCapture',
+  'VPIN',
+  'TimeWeightedMomentum',
+  'PriceSkew'
 ]
 
 interface Trade {
