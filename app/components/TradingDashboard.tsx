@@ -32,7 +32,10 @@ const strategies = [
   'TimeDecayScalper',
   'MomentumIgnition',
   'RangeBoundMeanReversion',
-  'LiquiditySweep'
+  'LiquiditySweep',
+  'VolumeWeightedMicroprice',
+  'BidAskBounce',
+  'GammaScalp'
 ]
 
 interface Trade {
