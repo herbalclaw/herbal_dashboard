@@ -27,7 +27,12 @@ const strategies = [
   'ContrarianExtreme',
   'FeeOptimizedScalper',
   'TickSizeArbitrage',
-  'IVMR'
+  'IVMR',
+  'OrderBookImbalance',
+  'TimeDecayScalper',
+  'MomentumIgnition',
+  'RangeBoundMeanReversion',
+  'LiquiditySweep'
 ]
 
 interface Trade {
