@@ -56,6 +56,9 @@ const strategies = [
   'RetailSentimentFade',
   'ImpliedVolatilitySkew',
   'FundingRateArbitrage',
+  'LiquidityRewardOptimized',
+  'AsymmetricMomentum',
+  'VolumeProfileReversion',
 ]
 
 interface Trade {
