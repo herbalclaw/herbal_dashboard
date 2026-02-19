@@ -1,75 +1,222 @@
 'use client'
 
 import { useState, useEffect } from 'react'
+import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer } from 'recharts'
+
+interface Strategy {
+  name: string
+  pnl: number
+  trades: number
+  winRate: number
+  capital: number
+}
 
 export default function ArenaBattle() {
+  const [activeTab, setActiveTab] = useState('live')
+  const [strategies, setStrategies] = useState<Strategy[]>([])
+  const [chartData, setChartData] = useState<any[]>([])
   const [mounted, setMounted] = useState(false)
 
   useEffect(() => {
     setMounted(true)
+    
+    // Generate mock data
+    const data: Strategy[] = [
+      { name: 'VPIN', pnl: 12.11, trades: 45, winRate: 62, capital: 112.11 },
+      { name: 'BollingerBands', pnl: 8.45, trades: 38, winRate: 58, capital: 108.45 },
+      { name: 'TimeDecay', pnl: 6.23, trades: 52, winRate: 55, capital: 106.23 },
+      { name: 'Momentum', pnl: 4.87, trades: 41, winRate: 51, capital: 104.87 },
+      { name: 'HighProbConvergence', pnl: 3.12, trades: 35, winRate: 49, capital: 103.12 },
+      { name: 'EMAArbitrage', pnl: 1.98, trades: 28, winRate: 47, capital: 101.98 },
+      { name: 'VolatilityScorer', pnl: -0.45, trades: 33, winRate: 45, capital: 99.55 },
+      { name: 'MarketMaking', pnl: -2.34, trades: 29, winRate: 43, capital: 97.66 },
+    ]
+    setStrategies(data)
+
+    // Generate chart data
+    const points = Array.from({ length: 20 }, (_, i) => ({
+      time: `${10 + Math.floor(i / 2)}:${(i % 2) * 30 || '00'}`,
+      VPIN: 100 + Math.sin(i * 0.3) * 10 + i * 0.5,
+      BollingerBands: 100 + Math.sin(i * 0.25) * 8 + i * 0.4,
+      TimeDecay: 100 + Math.sin(i * 0.2) * 6 + i * 0.3,
+      Momentum: 100 + Math.sin(i * 0.15) * 5 + i * 0.2,
+    }))
+    setChartData(points)
   }, [])
 
-  if (!mounted) {
-    return <div className="p-8 text-white">Loading Arena...</div>
-  }
+  if (!mounted) return null
 
   return (
-    <div className="min-h-screen bg-black text-white p-8">
-      <div className="max-w-7xl mx-auto">
-        {/* Header */}
-        <div className="mb-8">
-          <h1 className="text-3xl font-bold mb-2">Strategy Arena</h1>
-          <p className="text-gray-400">Live battle between trading strategies</p>
+    <div className="min-h-screen bg-white text-black font-sans">
+      {/* Top Navigation */}
+      <nav className="border-b border-gray-200 px-6 py-4">
+        <div className="max-w-7xl mx-auto flex items-center justify-between">
+          <div className="flex items-center gap-2">
+            <span className="text-xl font-bold">Alpha</span>
+            <span className="text-xl font-light text-gray-500">Arena</span>
+            <span className="text-xs text-gray-400 ml-1">by Herbal</span>
+          </div>
+          
+          <div className="flex items-center gap-8">
+            {['LIVE', 'LEADERBOARD', 'MODELS', 'BLOG', 'ABOUT'].map((tab) => (
+              <button
+                key={tab}
+                onClick={() => setActiveTab(tab.toLowerCase())}
+                className={`text-sm font-medium transition-colors ${
+                  activeTab === tab.toLowerCase() 
+                    ? 'text-black' 
+                    : 'text-gray-400 hover:text-gray-600'
+                }`}
+              >
+                {tab}
+              </button>
+            ))}
+          </div>
+          
+          <button className="text-sm text-gray-500 hover:text-black transition-colors">
+            JOIN THE PLATFORM WAITLIST →
+          </button>
         </div>
+      </nav>
 
-        {/* Stats Grid */}
-        <div className="grid grid-cols-4 gap-4 mb-8">
+      {/* Ticker Bar */}
+      <div className="bg-black text-white px-6 py-2 overflow-x-auto">
+        <div className="max-w-7xl mx-auto flex items-center gap-8 text-sm">
           {[
-            { label: 'Active Strategies', value: '8', color: 'text-emerald-400' },
-            { label: 'Eliminated', value: '0', color: 'text-red-400' },
-            { label: 'Top Performer', value: 'VPIN', color: 'text-yellow-400' },
-            { label: 'Total Volume', value: '222', color: 'text-blue-400' },
-          ].map((stat) => (
-            <div key={stat.label} className="bg-gray-900 rounded-xl p-6 border border-gray-800">
-              <p className="text-gray-400 text-sm mb-1">{stat.label}</p>
-              <p className={`text-2xl font-bold ${stat.color}`}>{stat.value}</p>
+            { symbol: 'BTC', price: '$96,420', change: '+2.3%' },
+            { symbol: 'ETH', price: '$2,840', change: '+1.8%' },
+            { symbol: 'SOL', price: '$198', change: '-0.5%' },
+            { symbol: 'VPIN', price: '$112.11', change: '+12.11%' },
+            { symbol: 'MOMENTUM', price: '$104.87', change: '+4.87%' },
+            { symbol: 'MARKET_MAKER', price: '$97.66', change: '-2.34%' },
+          ].map((item) => (
+            <div key={item.symbol} className="flex items-center gap-2 whitespace-nowrap">
+              <span className="font-medium">{item.symbol}</span>
+              <span className="text-gray-400">{item.price}</span>
+              <span className={item.change.startsWith('+') ? 'text-green-400' : 'text-red-400'}>
+                {item.change}
+              </span>
             </div>
           ))}
         </div>
+      </div>
 
-        {/* Chart Placeholder */}
-        <div className="bg-gray-900 rounded-xl p-8 border border-gray-800 mb-8">
-          <h2 className="text-xl font-bold mb-4">Live P&L Battle</h2>
-          <div className="h-64 bg-gray-800/50 rounded-lg flex items-center justify-center">
-            <p className="text-gray-500">Chart will appear here</p>
-          </div>
-        </div>
+      {/* Main Content */}
+      <div className="max-w-7xl mx-auto px-6 py-8">
+        <div className="grid grid-cols-3 gap-8">
+          {/* Left Column - Chart */}
+          <div className="col-span-2">
+            <div className="mb-6">
+              <span className="text-xs text-gray-400 uppercase tracking-wider">Aggregate Index</span>
+              <p className="text-sm text-gray-500 mt-1">
+                This chart displays the aggregate performance across all strategies in the Arena.
+              </p>
+            </div>
 
-        {/* Leaderboard */}
-        <div className="bg-gray-900 rounded-xl border border-gray-800 overflow-hidden">
-          <div className="px-6 py-4 border-b border-gray-800">
-            <h2 className="text-xl font-bold">Leaderboard</h2>
-          </div>
-          
-          <div className="divide-y divide-gray-800">
-            {[
-              { name: 'VPIN', pnl: '+8.51%', trades: 60, win: 41 },
-              { name: 'BollingerBands', pnl: '+8.17%', trades: 16, win: 48 },
-              { name: 'TimeDecay', pnl: '+7.80%', trades: 43, win: 70 },
-              { name: 'Momentum', pnl: '+6.53%', trades: 12, win: 59 },
-              { name: 'HighProbConvergence', pnl: '+4.58%', trades: 34, win: 54 },
-            ].map((s, i) => (
-              <div key={s.name} className="px-6 py-4 flex items-center justify-between">
-                <div className="flex items-center gap-4">
-                  <span className="text-gray-500 w-6">{i + 1}</span>
-                  <span>{s.name}</span>
-                </div>
-                <div className="text-right">
-                  <p className="text-emerald-400 font-bold">{s.pnl}</p>
-                  <p className="text-sm text-gray-500">{s.trades} trades • {s.win}% win</p>
-                </div>
+            {/* Chart */}
+            <div className="bg-gray-50 rounded-lg p-6 mb-8">
+              <div className="h-80">
+                <ResponsiveContainer width="100%" height="100%">
+                  <LineChart data={chartData}>
+                    <XAxis 
+                      dataKey="time" 
+                      stroke="#ccc" 
+                      tick={{ fill: '#999', fontSize: 12 }}
+                      axisLine={false}
+                      tickLine={false}
+                    />
+                    <YAxis 
+                      stroke="#ccc"
+                      tick={{ fill: '#999', fontSize: 12 }}
+                      axisLine={false}
+                      tickLine={false}
+                      domain={['dataMin - 5', 'dataMax + 5']}
+                    />
+                    <Tooltip 
+                      contentStyle={{ 
+                        backgroundColor: 'white', 
+                        border: '1px solid #e5e5e5',
+                        borderRadius: '8px',
+                        boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1)'
+                      }}
+                    />
+                    <Line type="monotone" dataKey="VPIN" stroke="#22c55e" strokeWidth={2} dot={false} />
+                    <Line type="monotone" dataKey="BollingerBands" stroke="#3b82f6" strokeWidth={2} dot={false} />
+                    <Line type="monotone" dataKey="TimeDecay" stroke="#f59e0b" strokeWidth={2} dot={false} />
+                    <Line type="monotone" dataKey="Momentum" stroke="#ef4444" strokeWidth={2} dot={false} />
+                  </LineChart>
+                </ResponsiveContainer>
               </div>
-            ))}
+            </div>
+
+            {/* Update Box */}
+            <div className="bg-gray-50 border border-gray-200 rounded-lg p-6 mb-8">
+              <p className="text-sm leading-relaxed">
+                <span className="font-semibold">Update:</span> The competition is currently live. 
+                <span className="font-semibold">VPIN</span> is the current leader with a 
+                <span className="font-semibold text-green-600">12.11% aggregate return</span>. 
+                In total across all strategies, the portfolio is up 
+                <span className="font-semibold text-green-600">$4,844</span>.
+              </p>
+            </div>
+
+            {/* Description */}
+            <div className="prose prose-gray max-w-none">
+              <p className="text-gray-600 leading-relaxed mb-4">
+                A decade ago, DeepMind revolutionized AI research. Their key insight was that 
+                choosing the right environment – games – would lead to rapid progress in frontier AI.
+              </p>
+              
+              <p className="text-gray-600 leading-relaxed mb-4">
+                At Herbal, we believe financial markets are the best training environment for the 
+                next era of AI. They are the ultimate world-modeling engine and the only benchmark 
+                that gets harder as AI gets smarter.
+              </p>
+              
+              <p className="text-gray-600 leading-relaxed">
+                Instead of games, we're using markets to train trading strategies that create their 
+                own training data indefinitely. We're using techniques like open-ended learning and 
+                large-scale RL to handle the complexity of markets, the final boss.
+              </p>
+            </div>
+          </div>
+
+          {/* Right Column - Leaderboard */}
+          <div className="col-span-1">
+            <div className="border border-gray-200 rounded-lg overflow-hidden">
+              <div className="bg-gray-50 px-4 py-3 border-b border-gray-200">
+                <span className="text-xs text-gray-400 uppercase tracking-wider">Leaderboard</span>
+              </div>
+              
+              <div className="divide-y divide-gray-100">
+                {strategies.map((s, i) => (
+                  <div key={s.name} className="px-4 py-3 flex items-center justify-between">
+                    <div className="flex items-center gap-3">
+                      <span className="text-gray-400 text-sm w-4">{i + 1}</span>
+                      <span className="font-medium text-sm">{s.name}</span>
+                    </div>
+                    
+                    <div className="text-right">
+                      <p className={`font-semibold text-sm ${s.pnl >= 0 ? 'text-green-600' : 'text-red-600'}`}>
+                        {s.pnl >= 0 ? '+' : ''}{s.pnl.toFixed(2)}%
+                      </p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Chat Box */}
+            <div className="mt-6 border border-gray-200 rounded-lg p-4">
+              <div className="flex items-center gap-2 mb-3">
+                <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
+                <span className="text-xs text-gray-400 uppercase tracking-wider">Strategy Chat</span>
+              </div>
+              
+              <div className="text-sm text-gray-500">
+                STATUS: CONNECTING TO TRADING API
+              </div>
+            </div>
           </div>
         </div>
       </div>
