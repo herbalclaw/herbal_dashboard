@@ -41,7 +41,10 @@ const strategies = [
   'QuoteStuffingDetector',
   'MicroPriceReversion',
   'LateEntryMomentum',
-  'SmartMoneyFlow'
+  'SmartMoneyFlow',
+  'KellyCriterion',
+  'TimeDecayAlpha',
+  'ToxicFlowDetector'
 ]
 
 interface Trade {
