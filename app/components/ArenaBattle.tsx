@@ -138,48 +138,48 @@ export default function ArenaBattle() {
   }
 
   return (
-    <div className="container py-8">
+    <div className="container py-8 px-4">
       {/* Header */}
       <div className="mb-8">
         <h1 className="text-2xl font-bold mb-2">Strategy Arena</h1>
         <p className="text-[var(--text-muted)]">Live battle between {strategies.length} trading strategies</p>
       </div>
 
-      {/* Stats Cards */}
-      <div className="grid grid-cols-5 gap-4 mb-8">
-        <div className="cell p-6">
-          <div className="text-xs text-[var(--text-muted)] mb-2 uppercase tracking-wider">Total Strategies</div>
-          <div className="text-3xl font-bold">{strategies.length}</div>
+      {/* Stats Cards - Responsive Grid */}
+      <div className="grid grid-cols-2 md:grid-cols-5 gap-3 md:gap-4 mb-8">
+        <div className="cell p-4 md:p-6">
+          <div className="text-xs text-[var(--text-muted)] mb-1 md:mb-2 uppercase tracking-wider">Total</div>
+          <div className="text-xl md:text-3xl font-bold">{strategies.length}</div>
         </div>
         
-        <div className="cell p-6">
-          <div className="text-xs text-[var(--text-muted)] mb-2 uppercase tracking-wider">Active (with trades)</div>
-          <div className="text-3xl font-bold text-up">{activeCount}</div>
+        <div className="cell p-4 md:p-6">
+          <div className="text-xs text-[var(--text-muted)] mb-1 md:mb-2 uppercase tracking-wider">Active</div>
+          <div className="text-xl md:text-3xl font-bold text-up">{activeCount}</div>
         </div>
         
-        <div className="cell p-6">
-          <div className="text-xs text-[var(--text-muted)] mb-2 uppercase tracking-wider">Total Trades</div>
-          <div className="text-3xl font-bold">{totalTrades.toLocaleString()}</div>
+        <div className="cell p-4 md:p-6">
+          <div className="text-xs text-[var(--text-muted)] mb-1 md:mb-2 uppercase tracking-wider">Trades</div>
+          <div className="text-xl md:text-3xl font-bold">{totalTrades.toLocaleString()}</div>
         </div>
         
-        <div className="cell p-6">
-          <div className="text-xs text-[var(--text-muted)] mb-2 uppercase tracking-wider">Avg Win Rate</div>
-          <div className="text-3xl font-bold">{avgWinRate.toFixed(1)}%</div>
+        <div className="cell p-4 md:p-6">
+          <div className="text-xs text-[var(--text-muted)] mb-1 md:mb-2 uppercase tracking-wider">Win Rate</div>
+          <div className="text-xl md:text-3xl font-bold">{avgWinRate.toFixed(1)}%</div>
         </div>
         
-        <div className="cell p-6">
-          <div className="text-xs text-[var(--text-muted)] mb-2 uppercase tracking-wider">Total P&L</div>
-          <div className={`text-3xl font-bold ${totalPnl >= 0 ? 'text-up' : 'text-down'}`}>
+        <div className="cell p-4 md:p-6 col-span-2 md:col-span-1">
+          <div className="text-xs text-[var(--text-muted)] mb-1 md:mb-2 uppercase tracking-wider">Total P&L</div>
+          <div className={`text-xl md:text-3xl font-bold ${totalPnl >= 0 ? 'text-up' : 'text-down'}`}>
             {totalPnl >= 0 ? '+' : ''}${totalPnl.toFixed(2)}
           </div>
         </div>
       </div>
 
-      {/* Filter Tabs */}
-      <div className="flex gap-2 mb-6">
+      {/* Filter Tabs - Scrollable on mobile */}
+      <div className="flex gap-2 mb-6 overflow-x-auto pb-2">
         <button
           onClick={() => setFilter('all')}
-          className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
+          className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors whitespace-nowrap ${
             filter === 'all' 
               ? 'bg-[var(--accent)] text-white' 
               : 'bg-[var(--bg-cell)] text-[var(--text-muted)] hover:text-[var(--text-primary)]'
@@ -189,7 +189,7 @@ export default function ArenaBattle() {
         </button>
         <button
           onClick={() => setFilter('active')}
-          className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
+          className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors whitespace-nowrap ${
             filter === 'active' 
               ? 'bg-up text-white' 
               : 'bg-[var(--bg-cell)] text-[var(--text-muted)] hover:text-[var(--text-primary)]'
@@ -199,7 +199,7 @@ export default function ArenaBattle() {
         </button>
         <button
           onClick={() => setFilter('inactive')}
-          className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
+          className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors whitespace-nowrap ${
             filter === 'inactive' 
               ? 'bg-[var(--text-muted)] text-white' 
               : 'bg-[var(--bg-cell)] text-[var(--text-muted)] hover:text-[var(--text-primary)]'
@@ -209,16 +209,17 @@ export default function ArenaBattle() {
         </button>
       </div>
 
-      {/* Leaderboard */}
-      <div className="cell">
-        <div className="section-label px-6 py-4 flex justify-between items-center">
+      {/* Leaderboard - Mobile Optimized */}
+      <div className="cell overflow-hidden">
+        <div className="section-label px-4 md:px-6 py-4 flex justify-between items-center">
           <span>Strategy Leaderboard</span>
           <span className="text-xs text-[var(--text-muted)] font-normal">
-            Showing {filteredStrategies.length} of {strategies.length} strategies
+            {filteredStrategies.length} strategies
           </span>
         </div>
         
-        <div className="overflow-x-auto">
+        {/* Desktop Table */}
+        <div className="hidden md:block overflow-x-auto">
           <table className="w-full">
             <thead>
               <tr className="border-b border-[var(--border)] bg-[var(--bg-cell)]">
@@ -274,6 +275,55 @@ export default function ArenaBattle() {
               ))}
             </tbody>
           </table>
+        </div>
+
+        {/* Mobile Cards */}
+        <div className="md:hidden">
+          {filteredStrategies.map((s) => (
+            <div 
+              key={s.strategy}
+              className={`p-4 border-b border-[var(--border)] ${!s.hasTrades ? 'opacity-60' : ''}`}
+            >
+              <div className="flex items-center justify-between mb-2">
+                <div className="flex items-center gap-3">
+                  <span className={`
+                    inline-flex items-center justify-center w-6 h-6 rounded-full text-xs font-bold
+                    ${s.rank === 1 ? 'bg-yellow-500/20 text-yellow-500' : 
+                      s.rank === 2 ? 'bg-gray-400/20 text-gray-400' :
+                      s.rank === 3 ? 'bg-amber-600/20 text-amber-600' :
+                      'text-[var(--text-muted)]'}
+                  `}>
+                    {s.rank}
+                  </span>
+                  <span className="font-medium">{s.strategy}</span>
+                </div>
+                <span className={`inline-flex px-2 py-0.5 rounded-full text-xs font-medium ${
+                  s.hasTrades 
+                    ? 'bg-up/20 text-up' 
+                    : 'bg-[var(--text-muted)]/20 text-[var(--text-muted)]'
+                }`}>
+                  {s.hasTrades ? 'Active' : 'Waiting'}
+                </span>
+              </div>
+              
+              <div className="grid grid-cols-3 gap-2 text-sm">
+                <div>
+                  <div className="text-xs text-[var(--text-muted)]">P&L</div>
+                  <div className={`mono font-medium ${s.pnl >= 0 ? 'text-up' : 'text-down'}`}>
+                    {s.pnl >= 0 ? '+' : ''}${s.pnl.toFixed(2)}
+                  </div>
+                </div>
+                <div>
+                  <div className="text-xs text-[var(--text-muted)]">Trades</div>
+                  <div className="mono">{s.trades}</div>
+                </div>
+                <div>
+                  <div className="text-xs text-[var(--text-muted)]">Win Rate</div>
+                  <div className="mono">{s.hasTrades ? `${s.winRate.toFixed(0)}%` : '-'}</div>
+                </div>
+              </div>
+            </div>
+          ))}
         </div>
         
         {filteredStrategies.length === 0 && (
