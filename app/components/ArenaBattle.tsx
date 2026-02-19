@@ -10,11 +10,36 @@ interface StrategyData {
   pnl: number
   trades: number
   winRate: number
+  hasTrades: boolean
 }
+
+// All 75 strategies - must match the trading bot
+const ALL_STRATEGIES = [
+  'Momentum', 'Arbitrage', 'VWAP', 'LeadLag', 'Sentiment', 'OrderBookImbalance',
+  'SharpMoney', 'VolatilityScorer', 'BreakoutMomentum', 'HighProbConvergence',
+  'MarketMaking', 'MicrostructureScalper', 'EMAArbitrage', 'LongshotBias',
+  'HighProbabilityBond', 'TimeDecay', 'BollingerBands', 'SpreadCapture', 'VPIN',
+  'TimeWeightedMomentum', 'PriceSkew', 'SerialCorrelation', 'LiquidityShock',
+  'OrderFlowImbalance', 'VolatilityExpansion', 'InformedTraderFlow', 'ContrarianExtreme',
+  'FeeOptimizedScalper', 'TickSizeArbitrage', 'IVMR', 'TimeDecayScalping',
+  'MomentumIgnition', 'RangeBoundMR', 'LiquiditySweep', 'VolumeWeightedMicroprice',
+  'BidAskBounce', 'GammaScalp', 'AdverseSelectionFilter', 'OrderBookSlope',
+  'QuoteStuffingDetector', 'MicroPriceReversion', 'LateEntryMomentum', 'SmartMoneyFlow',
+  'KellyCriterion', 'TimeDecayAlpha', 'ToxicFlowDetector', 'DualClassArbitrage',
+  'NoFarming', 'HighProbabilityCompounding', 'InventorySkew', 'AdverseSelectionFlow',
+  'LatencyArbitrage', 'CombinatorialArbitrage', 'TWAPDetector', 'RetailSentimentFade',
+  'ImpliedVolatilitySkew', 'FundingRateArbitrage', 'StaleQuoteArbitrage',
+  'VolatilityClustering', 'LayeringDetection', 'LiquidityRewardOptimized',
+  'AsymmetricMomentum', 'VolumeProfileReversion', 'FlashCrash', 'FlowToxicity',
+  'MomentumReversal', 'ProbabilityConstraintArbitrage', 'InformationDivergence',
+  'TimeWeightedMicrostructure', 'BookPressureReversion', 'PriceDiscoveryMomentum',
+  'SpreadScalper'
+]
 
 export default function ArenaBattle() {
   const [strategies, setStrategies] = useState<StrategyData[]>([])
   const [loading, setLoading] = useState(true)
+  const [filter, setFilter] = useState<'all' | 'active' | 'inactive'>('all')
 
   useEffect(() => {
     fetch('/trades.json')
@@ -36,15 +61,22 @@ export default function ArenaBattle() {
           }
         })
         
-        const ranked = Object.entries(stats)
-          .map(([strategy, data]) => ({
+        // Build complete list with all strategies
+        const allStrategies = ALL_STRATEGIES.map(strategy => {
+          const data = stats[strategy] || { pnl: 0, trades: 0, wins: 0 }
+          return {
             strategy,
             pnl: data.pnl,
             trades: data.trades,
             winRate: data.trades > 0 ? (data.wins / data.trades) * 100 : 0,
             value: 100 + data.pnl,
-            return: data.pnl
-          }))
+            return: data.pnl,
+            hasTrades: data.trades > 0
+          }
+        })
+        
+        // Sort by P&L (descending)
+        const ranked = allStrategies
           .sort((a, b) => b.pnl - a.pnl)
           .map((s, i) => ({ ...s, rank: i + 1 }))
         
@@ -52,9 +84,35 @@ export default function ArenaBattle() {
         setLoading(false)
       })
       .catch(() => {
+        // Even on error, show all strategies with zeros
+        const emptyStrategies = ALL_STRATEGIES.map((strategy, i) => ({
+          strategy,
+          pnl: 0,
+          trades: 0,
+          winRate: 0,
+          value: 100,
+          return: 0,
+          hasTrades: false,
+          rank: i + 1
+        }))
+        setStrategies(emptyStrategies)
         setLoading(false)
       })
   }, [])
+
+  const filteredStrategies = strategies.filter(s => {
+    if (filter === 'active') return s.hasTrades
+    if (filter === 'inactive') return !s.hasTrades
+    return true
+  })
+
+  const activeCount = strategies.filter(s => s.hasTrades).length
+  const inactiveCount = strategies.length - activeCount
+  const totalTrades = strategies.reduce((sum, s) => sum + s.trades, 0)
+  const avgWinRate = activeCount > 0 
+    ? strategies.filter(s => s.hasTrades).reduce((sum, s) => sum + s.winRate, 0) / activeCount 
+    : 0
+  const totalPnl = strategies.reduce((sum, s) => sum + s.pnl, 0)
 
   if (loading) {
     return (
@@ -64,25 +122,24 @@ export default function ArenaBattle() {
     )
   }
 
-  const totalTrades = strategies.reduce((sum, s) => sum + s.trades, 0)
-  const avgWinRate = strategies.length > 0 
-    ? strategies.reduce((sum, s) => sum + s.winRate, 0) / strategies.length 
-    : 0
-  const totalPnl = strategies.reduce((sum, s) => sum + s.pnl, 0)
-
   return (
     <div className="container py-8">
       {/* Header */}
       <div className="mb-8">
         <h1 className="text-2xl font-bold mb-2">Strategy Arena</h1>
-        <p className="text-[var(--text-muted)]">Live battle between trading strategies</p>
+        <p className="text-[var(--text-muted)]">Live battle between {strategies.length} trading strategies</p>
       </div>
 
       {/* Stats Cards */}
-      <div className="grid grid-cols-4 gap-4 mb-8">
+      <div className="grid grid-cols-5 gap-4 mb-8">
         <div className="cell p-6">
-          <div className="text-xs text-[var(--text-muted)] mb-2 uppercase tracking-wider">Active Strategies</div>
+          <div className="text-xs text-[var(--text-muted)] mb-2 uppercase tracking-wider">Total Strategies</div>
           <div className="text-3xl font-bold">{strategies.length}</div>
+        </div>
+        
+        <div className="cell p-6">
+          <div className="text-xs text-[var(--text-muted)] mb-2 uppercase tracking-wider">Active (with trades)</div>
+          <div className="text-3xl font-bold text-up">{activeCount}</div>
         </div>
         
         <div className="cell p-6">
@@ -103,9 +160,48 @@ export default function ArenaBattle() {
         </div>
       </div>
 
+      {/* Filter Tabs */}
+      <div className="flex gap-2 mb-6">
+        <button
+          onClick={() => setFilter('all')}
+          className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
+            filter === 'all' 
+              ? 'bg-[var(--accent)] text-white' 
+              : 'bg-[var(--bg-cell)] text-[var(--text-muted)] hover:text-[var(--text-primary)]'
+          }`}
+        >
+          All ({strategies.length})
+        </button>
+        <button
+          onClick={() => setFilter('active')}
+          className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
+            filter === 'active' 
+              ? 'bg-up text-white' 
+              : 'bg-[var(--bg-cell)] text-[var(--text-muted)] hover:text-[var(--text-primary)]'
+          }`}
+        >
+          Active ({activeCount})
+        </button>
+        <button
+          onClick={() => setFilter('inactive')}
+          className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
+            filter === 'inactive' 
+              ? 'bg-[var(--text-muted)] text-white' 
+              : 'bg-[var(--bg-cell)] text-[var(--text-muted)] hover:text-[var(--text-primary)]'
+          }`}
+        >
+          Inactive ({inactiveCount})
+        </button>
+      </div>
+
       {/* Leaderboard */}
       <div className="cell">
-        <div className="section-label px-6 py-4">Strategy Leaderboard</div>
+        <div className="section-label px-6 py-4 flex justify-between items-center">
+          <span>Strategy Leaderboard</span>
+          <span className="text-xs text-[var(--text-muted)] font-normal">
+            Showing {filteredStrategies.length} of {strategies.length} strategies
+          </span>
+        </div>
         
         <div className="overflow-x-auto">
           <table className="w-full">
@@ -113,6 +209,7 @@ export default function ArenaBattle() {
               <tr className="border-b border-[var(--border)] bg-[var(--bg-cell)]">
                 <th className="text-left py-4 px-6 text-xs font-medium text-[var(--text-muted)] uppercase tracking-wider w-20">Rank</th>
                 <th className="text-left py-4 px-6 text-xs font-medium text-[var(--text-muted)] uppercase tracking-wider">Strategy</th>
+                <th className="text-center py-4 px-6 text-xs font-medium text-[var(--text-muted)] uppercase tracking-wider w-24">Status</th>
                 <th className="text-right py-4 px-6 text-xs font-medium text-[var(--text-muted)] uppercase tracking-wider w-32">Value</th>
                 <th className="text-right py-4 px-6 text-xs font-medium text-[var(--text-muted)] uppercase tracking-wider w-28">Return</th>
                 <th className="text-right py-4 px-6 text-xs font-medium text-[var(--text-muted)] uppercase tracking-wider w-28">P&L</th>
@@ -121,8 +218,10 @@ export default function ArenaBattle() {
               </tr>
             </thead>
             <tbody className="divide-y divide-[var(--border)]">
-              {strategies.map((s) => (
-                <tr key={s.strategy} className="hover:bg-[var(--bg-cell)] transition-colors"
+              {filteredStrategies.map((s) => (
+                <tr 
+                  key={s.strategy} 
+                  className={`hover:bg-[var(--bg-cell)] transition-colors ${!s.hasTrades ? 'opacity-60' : ''}`}
                 >
                   <td className="py-4 px-6">
                     <span className={`
@@ -136,6 +235,15 @@ export default function ArenaBattle() {
                     </span>
                   </td>
                   <td className="py-4 px-6 font-medium text-base">{s.strategy}</td>
+                  <td className="py-4 px-6 text-center">
+                    <span className={`inline-flex px-2 py-1 rounded-full text-xs font-medium ${
+                      s.hasTrades 
+                        ? 'bg-up/20 text-up' 
+                        : 'bg-[var(--text-muted)]/20 text-[var(--text-muted)]'
+                    }`}>
+                      {s.hasTrades ? 'Active' : 'Waiting'}
+                    </span>
+                  </td>
                   <td className="py-4 px-6 text-right mono text-[var(--text-secondary)]">${s.value.toFixed(2)}</td>
                   <td className={`py-4 px-6 text-right mono font-medium ${s.return >= 0 ? 'text-up' : 'text-down'}`}>
                     {s.return >= 0 ? '+' : ''}{s.return.toFixed(2)}%
@@ -144,12 +252,20 @@ export default function ArenaBattle() {
                     {s.pnl >= 0 ? '+' : ''}${s.pnl.toFixed(2)}
                   </td>
                   <td className="py-4 px-6 text-right mono text-[var(--text-secondary)]">{s.trades}</td>
-                  <td className="py-4 px-6 text-right text-[var(--text-secondary)]">{s.winRate.toFixed(1)}%</td>
+                  <td className="py-4 px-6 text-right text-[var(--text-secondary)]">
+                    {s.hasTrades ? `${s.winRate.toFixed(1)}%` : '-'}
+                  </td>
                 </tr>
               ))}
             </tbody>
           </table>
         </div>
+        
+        {filteredStrategies.length === 0 && (
+          <div className="py-12 text-center text-[var(--text-muted)]">
+            No strategies match the selected filter
+          </div>
+        )}
       </div>
     </div>
   )
