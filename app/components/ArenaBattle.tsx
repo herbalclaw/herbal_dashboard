@@ -75,9 +75,24 @@ export default function ArenaBattle() {
           }
         })
         
-        // Sort by P&L (descending)
+        // Sort: Active strategies first (by P&L), then waiting strategies (alphabetically)
         const ranked = allStrategies
-          .sort((a, b) => b.pnl - a.pnl)
+          .sort((a, b) => {
+            // Both have trades - sort by P&L descending
+            if (a.hasTrades && b.hasTrades) {
+              return b.pnl - a.pnl
+            }
+            // Only a has trades - a comes first
+            if (a.hasTrades && !b.hasTrades) {
+              return -1
+            }
+            // Only b has trades - b comes first
+            if (!a.hasTrades && b.hasTrades) {
+              return 1
+            }
+            // Neither has trades - sort alphabetically
+            return a.strategy.localeCompare(b.strategy)
+          })
           .map((s, i) => ({ ...s, rank: i + 1 }))
         
         setStrategies(ranked)
