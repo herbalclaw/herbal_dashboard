@@ -18,7 +18,10 @@ const strategies = [
   'SpreadCapture',
   'VPIN',
   'TimeWeightedMomentum',
-  'PriceSkew'
+  'PriceSkew',
+  'SerialCorrelation',
+  'LiquidityShock',
+  'OrderFlowImbalance'
 ]
 
 interface Trade {
