@@ -12,7 +12,10 @@ const strategies = [
   'EMAArbitrage',
   'MarketMaking',
   'ContrarianFader',
-  'ProfessionalMarketMaker'
+  'ProfessionalMarketMaker',
+  'TimeDecay',
+  'BollingerBands',
+  'SpreadCapture'
 ]
 
 interface Trade {
