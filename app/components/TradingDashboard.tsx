@@ -35,7 +35,13 @@ const strategies = [
   'LiquiditySweep',
   'VolumeWeightedMicroprice',
   'BidAskBounce',
-  'GammaScalp'
+  'GammaScalp',
+  'AdverseSelectionFilter',
+  'OrderBookSlope',
+  'QuoteStuffingDetector',
+  'MicroPriceReversion',
+  'LateEntryMomentum',
+  'SmartMoneyFlow'
 ]
 
 interface Trade {
