@@ -67,6 +67,9 @@ const strategies = [
   'ProbabilityConstraintArbitrage',
   'InformationDivergence',
   'TimeWeightedMicrostructure',
+  'BookPressureReversion',
+  'PriceDiscoveryMomentum',
+  'SpreadScalper',
 ]
 
 interface Trade {
