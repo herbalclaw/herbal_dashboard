@@ -50,6 +50,9 @@ const strategies = [
   'HighProbabilityCompounding',
   'InventorySkew',
   'AdverseSelectionFlow',
+  'LatencyArbitrage',
+  'CombinatorialArbitrage',
+  'TWAPDetector',
 ]
 
 interface Trade {
