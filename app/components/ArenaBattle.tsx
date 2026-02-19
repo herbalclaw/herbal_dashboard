@@ -17,13 +17,11 @@ export default function ArenaBattle() {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    // Fetch real data from trades.json
     fetch('/trades.json')
       .then(res => res.json())
       .then(data => {
         const trades = data.trades || []
         
-        // Calculate stats per strategy
         const stats: Record<string, { pnl: number, trades: number, wins: number }> = {}
         
         trades.forEach((trade: any) => {
@@ -38,7 +36,6 @@ export default function ArenaBattle() {
           }
         })
         
-        // Convert to array and calculate rankings
         const ranked = Object.entries(stats)
           .map(([strategy, data]) => ({
             strategy,
@@ -55,17 +52,6 @@ export default function ArenaBattle() {
         setLoading(false)
       })
       .catch(() => {
-        // Fallback to placeholder if data not available
-        setStrategies([
-          { rank: 1, strategy: 'VPIN', value: 112.11, return: 12.11, pnl: 4844, trades: 89, winRate: 58 },
-          { rank: 2, strategy: 'BollingerBands', value: 108.45, return: 8.45, pnl: 3380, trades: 76, winRate: 54 },
-          { rank: 3, strategy: 'TimeDecay', value: 106.23, return: 6.23, pnl: 2492, trades: 68, winRate: 52 },
-          { rank: 4, strategy: 'Momentum', value: 104.87, return: 4.87, pnl: 1948, trades: 62, winRate: 49 },
-          { rank: 5, strategy: 'HighProbConvergence', value: 103.12, return: 3.12, pnl: 1248, trades: 54, winRate: 47 },
-          { rank: 6, strategy: 'EMAArbitrage', value: 101.98, return: 1.98, pnl: 792, trades: 48, winRate: 45 },
-          { rank: 7, strategy: 'VolatilityScorer', value: 99.55, return: -0.45, pnl: -180, trades: 52, winRate: 43 },
-          { rank: 8, strategy: 'MarketMaking', value: 97.66, return: -2.34, pnl: -936, trades: 61, winRate: 41 },
-        ])
         setLoading(false)
       })
   }, [])
@@ -118,20 +104,20 @@ export default function ArenaBattle() {
       </div>
 
       {/* Leaderboard */}
-      <div className="cell overflow-hidden">
+      <div className="cell">
         <div className="section-label px-6 py-4">Strategy Leaderboard</div>
         
         <div className="overflow-x-auto">
           <table className="w-full">
             <thead>
               <tr className="border-b border-[var(--border)] bg-[var(--bg-cell)]">
-                <th className="text-left py-4 px-6 text-xs font-medium text-[var(--text-muted)] uppercase tracking-wider">Rank</th>
+                <th className="text-left py-4 px-6 text-xs font-medium text-[var(--text-muted)] uppercase tracking-wider w-20">Rank</th>
                 <th className="text-left py-4 px-6 text-xs font-medium text-[var(--text-muted)] uppercase tracking-wider">Strategy</th>
-                <th className="text-right py-4 px-6 text-xs font-medium text-[var(--text-muted)] uppercase tracking-wider">Value</th>
-                <th className="text-right py-4 px-6 text-xs font-medium text-[var(--text-muted)] uppercase tracking-wider">Return</th>
-                <th className="text-right py-4 px-6 text-xs font-medium text-[var(--text-muted)] uppercase tracking-wider">P&L</th>
-                <th className="text-right py-4 px-6 text-xs font-medium text-[var(--text-muted)] uppercase tracking-wider">Trades</th>
-                <th className="text-right py-4 px-6 text-xs font-medium text-[var(--text-muted)] uppercase tracking-wider">Win Rate</th>
+                <th className="text-right py-4 px-6 text-xs font-medium text-[var(--text-muted)] uppercase tracking-wider w-32">Value</th>
+                <th className="text-right py-4 px-6 text-xs font-medium text-[var(--text-muted)] uppercase tracking-wider w-28">Return</th>
+                <th className="text-right py-4 px-6 text-xs font-medium text-[var(--text-muted)] uppercase tracking-wider w-28">P&L</th>
+                <th className="text-right py-4 px-6 text-xs font-medium text-[var(--text-muted)] uppercase tracking-wider w-24">Trades</th>
+                <th className="text-right py-4 px-6 text-xs font-medium text-[var(--text-muted)] uppercase tracking-wider w-24">Win Rate</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-[var(--border)]">
@@ -150,15 +136,15 @@ export default function ArenaBattle() {
                     </span>
                   </td>
                   <td className="py-4 px-6 font-medium text-base">{s.strategy}</td>
-                  <td className="py-4 px-6 text-right mono">${s.value.toFixed(2)}</td>
+                  <td className="py-4 px-6 text-right mono text-[var(--text-secondary)]">${s.value.toFixed(2)}</td>
                   <td className={`py-4 px-6 text-right mono font-medium ${s.return >= 0 ? 'text-up' : 'text-down'}`}>
                     {s.return >= 0 ? '+' : ''}{s.return.toFixed(2)}%
                   </td>
                   <td className={`py-4 px-6 text-right mono font-medium ${s.pnl >= 0 ? 'text-up' : 'text-down'}`}>
                     {s.pnl >= 0 ? '+' : ''}${s.pnl.toFixed(2)}
                   </td>
-                  <td className="py-4 px-6 text-right mono">{s.trades}</td>
-                  <td className="py-4 px-6 text-right">{s.winRate.toFixed(1)}%</td>
+                  <td className="py-4 px-6 text-right mono text-[var(--text-secondary)]">{s.trades}</td>
+                  <td className="py-4 px-6 text-right text-[var(--text-secondary)]">{s.winRate.toFixed(1)}%</td>
                 </tr>
               ))}
             </tbody>
