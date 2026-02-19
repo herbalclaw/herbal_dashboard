@@ -21,7 +21,10 @@ const strategies = [
   'PriceSkew',
   'SerialCorrelation',
   'LiquidityShock',
-  'OrderFlowImbalance'
+  'OrderFlowImbalance',
+  'VolatilityExpansion',
+  'InformedTraderFlow',
+  'ContrarianExtreme'
 ]
 
 interface Trade {
