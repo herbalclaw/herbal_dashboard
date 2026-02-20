@@ -1074,9 +1074,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.48,
-      "exit": 0.0,
+      "exit": 0.504684,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 99,
@@ -1085,9 +1085,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.52,
-      "exit": 0.0,
+      "exit": 0.505794,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 100,
@@ -1151,9 +1151,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.54,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.505531,
+      "pnl": 0.05,
+      "status": "CLOSED"
     },
     {
       "id": 106,
@@ -1162,9 +1162,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.54,
-      "exit": 0.0,
+      "exit": 0.504378,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 107,
@@ -1173,9 +1173,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.89,
-      "exit": 0.0,
+      "exit": 0.504693,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 108,
@@ -1184,9 +1184,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.13,
-      "exit": 0.0,
+      "exit": 0.504241,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 109,
@@ -1195,9 +1195,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.13,
-      "exit": 0.0,
+      "exit": 0.504657,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 110,
@@ -1206,9 +1206,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.13,
-      "exit": 0.0,
+      "exit": 0.505317,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 111,
@@ -1217,9 +1217,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.15,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.504338,
+      "pnl": 0.15,
+      "status": "CLOSED"
     },
     {
       "id": 112,
@@ -1228,9 +1228,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.17,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.504331,
+      "pnl": 0.15,
+      "status": "CLOSED"
     },
     {
       "id": 113,
@@ -1239,9 +1239,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.17,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.505327,
+      "pnl": -0.15,
+      "status": "CLOSED"
     },
     {
       "id": 114,
@@ -1250,9 +1250,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.12,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.505694,
+      "pnl": -0.15,
+      "status": "CLOSED"
     },
     {
       "id": 115,
@@ -1261,9 +1261,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.9,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.505741,
+      "pnl": -0.15,
+      "status": "CLOSED"
     },
     {
       "id": 116,
@@ -1272,9 +1272,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.9,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.505374,
+      "pnl": -0.15,
+      "status": "CLOSED"
     },
     {
       "id": 117,
@@ -1283,9 +1283,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.08,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.564508,
+      "pnl": 0.3,
+      "status": "CLOSED"
     },
     {
       "id": 118,
@@ -1294,9 +1294,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.98,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.565427,
+      "pnl": 0.3,
+      "status": "CLOSED"
     },
     {
       "id": 119,
@@ -1305,9 +1305,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.98,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.505617,
+      "pnl": -0.3,
+      "status": "CLOSED"
     },
     {
       "id": 120,
@@ -1316,9 +1316,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.01,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.505775,
+      "pnl": -0.3,
+      "status": "CLOSED"
     },
     {
       "id": 121,
@@ -1327,9 +1327,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.01,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.504372,
+      "pnl": 0.3,
+      "status": "CLOSED"
     },
     {
       "id": 122,
@@ -1338,9 +1338,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.01,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.504643,
+      "pnl": 0.3,
+      "status": "CLOSED"
     },
     {
       "id": 123,
@@ -1349,9 +1349,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.01,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.505576,
+      "pnl": -0.3,
+      "status": "CLOSED"
     },
     {
       "id": 124,
@@ -1360,9 +1360,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.01,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.504474,
+      "pnl": 0.3,
+      "status": "CLOSED"
     },
     {
       "id": 125,
@@ -1371,9 +1371,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.01,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.504697,
+      "pnl": 0.3,
+      "status": "CLOSED"
     },
     {
       "id": 126,
@@ -1382,9 +1382,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.01,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.50551,
+      "pnl": -0.3,
+      "status": "CLOSED"
     },
     {
       "id": 127,
@@ -1393,9 +1393,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.44,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.505588,
+      "pnl": -0.3,
+      "status": "CLOSED"
     },
     {
       "id": 128,
@@ -1404,9 +1404,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.6,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.505758,
+      "pnl": -0.3,
+      "status": "CLOSED"
     },
     {
       "id": 129,
@@ -1415,9 +1415,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.4,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.505477,
+      "pnl": -0.3,
+      "status": "CLOSED"
     },
     {
       "id": 130,
@@ -1426,9 +1426,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.62,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.505376,
+      "pnl": -0.3,
+      "status": "CLOSED"
     },
     {
       "id": 131,
@@ -1437,9 +1437,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.65,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.094268,
+      "pnl": 2.05,
+      "status": "CLOSED"
     },
     {
       "id": 132,
@@ -1448,9 +1448,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.36,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.094244,
+      "pnl": 2.05,
+      "status": "CLOSED"
     },
     {
       "id": 133,
@@ -1459,9 +1459,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.61,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.095317,
+      "pnl": -2.05,
+      "status": "CLOSED"
     },
     {
       "id": 134,
@@ -1470,9 +1470,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.386187,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.094343,
+      "pnl": 2.05,
+      "status": "CLOSED"
     },
     {
       "id": 135,
@@ -1481,9 +1481,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.81,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.094222,
+      "pnl": 2.05,
+      "status": "CLOSED"
     },
     {
       "id": 136,
@@ -1492,9 +1492,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.71,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.094474,
+      "pnl": 2.05,
+      "status": "CLOSED"
     },
     {
       "id": 137,
@@ -1503,9 +1503,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.3,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.094596,
+      "pnl": 2.05,
+      "status": "CLOSED"
     },
     {
       "id": 138,
@@ -1514,9 +1514,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.69,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.094614,
+      "pnl": -2.05,
+      "status": "CLOSED"
     },
     {
       "id": 139,
@@ -1525,9 +1525,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.68,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.50468,
+      "pnl": -2.05,
+      "status": "CLOSED"
     },
     {
       "id": 140,
@@ -1536,9 +1536,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.72,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.505515,
+      "pnl": 2.05,
+      "status": "CLOSED"
     },
     {
       "id": 141,
@@ -1547,9 +1547,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.28,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.50423,
+      "pnl": -2.05,
+      "status": "CLOSED"
     },
     {
       "id": 142,
@@ -1558,9 +1558,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.67,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.504502,
+      "pnl": -2.05,
+      "status": "CLOSED"
     },
     {
       "id": 143,
@@ -1569,9 +1569,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.27,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.505614,
+      "pnl": 2.05,
+      "status": "CLOSED"
     },
     {
       "id": 144,
@@ -1580,9 +1580,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.64,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.505311,
+      "pnl": 2.05,
+      "status": "CLOSED"
     },
     {
       "id": 145,
@@ -1591,9 +1591,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.37,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.505353,
+      "pnl": 2.05,
+      "status": "CLOSED"
     },
     {
       "id": 146,
@@ -1602,9 +1602,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.88,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.504432,
+      "pnl": -2.05,
+      "status": "CLOSED"
     },
     {
       "id": 147,
@@ -1613,9 +1613,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.89,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.504286,
+      "pnl": -2.05,
+      "status": "CLOSED"
     },
     {
       "id": 148,
@@ -1624,9 +1624,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.89,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.504211,
+      "pnl": -2.05,
+      "status": "CLOSED"
     },
     {
       "id": 149,
@@ -1635,9 +1635,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.93,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.504611,
+      "pnl": -2.05,
+      "status": "CLOSED"
     },
     {
       "id": 150,
@@ -1646,9 +1646,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.902635,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.50436,
+      "pnl": -2.05,
+      "status": "CLOSED"
     },
     {
       "id": 151,
@@ -1657,9 +1657,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.408163,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.504598,
+      "pnl": -2.05,
+      "status": "CLOSED"
     },
     {
       "id": 152,
@@ -1668,9 +1668,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.63,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.50558,
+      "pnl": 2.05,
+      "status": "CLOSED"
     },
     {
       "id": 153,
@@ -1679,9 +1679,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.36,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.505688,
+      "pnl": 2.05,
+      "status": "CLOSED"
     },
     {
       "id": 154,
@@ -1690,9 +1690,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.63,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.505365,
+      "pnl": 2.05,
+      "status": "CLOSED"
     },
     {
       "id": 155,
@@ -1701,9 +1701,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.63,
-      "exit": 0.0,
+      "exit": 0.505586,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 156,
@@ -1712,9 +1712,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.36,
-      "exit": 0.0,
+      "exit": 0.504326,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 157,
@@ -1723,9 +1723,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.63,
-      "exit": 0.0,
+      "exit": 0.505734,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 158,
@@ -1734,9 +1734,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.37,
-      "exit": 0.0,
+      "exit": 0.505528,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 159,
@@ -1745,9 +1745,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.38,
-      "exit": 0.0,
+      "exit": 0.504407,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 160,
@@ -1756,9 +1756,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.37,
-      "exit": 0.0,
+      "exit": 0.504503,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 161,
@@ -1767,9 +1767,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.37,
-      "exit": 0.0,
+      "exit": 0.505639,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 162,
@@ -1778,9 +1778,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.39,
-      "exit": 0.0,
+      "exit": 0.50559,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 163,
@@ -1789,9 +1789,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.62,
-      "exit": 0.0,
+      "exit": 0.50537,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 164,
@@ -1800,9 +1800,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.595387,
-      "exit": 0.0,
+      "exit": 0.505312,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 165,
@@ -1811,9 +1811,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.33446,
-      "exit": 0.0,
+      "exit": 0.505355,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 166,
@@ -1822,9 +1822,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.33534,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.505536,
+      "pnl": -0.2,
+      "status": "CLOSED"
     },
     {
       "id": 167,
@@ -1833,9 +1833,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.334632,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.81922,
+      "pnl": -1.57,
+      "status": "CLOSED"
     },
     {
       "id": 168,
@@ -1844,9 +1844,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.334314,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.820687,
+      "pnl": 1.57,
+      "status": "CLOSED"
     },
     {
       "id": 169,
@@ -1855,9 +1855,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.335756,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.819449,
+      "pnl": -1.57,
+      "status": "CLOSED"
     },
     {
       "id": 170,
@@ -1866,9 +1866,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.335694,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.819602,
+      "pnl": -1.58,
+      "status": "CLOSED"
     },
     {
       "id": 171,
@@ -1877,9 +1877,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.334306,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.819391,
+      "pnl": -1.57,
+      "status": "CLOSED"
     },
     {
       "id": 172,
@@ -1888,9 +1888,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.33445,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.505553,
+      "pnl": -1.57,
+      "status": "CLOSED"
     },
     {
       "id": 173,
@@ -1899,9 +1899,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.335528,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.504302,
+      "pnl": 1.58,
+      "status": "CLOSED"
     },
     {
       "id": 174,
@@ -1910,9 +1910,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.334572,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.504508,
+      "pnl": 1.57,
+      "status": "CLOSED"
     },
     {
       "id": 175,
@@ -1921,9 +1921,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.505796,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.505624,
+      "pnl": -1.57,
+      "status": "CLOSED"
     },
     {
       "id": 176,
@@ -1932,9 +1932,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.505557,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.504394,
+      "pnl": 1.57,
+      "status": "CLOSED"
     },
     {
       "id": 177,
@@ -1943,9 +1943,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.505453,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.504424,
+      "pnl": 1.57,
+      "status": "CLOSED"
     },
     {
       "id": 178,
@@ -1954,9 +1954,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.505623,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.505583,
+      "pnl": -1.57,
+      "status": "CLOSED"
     },
     {
       "id": 179,
@@ -1965,9 +1965,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.504439,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.505395,
+      "pnl": -1.58,
+      "status": "CLOSED"
     },
     {
       "id": 180,
@@ -1976,9 +1976,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.504688,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.505471,
+      "pnl": -1.58,
+      "status": "CLOSED"
     },
     {
       "id": 181,
@@ -1987,9 +1987,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.505333,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.505436,
+      "pnl": -1.58,
+      "status": "CLOSED"
     },
     {
       "id": 182,
@@ -1998,9 +1998,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.504452,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.505404,
+      "pnl": -1.58,
+      "status": "CLOSED"
     },
     {
       "id": 183,
@@ -2009,9 +2009,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.504212,
-      "exit": 0.0,
+      "exit": 0.505371,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 184,
@@ -2020,9 +2020,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.504517,
-      "exit": 0.0,
+      "exit": 0.504495,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 185,
@@ -2031,9 +2031,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.515415,
-      "exit": 0.0,
+      "exit": 0.505561,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 186,
@@ -2042,9 +2042,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.514522,
-      "exit": 0.0,
+      "exit": 0.504412,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 187,
@@ -2053,9 +2053,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.515346,
-      "exit": 0.0,
+      "exit": 0.505614,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 188,
@@ -2064,9 +2064,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.514575,
-      "exit": 0.0,
+      "exit": 0.504496,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 189,
@@ -2075,9 +2075,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.514385,
-      "exit": 0.0,
+      "exit": 0.504214,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 190,
@@ -2086,9 +2086,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.499508,
-      "exit": 0.0,
+      "exit": 0.504268,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 191,
@@ -2097,9 +2097,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.504682,
-      "exit": 0.0,
+      "exit": 0.504464,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 192,
@@ -2108,9 +2108,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.505797,
-      "exit": 0.0,
+      "exit": 0.50535,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 193,
@@ -2119,9 +2119,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.505482,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.565484,
+      "pnl": 0.3,
+      "status": "CLOSED"
     },
     {
       "id": 194,
@@ -2130,9 +2130,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.495739,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.565496,
+      "pnl": 0.3,
+      "status": "CLOSED"
     },
     {
       "id": 195,
@@ -2141,9 +2141,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.494469,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.505345,
+      "pnl": -0.3,
+      "status": "CLOSED"
     },
     {
       "id": 196,
@@ -2152,9 +2152,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.494265,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.504317,
+      "pnl": 0.3,
+      "status": "CLOSED"
     },
     {
       "id": 197,
@@ -2163,9 +2163,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.495388,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.505305,
+      "pnl": -0.3,
+      "status": "CLOSED"
     },
     {
       "id": 198,
@@ -2174,9 +2174,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.494333,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.505724,
+      "pnl": -0.3,
+      "status": "CLOSED"
     },
     {
       "id": 199,
@@ -2185,9 +2185,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.50578,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.504595,
+      "pnl": 0.3,
+      "status": "CLOSED"
     },
     {
       "id": 200,
@@ -2196,9 +2196,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.505605,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.505528,
+      "pnl": -0.3,
+      "status": "CLOSED"
     },
     {
       "id": 201,
@@ -2207,9 +2207,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.504644,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.505662,
+      "pnl": -0.3,
+      "status": "CLOSED"
     },
     {
       "id": 202,
@@ -2218,9 +2218,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.505335,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.505757,
+      "pnl": -0.3,
+      "status": "CLOSED"
     },
     {
       "id": 203,
@@ -2229,9 +2229,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.499327,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.505527,
+      "pnl": -0.3,
+      "status": "CLOSED"
     },
     {
       "id": 204,
@@ -2240,9 +2240,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.499403,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.505558,
+      "pnl": -0.3,
+      "status": "CLOSED"
     },
     {
       "id": 205,
@@ -2251,9 +2251,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.505551,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.554387,
+      "pnl": -0.25,
+      "status": "CLOSED"
     },
     {
       "id": 206,
@@ -2262,9 +2262,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.50576,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.555573,
+      "pnl": 0.25,
+      "status": "CLOSED"
     },
     {
       "id": 207,
@@ -2273,9 +2273,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.504506,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.55421,
+      "pnl": -0.25,
+      "status": "CLOSED"
     },
     {
       "id": 208,
@@ -2284,9 +2284,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.50545,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.55535,
+      "pnl": 0.25,
+      "status": "CLOSED"
     },
     {
       "id": 209,
@@ -2295,9 +2295,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.194414,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.554473,
+      "pnl": -0.25,
+      "status": "CLOSED"
     },
     {
       "id": 210,
@@ -2306,9 +2306,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.195502,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.554316,
+      "pnl": -0.25,
+      "status": "CLOSED"
     },
     {
       "id": 211,
@@ -2317,9 +2317,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.194636,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.554326,
+      "pnl": -0.25,
+      "status": "CLOSED"
     },
     {
       "id": 212,
@@ -2328,9 +2328,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.194594,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.554597,
+      "pnl": -0.25,
+      "status": "CLOSED"
     },
     {
       "id": 213,
@@ -2339,9 +2339,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.195361,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.555781,
+      "pnl": 0.3,
+      "status": "CLOSED"
     },
     {
       "id": 214,
@@ -2350,9 +2350,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.194553,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.554271,
+      "pnl": -0.3,
+      "status": "CLOSED"
     },
     {
       "id": 215,
@@ -2361,9 +2361,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.194355,
-      "exit": 0.0,
+      "exit": 0.555697,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 216,
@@ -2372,9 +2372,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.19452,
-      "exit": 0.0,
+      "exit": 0.554281,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 217,
@@ -2383,9 +2383,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.194334,
-      "exit": 0.0,
+      "exit": 0.555792,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 218,
@@ -2394,9 +2394,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.195538,
-      "exit": 0.0,
+      "exit": 0.555478,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 219,
@@ -2405,9 +2405,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.194448,
-      "exit": 0.0,
+      "exit": 0.555549,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 220,
@@ -2416,9 +2416,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.505731,
-      "exit": 0.0,
+      "exit": 0.555582,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 221,
@@ -2427,9 +2427,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.504656,
-      "exit": 0.0,
+      "exit": 0.555381,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 222,
@@ -2438,9 +2438,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.505492,
-      "exit": 0.0,
+      "exit": 0.555358,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 223,
@@ -2449,9 +2449,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.505797,
-      "exit": 0.0,
+      "exit": 0.555722,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 224,
@@ -2460,9 +2460,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.504569,
-      "exit": 0.0,
+      "exit": 0.554432,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 225,
@@ -2471,9 +2471,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.505658,
-      "exit": 0.0,
+      "exit": 0.555686,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 226,
@@ -2482,9 +2482,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.505469,
-      "exit": 0.0,
+      "exit": 0.555718,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 227,
@@ -2493,9 +2493,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.505645,
-      "exit": 0.0,
+      "exit": 0.554239,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 228,
@@ -2504,9 +2504,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.494434,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.500668,
+      "pnl": -0.27,
+      "status": "CLOSED"
     },
     {
       "id": 229,
@@ -2515,9 +2515,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.495534,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.500442,
+      "pnl": -0.27,
+      "status": "CLOSED"
     },
     {
       "id": 230,
@@ -2526,9 +2526,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.49468,
-      "exit": 0.0,
+      "exit": 0.499437,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 231,
@@ -2537,9 +2537,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.49563,
-      "exit": 0.0,
+      "exit": 0.500455,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 232,
@@ -2548,9 +2548,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.495507,
-      "exit": 0.0,
+      "exit": 0.500713,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 233,
@@ -2559,9 +2559,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.494509,
-      "exit": 0.0,
+      "exit": 0.499438,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 234,
@@ -2570,9 +2570,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.494439,
-      "exit": 0.0,
+      "exit": 0.499382,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 235,
@@ -2581,9 +2581,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.505593,
-      "exit": 0.0,
+      "exit": 0.499273,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 236,
@@ -2592,9 +2592,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.504567,
-      "exit": 0.0,
+      "exit": 0.499465,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 237,
@@ -2603,9 +2603,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.505489,
-      "exit": 0.0,
+      "exit": 0.500352,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 238,
@@ -2614,9 +2614,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.504376,
-      "exit": 0.0,
+      "exit": 0.500601,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 239,
@@ -2625,9 +2625,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.50532,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.505528,
+      "pnl": 0.02,
+      "status": "CLOSED"
     },
     {
       "id": 240,
@@ -2636,9 +2636,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.505451,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.504335,
+      "pnl": -0.02,
+      "status": "CLOSED"
     },
     {
       "id": 241,
@@ -2647,9 +2647,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.504292,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.475765,
+      "pnl": -0.15,
+      "status": "CLOSED"
     },
     {
       "id": 242,
@@ -2658,9 +2658,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.504492,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.475538,
+      "pnl": -0.15,
+      "status": "CLOSED"
     },
     {
       "id": 243,
@@ -2669,9 +2669,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.505698,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.475398,
+      "pnl": -0.15,
+      "status": "CLOSED"
     },
     {
       "id": 244,
@@ -2680,9 +2680,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.504615,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.475658,
+      "pnl": -0.15,
+      "status": "CLOSED"
     },
     {
       "id": 245,
@@ -2691,9 +2691,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.505718,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.47453,
+      "pnl": 0.15,
+      "status": "CLOSED"
     },
     {
       "id": 246,
@@ -2702,9 +2702,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.504371,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.475552,
+      "pnl": -0.15,
+      "status": "CLOSED"
     },
     {
       "id": 247,
@@ -2713,9 +2713,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.505593,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.474307,
+      "pnl": 0.15,
+      "status": "CLOSED"
     },
     {
       "id": 248,
@@ -2724,9 +2724,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.504631,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.494611,
+      "pnl": -0.1,
+      "status": "CLOSED"
     },
     {
       "id": 249,
@@ -2735,9 +2735,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.504294,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.495476,
+      "pnl": 0.1,
+      "status": "CLOSED"
     },
     {
       "id": 250,
@@ -2746,9 +2746,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.504553,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.495798,
+      "pnl": 0.1,
+      "status": "CLOSED"
     },
     {
       "id": 251,
@@ -2757,9 +2757,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.505507,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.494217,
+      "pnl": -0.1,
+      "status": "CLOSED"
     },
     {
       "id": 252,
@@ -2768,9 +2768,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.504569,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.494626,
+      "pnl": -0.1,
+      "status": "CLOSED"
     },
     {
       "id": 253,
@@ -2779,9 +2779,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.505512,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.494439,
+      "pnl": -0.1,
+      "status": "CLOSED"
     },
     {
       "id": 254,
@@ -2790,9 +2790,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.505529,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.494641,
+      "pnl": -0.1,
+      "status": "CLOSED"
     },
     {
       "id": 255,
@@ -2801,9 +2801,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.50538,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.49433,
+      "pnl": -0.1,
+      "status": "CLOSED"
     },
     {
       "id": 256,
@@ -2812,9 +2812,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.505726,
-      "exit": 0.0,
+      "exit": 0.495661,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 257,
@@ -2823,9 +2823,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.505643,
-      "exit": 0.0,
+      "exit": 0.494652,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 258,
@@ -2834,9 +2834,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.504557,
-      "exit": 0.0,
+      "exit": 0.495424,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 259,
@@ -2845,9 +2845,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.504487,
-      "exit": 0.0,
+      "exit": 0.495339,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 260,
@@ -2856,9 +2856,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.505432,
-      "exit": 0.0,
+      "exit": 0.495365,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 261,
@@ -2867,9 +2867,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.504513,
-      "exit": 0.0,
+      "exit": 0.494338,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 262,
@@ -2878,9 +2878,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.505735,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.50531,
+      "pnl": 0.05,
+      "status": "CLOSED"
     },
     {
       "id": 263,
@@ -2889,9 +2889,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.505788,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.505399,
+      "pnl": 0.05,
+      "status": "CLOSED"
     },
     {
       "id": 264,
@@ -2900,9 +2900,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.504699,
-      "exit": 0.0,
+      "exit": 0.505753,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 265,
@@ -2911,9 +2911,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.504401,
-      "exit": 0.0,
+      "exit": 0.504227,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 266,
@@ -2922,9 +2922,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.504631,
-      "exit": 0.0,
+      "exit": 0.505644,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 267,
@@ -2933,9 +2933,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.504316,
-      "exit": 0.0,
+      "exit": 0.505487,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 268,
@@ -2944,9 +2944,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.505692,
-      "exit": 0.0,
+      "exit": 0.505471,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 269,
@@ -2955,9 +2955,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.504465,
-      "exit": 0.0,
+      "exit": 0.504581,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 270,
@@ -2966,9 +2966,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.504399,
-      "exit": 0.0,
+      "exit": 0.504414,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 271,
@@ -2977,9 +2977,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.504336,
-      "exit": 0.0,
+      "exit": 0.505575,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 272,
@@ -2988,9 +2988,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.504303,
-      "exit": 0.0,
+      "exit": 0.504243,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 273,
@@ -2999,9 +2999,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.504583,
-      "exit": 0.0,
+      "exit": 0.504519,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 274,
@@ -3010,9 +3010,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.505776,
-      "exit": 0.0,
+      "exit": 0.5055,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 275,
@@ -3021,9 +3021,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.504436,
-      "exit": 0.0,
+      "exit": 0.504268,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 276,
@@ -3032,9 +3032,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.505473,
-      "exit": 0.0,
+      "exit": 0.50437,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 277,
@@ -3043,9 +3043,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.50536,
-      "exit": 0.0,
+      "exit": 0.505595,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 278,
@@ -3054,9 +3054,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.505308,
-      "exit": 0.0,
+      "exit": 0.505527,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 279,
@@ -3065,9 +3065,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.505481,
-      "exit": 0.0,
+      "exit": 0.504546,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 280,
@@ -3076,9 +3076,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.505379,
-      "exit": 0.0,
+      "exit": 0.505415,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 281,
@@ -3087,9 +3087,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.504303,
-      "exit": 0.0,
+      "exit": 0.505443,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 282,
@@ -3098,9 +3098,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.504323,
-      "exit": 0.0,
+      "exit": 0.505574,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 283,
@@ -3109,9 +3109,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.504265,
-      "exit": 0.0,
+      "exit": 0.504382,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 284,
@@ -3120,9 +3120,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.505687,
-      "exit": 0.0,
+      "exit": 0.504477,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 285,
@@ -3131,9 +3131,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.505643,
-      "exit": 0.0,
+      "exit": 0.505335,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 286,
@@ -3142,9 +3142,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.505629,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.495614,
+      "pnl": -0.05,
+      "status": "CLOSED"
     },
     {
       "id": 287,
@@ -3153,9 +3153,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.505373,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.494255,
+      "pnl": 0.05,
+      "status": "CLOSED"
     },
     {
       "id": 288,
@@ -3164,9 +3164,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.505314,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.495301,
+      "pnl": -0.05,
+      "status": "CLOSED"
     },
     {
       "id": 289,
@@ -3175,9 +3175,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.50438,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.504407,
+      "pnl": -0.05,
+      "status": "CLOSED"
     },
     {
       "id": 290,
@@ -3186,9 +3186,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.504693,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.505768,
+      "pnl": 0.05,
+      "status": "CLOSED"
     },
     {
       "id": 291,
@@ -3197,9 +3197,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.504358,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.504382,
+      "pnl": -0.05,
+      "status": "CLOSED"
     },
     {
       "id": 292,
@@ -3208,9 +3208,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.504573,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.504455,
+      "pnl": -0.05,
+      "status": "CLOSED"
     },
     {
       "id": 293,
@@ -3219,9 +3219,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.504416,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.504275,
+      "pnl": -0.05,
+      "status": "CLOSED"
     },
     {
       "id": 294,
@@ -3230,9 +3230,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.505675,
-      "exit": 0.0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.505591,
+      "pnl": 0.05,
+      "status": "CLOSED"
     },
     {
       "id": 295,
@@ -3241,9 +3241,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.504476,
-      "exit": 0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.505491,
+      "pnl": 0.05,
+      "status": "CLOSED"
     },
     {
       "id": 296,
@@ -3252,9 +3252,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.50452,
-      "exit": 0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.504633,
+      "pnl": 0.05,
+      "status": "CLOSED"
     },
     {
       "id": 297,
@@ -3263,9 +3263,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.505701,
-      "exit": 0,
-      "pnl": 0.0,
-      "status": "OPEN"
+      "exit": 0.505756,
+      "pnl": 0.05,
+      "status": "CLOSED"
     },
     {
       "id": 298,
@@ -3274,9 +3274,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.49955,
-      "exit": 0,
+      "exit": 0.505754,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 299,
@@ -3285,9 +3285,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.499495,
-      "exit": 0,
+      "exit": 0.50535,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 300,
@@ -3296,9 +3296,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.499556,
-      "exit": 0,
+      "exit": 0.50445,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 301,
@@ -3307,9 +3307,9 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.499274,
-      "exit": 0,
+      "exit": 0.505456,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 302,
@@ -3318,9 +3318,9 @@
       "market": "BTC-5M",
       "side": "BUY",
       "entry": 0.500631,
-      "exit": 0,
+      "exit": 0.504642,
       "pnl": 0.0,
-      "status": "OPEN"
+      "status": "CLOSED"
     },
     {
       "id": 303,
@@ -3329,11 +3329,6468 @@
       "market": "BTC-5M",
       "side": "SELL",
       "entry": 0.499225,
+      "exit": 0.505507,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 304,
+      "time": "04:45:54",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.499666,
+      "exit": 0.485783,
+      "pnl": -0.1,
+      "status": "CLOSED"
+    },
+    {
+      "id": 305,
+      "time": "04:50:10",
+      "strategy": "momentum",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505607,
+      "exit": 0.485711,
+      "pnl": -0.1,
+      "status": "CLOSED"
+    },
+    {
+      "id": 306,
+      "time": "04:50:10",
+      "strategy": "OrderBookSlope",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505674,
+      "exit": 0.505554,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 307,
+      "time": "04:50:10",
+      "strategy": "AsymmetricMomentum",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505529,
+      "exit": 0.49461,
+      "pnl": -0.05,
+      "status": "CLOSED"
+    },
+    {
+      "id": 308,
+      "time": "04:50:10",
+      "strategy": "VolatilityClustering",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505797,
+      "exit": 0.495719,
+      "pnl": 0.05,
+      "status": "CLOSED"
+    },
+    {
+      "id": 309,
+      "time": "04:50:15",
+      "strategy": "RangeBoundMeanReversion",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504206,
+      "exit": 0.495632,
+      "pnl": 0.05,
+      "status": "CLOSED"
+    },
+    {
+      "id": 310,
+      "time": "04:50:56",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504578,
+      "exit": 0.494397,
+      "pnl": -0.05,
+      "status": "CLOSED"
+    },
+    {
+      "id": 311,
+      "time": "04:55:57",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505707,
+      "exit": 0.494293,
+      "pnl": -0.05,
+      "status": "CLOSED"
+    },
+    {
+      "id": 312,
+      "time": "05:00:57",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.50537,
+      "exit": 0.494377,
+      "pnl": -0.05,
+      "status": "CLOSED"
+    },
+    {
+      "id": 313,
+      "time": "05:05:58",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504595,
+      "exit": 0.494597,
+      "pnl": -0.05,
+      "status": "CLOSED"
+    },
+    {
+      "id": 314,
+      "time": "05:07:34",
+      "strategy": "volatility_scorer",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504615,
+      "exit": 0.494605,
+      "pnl": -0.05,
+      "status": "CLOSED"
+    },
+    {
+      "id": 315,
+      "time": "05:10:59",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505764,
+      "exit": 0.495652,
+      "pnl": 0.05,
+      "status": "CLOSED"
+    },
+    {
+      "id": 316,
+      "time": "05:12:34",
+      "strategy": "volatility_scorer",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504482,
+      "exit": 0.505337,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 317,
+      "time": "05:13:54",
+      "strategy": "momentum",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.52042,
+      "exit": 0.475311,
+      "pnl": -0.1,
+      "status": "CLOSED"
+    },
+    {
+      "id": 318,
+      "time": "05:13:55",
+      "strategy": "HighProbConvergence",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.519677,
+      "exit": 0.474207,
+      "pnl": 0.1,
+      "status": "CLOSED"
+    },
+    {
+      "id": 319,
+      "time": "05:13:55",
+      "strategy": "BollingerBands",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.519606,
+      "exit": 0.474619,
+      "pnl": 0.1,
+      "status": "CLOSED"
+    },
+    {
+      "id": 320,
+      "time": "05:13:55",
+      "strategy": "GammaScalp",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.520368,
+      "exit": 0.474664,
+      "pnl": 0.1,
+      "status": "CLOSED"
+    },
+    {
+      "id": 321,
+      "time": "05:13:55",
+      "strategy": "OrderBookSlope",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.520405,
+      "exit": 0.284456,
+      "pnl": 1.05,
+      "status": "CLOSED"
+    },
+    {
+      "id": 322,
+      "time": "05:13:55",
+      "strategy": "LateEntryMomentum",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.520593,
+      "exit": 0.285554,
+      "pnl": -1.05,
+      "status": "CLOSED"
+    },
+    {
+      "id": 323,
+      "time": "05:13:56",
+      "strategy": "AsymmetricMomentum",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.520529,
+      "exit": 0.284268,
+      "pnl": 1.1,
+      "status": "CLOSED"
+    },
+    {
+      "id": 324,
+      "time": "05:13:56",
+      "strategy": "VolatilityClustering",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.520707,
+      "exit": 0.284389,
+      "pnl": 1.1,
+      "status": "CLOSED"
+    },
+    {
+      "id": 325,
+      "time": "05:14:01",
+      "strategy": "RangeBoundMeanReversion",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.519443,
+      "exit": 0.285639,
+      "pnl": -1.1,
+      "status": "CLOSED"
+    },
+    {
+      "id": 326,
+      "time": "05:16:01",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505381,
+      "exit": 0.284519,
+      "pnl": 0.95,
+      "status": "CLOSED"
+    },
+    {
+      "id": 327,
+      "time": "05:17:36",
+      "strategy": "volatility_scorer",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504361,
+      "exit": 0.284527,
+      "pnl": 0.95,
+      "status": "CLOSED"
+    },
+    {
+      "id": 328,
+      "time": "05:21:02",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504368,
+      "exit": 0.284217,
+      "pnl": 0.95,
+      "status": "CLOSED"
+    },
+    {
+      "id": 329,
+      "time": "05:21:58",
+      "strategy": "momentum",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.515592,
+      "exit": 0.494373,
+      "pnl": -1.05,
+      "status": "CLOSED"
+    },
+    {
+      "id": 330,
+      "time": "05:21:58",
+      "strategy": "HighProbConvergence",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.514307,
+      "exit": 0.495461,
+      "pnl": 1.05,
+      "status": "CLOSED"
+    },
+    {
+      "id": 331,
+      "time": "05:21:58",
+      "strategy": "OrderBookSlope",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.51544,
+      "exit": 0.494494,
+      "pnl": -1.05,
+      "status": "CLOSED"
+    },
+    {
+      "id": 332,
+      "time": "05:21:58",
+      "strategy": "AsymmetricMomentum",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.515565,
+      "exit": 0.494573,
+      "pnl": -1.05,
+      "status": "CLOSED"
+    },
+    {
+      "id": 333,
+      "time": "05:21:58",
+      "strategy": "VolatilityClustering",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.515306,
+      "exit": 0.495454,
+      "pnl": 1.05,
+      "status": "CLOSED"
+    },
+    {
+      "id": 334,
+      "time": "05:22:04",
+      "strategy": "BollingerBands",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.514447,
+      "exit": 0.495453,
+      "pnl": 1.05,
+      "status": "CLOSED"
+    },
+    {
+      "id": 335,
+      "time": "05:22:04",
+      "strategy": "RangeBoundMeanReversion",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.514517,
+      "exit": 0.495585,
+      "pnl": 1.05,
+      "status": "CLOSED"
+    },
+    {
+      "id": 336,
+      "time": "05:22:40",
+      "strategy": "volatility_scorer",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.515612,
+      "exit": 0.49445,
+      "pnl": -1.05,
+      "status": "CLOSED"
+    },
+    {
+      "id": 337,
+      "time": "05:24:00",
+      "strategy": "GammaScalp",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.545643,
+      "exit": 0.494267,
+      "pnl": -1.05,
+      "status": "CLOSED"
+    },
+    {
+      "id": 338,
+      "time": "05:24:00",
+      "strategy": "LateEntryMomentum",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.545382,
+      "exit": 0.49467,
+      "pnl": -1.05,
+      "status": "CLOSED"
+    },
+    {
+      "id": 339,
+      "time": "05:26:05",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504464,
+      "exit": 0.495309,
+      "pnl": 1.05,
+      "status": "CLOSED"
+    },
+    {
+      "id": 340,
+      "time": "05:27:16",
+      "strategy": "AsymmetricMomentum",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504228,
+      "exit": 0.494523,
+      "pnl": -1.05,
+      "status": "CLOSED"
+    },
+    {
+      "id": 341,
+      "time": "05:27:41",
+      "strategy": "volatility_scorer",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.50542,
+      "exit": 0.494453,
+      "pnl": -1.05,
+      "status": "CLOSED"
+    },
+    {
+      "id": 342,
+      "time": "05:31:06",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504528,
+      "exit": 0.70576,
+      "pnl": 1.05,
+      "status": "CLOSED"
+    },
+    {
+      "id": 343,
+      "time": "05:32:02",
+      "strategy": "momentum",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.379623,
+      "exit": 0.704549,
+      "pnl": -1.05,
+      "status": "CLOSED"
+    },
+    {
+      "id": 344,
+      "time": "05:32:02",
+      "strategy": "HighProbConvergence",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.380375,
+      "exit": 0.705432,
+      "pnl": 1.05,
+      "status": "CLOSED"
+    },
+    {
+      "id": 345,
+      "time": "05:32:02",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.379589,
+      "exit": 0.704236,
+      "pnl": -1.05,
+      "status": "CLOSED"
+    },
+    {
+      "id": 346,
+      "time": "05:32:02",
+      "strategy": "EMAArbitrage",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.37924,
+      "exit": 0.7053,
+      "pnl": 1.05,
+      "status": "CLOSED"
+    },
+    {
+      "id": 347,
+      "time": "05:32:02",
+      "strategy": "BollingerBands",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.380509,
+      "exit": 0.70543,
+      "pnl": 1.05,
+      "status": "CLOSED"
+    },
+    {
+      "id": 348,
+      "time": "05:32:02",
+      "strategy": "OrderBookSlope",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.379673,
+      "exit": 0.705308,
+      "pnl": 1.05,
+      "status": "CLOSED"
+    },
+    {
+      "id": 349,
+      "time": "05:32:02",
+      "strategy": "NoFarming",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.379298,
+      "exit": 0.705575,
+      "pnl": 1.15,
+      "status": "CLOSED"
+    },
+    {
+      "id": 350,
+      "time": "05:32:03",
+      "strategy": "AsymmetricMomentum",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.379667,
+      "exit": 0.705689,
+      "pnl": 1.15,
+      "status": "CLOSED"
+    },
+    {
+      "id": 351,
+      "time": "05:32:03",
+      "strategy": "VolatilityClustering",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.379642,
+      "exit": 0.705714,
+      "pnl": 1.15,
+      "status": "CLOSED"
+    },
+    {
+      "id": 352,
+      "time": "05:32:03",
+      "strategy": "FlashCrash",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.380595,
+      "exit": 0.505679,
+      "pnl": -1.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 353,
+      "time": "05:32:18",
+      "strategy": "KellyCriterion",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.379594,
+      "exit": 0.504216,
+      "pnl": 1.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 354,
+      "time": "05:35:04",
+      "strategy": "momentum",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505385,
+      "exit": 0.504506,
+      "pnl": 1.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 355,
+      "time": "05:35:04",
+      "strategy": "HighProbConvergence",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504609,
+      "exit": 0.505597,
+      "pnl": -1.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 356,
+      "time": "05:35:04",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504244,
+      "exit": 0.504466,
+      "pnl": 1.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 357,
+      "time": "05:35:05",
+      "strategy": "EMAArbitrage",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505793,
+      "exit": 0.504307,
+      "pnl": 1.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 358,
+      "time": "05:35:05",
+      "strategy": "BollingerBands",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.50431,
+      "exit": 0.505437,
+      "pnl": -1.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 359,
+      "time": "05:35:05",
+      "strategy": "GammaScalp",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505716,
+      "exit": 0.505445,
+      "pnl": -1.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 360,
+      "time": "05:35:05",
+      "strategy": "OrderBookSlope",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505713,
+      "exit": 0.50567,
+      "pnl": -1.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 361,
+      "time": "05:35:05",
+      "strategy": "AsymmetricMomentum",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505673,
+      "exit": 0.505474,
+      "pnl": -1.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 362,
+      "time": "05:35:05",
+      "strategy": "VolatilityClustering",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505395,
+      "exit": 0.504611,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 363,
+      "time": "05:35:21",
+      "strategy": "KellyCriterion",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505447,
+      "exit": 0.505634,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 364,
+      "time": "05:40:07",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504507,
+      "exit": 0.505555,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 365,
+      "time": "05:45:08",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504306,
+      "exit": 0.504572,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 366,
+      "time": "05:50:08",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505425,
+      "exit": 0.505764,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 367,
+      "time": "05:55:09",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504431,
+      "exit": 0.505558,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 368,
+      "time": "06:00:05",
+      "strategy": "momentum",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.494547,
+      "exit": 0.504323,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 369,
+      "time": "06:00:05",
+      "strategy": "HighProbConvergence",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.49572,
+      "exit": 0.504505,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 370,
+      "time": "06:00:05",
+      "strategy": "OrderBookSlope",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.494536,
+      "exit": 0.504374,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 371,
+      "time": "06:00:05",
+      "strategy": "AsymmetricMomentum",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.494662,
+      "exit": 0.50535,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 372,
+      "time": "06:00:05",
+      "strategy": "VolatilityClustering",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.494457,
+      "exit": 0.504611,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 373,
+      "time": "06:00:10",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.495415,
+      "exit": 0.504452,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 374,
+      "time": "06:00:11",
+      "strategy": "BollingerBands",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.495592,
+      "exit": 0.504421,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 375,
+      "time": "06:00:11",
+      "strategy": "RangeBoundMeanReversion",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.495462,
+      "exit": 0.504562,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 376,
+      "time": "06:03:27",
+      "strategy": "GammaScalp",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.474446,
+      "exit": 0.504593,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 377,
+      "time": "06:05:07",
+      "strategy": "momentum",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505659,
+      "exit": 0.504298,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 378,
+      "time": "06:05:07",
+      "strategy": "HighProbConvergence",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504654,
+      "exit": 0.504489,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 379,
+      "time": "06:05:12",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505413,
+      "exit": 0.505576,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 380,
+      "time": "06:05:43",
+      "strategy": "AsymmetricMomentum",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505392,
+      "exit": 0.504542,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 381,
+      "time": "06:05:58",
+      "strategy": "OrderBookSlope",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505789,
+      "exit": 0.50573,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 382,
+      "time": "06:10:09",
+      "strategy": "LiquidityShock",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504282,
+      "exit": 0.504474,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 383,
+      "time": "06:10:14",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504549,
+      "exit": 0.494607,
+      "pnl": 0.05,
+      "status": "CLOSED"
+    },
+    {
+      "id": 384,
+      "time": "06:10:40",
+      "strategy": "momentum",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504337,
+      "exit": 0.494453,
+      "pnl": 0.05,
+      "status": "CLOSED"
+    },
+    {
+      "id": 385,
+      "time": "06:10:55",
+      "strategy": "AsymmetricMomentum",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504363,
+      "exit": 0.504365,
+      "pnl": -0.05,
+      "status": "CLOSED"
+    },
+    {
+      "id": 386,
+      "time": "06:11:31",
+      "strategy": "OrderBookSlope",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504349,
+      "exit": 0.505373,
+      "pnl": 0.05,
+      "status": "CLOSED"
+    },
+    {
+      "id": 387,
+      "time": "06:11:42",
+      "strategy": "HighProbConvergence",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.495712,
+      "exit": 0.504391,
+      "pnl": -0.05,
+      "status": "CLOSED"
+    },
+    {
+      "id": 388,
+      "time": "06:11:42",
+      "strategy": "GammaScalp",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.49533,
+      "exit": 0.504391,
+      "pnl": -0.05,
+      "status": "CLOSED"
+    },
+    {
+      "id": 389,
+      "time": "06:11:47",
+      "strategy": "BollingerBands",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.495723,
+      "exit": 0.504233,
+      "pnl": -0.05,
+      "status": "CLOSED"
+    },
+    {
+      "id": 390,
+      "time": "06:11:47",
+      "strategy": "RangeBoundMeanReversion",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.495397,
+      "exit": 0.505305,
+      "pnl": 0.05,
+      "status": "CLOSED"
+    },
+    {
+      "id": 391,
+      "time": "06:15:18",
+      "strategy": "volatility_scorer",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505683,
+      "exit": 0.505582,
+      "pnl": 0.05,
+      "status": "CLOSED"
+    },
+    {
+      "id": 392,
+      "time": "06:15:18",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504688,
+      "exit": 0.505764,
+      "pnl": 0.05,
+      "status": "CLOSED"
+    },
+    {
+      "id": 393,
+      "time": "06:15:43",
+      "strategy": "momentum",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505794,
+      "exit": 0.504613,
+      "pnl": -0.05,
+      "status": "CLOSED"
+    },
+    {
+      "id": 394,
+      "time": "06:16:34",
+      "strategy": "AsymmetricMomentum",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505432,
+      "exit": 0.504246,
+      "pnl": -0.1,
+      "status": "CLOSED"
+    },
+    {
+      "id": 395,
+      "time": "06:17:49",
+      "strategy": "HighProbConvergence",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.495612,
+      "exit": 0.50538,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 396,
+      "time": "06:17:49",
+      "strategy": "OrderBookSlope",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.494424,
+      "exit": 0.504323,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 397,
+      "time": "06:17:49",
+      "strategy": "VolatilityClustering",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.494609,
+      "exit": 0.505477,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 398,
+      "time": "06:17:54",
+      "strategy": "BollingerBands",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.495602,
+      "exit": 0.505556,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 399,
+      "time": "06:17:55",
+      "strategy": "RangeBoundMeanReversion",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.495519,
+      "exit": 0.505743,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 400,
+      "time": "06:20:10",
+      "strategy": "LiquidityShock",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504644,
+      "exit": 0.50439,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 401,
+      "time": "06:20:21",
+      "strategy": "volatility_scorer",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504382,
+      "exit": 0.505691,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 402,
+      "time": "06:20:22",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504458,
+      "exit": 0.584354,
+      "pnl": -0.4,
+      "status": "CLOSED"
+    },
+    {
+      "id": 403,
+      "time": "06:20:47",
+      "strategy": "momentum",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504211,
+      "exit": 0.585444,
+      "pnl": 0.4,
+      "status": "CLOSED"
+    },
+    {
+      "id": 404,
+      "time": "06:21:57",
+      "strategy": "AsymmetricMomentum",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505468,
+      "exit": 0.584682,
+      "pnl": -0.4,
+      "status": "CLOSED"
+    },
+    {
+      "id": 405,
+      "time": "06:24:28",
+      "strategy": "HighProbConvergence",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.534316,
+      "exit": 0.505346,
+      "pnl": -0.4,
+      "status": "CLOSED"
+    },
+    {
+      "id": 406,
+      "time": "06:24:28",
+      "strategy": "BollingerBands",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.53452,
+      "exit": 0.505593,
+      "pnl": -0.4,
+      "status": "CLOSED"
+    },
+    {
+      "id": 407,
+      "time": "06:24:28",
+      "strategy": "GammaScalp",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.535542,
+      "exit": 0.504692,
+      "pnl": 0.4,
+      "status": "CLOSED"
+    },
+    {
+      "id": 408,
+      "time": "06:24:29",
+      "strategy": "OrderBookSlope",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.535513,
+      "exit": 0.505769,
+      "pnl": -0.4,
+      "status": "CLOSED"
+    },
+    {
+      "id": 409,
+      "time": "06:24:29",
+      "strategy": "LateEntryMomentum",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.535431,
+      "exit": 0.505434,
+      "pnl": -0.4,
+      "status": "CLOSED"
+    },
+    {
+      "id": 410,
+      "time": "06:24:29",
+      "strategy": "VolatilityClustering",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.535436,
+      "exit": 0.504561,
+      "pnl": 0.4,
+      "status": "CLOSED"
+    },
+    {
+      "id": 411,
+      "time": "06:25:25",
+      "strategy": "volatility_scorer",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504284,
+      "exit": 0.505391,
+      "pnl": -0.4,
+      "status": "CLOSED"
+    },
+    {
+      "id": 412,
+      "time": "06:25:25",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505723,
+      "exit": 0.505714,
+      "pnl": -0.4,
+      "status": "CLOSED"
+    },
+    {
+      "id": 413,
+      "time": "06:29:37",
+      "strategy": "momentum",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.565403,
+      "exit": 0.505486,
+      "pnl": -0.4,
+      "status": "CLOSED"
+    },
+    {
+      "id": 414,
+      "time": "06:29:37",
+      "strategy": "volatility_scorer",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.565494,
+      "exit": 0.5057,
+      "pnl": -0.4,
+      "status": "CLOSED"
+    },
+    {
+      "id": 415,
+      "time": "06:29:37",
+      "strategy": "HighProbConvergence",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.564436,
+      "exit": 0.504484,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 416,
+      "time": "06:29:37",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.564383,
+      "exit": 0.505512,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 417,
+      "time": "06:29:38",
+      "strategy": "EMAArbitrage",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.565635,
+      "exit": 0.504519,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 418,
+      "time": "06:29:39",
+      "strategy": "BollingerBands",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.564254,
+      "exit": 0.504488,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 419,
+      "time": "06:29:39",
+      "strategy": "IVMR",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.564578,
+      "exit": 0.505472,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 420,
+      "time": "06:29:39",
+      "strategy": "GammaScalp",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.565719,
+      "exit": 0.504652,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 421,
+      "time": "06:29:39",
+      "strategy": "OrderBookSlope",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.565622,
+      "exit": 0.504482,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 422,
+      "time": "06:29:39",
+      "strategy": "LateEntryMomentum",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.565714,
+      "exit": 0.504372,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 423,
+      "time": "06:29:39",
+      "strategy": "AsymmetricMomentum",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.565405,
+      "exit": 0.505653,
+      "pnl": -0.15,
+      "status": "CLOSED"
+    },
+    {
+      "id": 424,
+      "time": "06:29:40",
+      "strategy": "VolatilityClustering",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.565541,
+      "exit": 0.505471,
+      "pnl": -0.15,
+      "status": "CLOSED"
+    },
+    {
+      "id": 425,
+      "time": "06:30:07",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504473,
+      "exit": 0.444345,
+      "pnl": 0.3,
+      "status": "CLOSED"
+    },
+    {
+      "id": 426,
+      "time": "06:30:07",
+      "strategy": "LiquidityShock",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504412,
+      "exit": 0.445696,
+      "pnl": -0.3,
+      "status": "CLOSED"
+    },
+    {
+      "id": 427,
+      "time": "06:30:07",
+      "strategy": "IVMR",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505462,
+      "exit": 0.444576,
+      "pnl": 0.3,
+      "status": "CLOSED"
+    },
+    {
+      "id": 428,
+      "time": "06:30:27",
+      "strategy": "momentum",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504265,
+      "exit": 0.444638,
+      "pnl": 0.3,
+      "status": "CLOSED"
+    },
+    {
+      "id": 429,
+      "time": "06:30:38",
+      "strategy": "AsymmetricMomentum",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504283,
+      "exit": 0.444628,
+      "pnl": 0.3,
+      "status": "CLOSED"
+    },
+    {
+      "id": 430,
+      "time": "06:30:48",
+      "strategy": "EMAArbitrage",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504224,
+      "exit": 0.444221,
+      "pnl": -0.3,
+      "status": "CLOSED"
+    },
+    {
+      "id": 431,
+      "time": "06:31:18",
+      "strategy": "OrderBookSlope",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.50453,
+      "exit": 0.504226,
+      "pnl": -0.3,
+      "status": "CLOSED"
+    },
+    {
+      "id": 432,
+      "time": "06:31:23",
+      "strategy": "volatility_scorer",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504551,
+      "exit": 0.504616,
+      "pnl": -0.3,
+      "status": "CLOSED"
+    },
+    {
+      "id": 433,
+      "time": "06:33:15",
+      "strategy": "momentum",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.094291,
+      "exit": 0.505586,
+      "pnl": 0.3,
+      "status": "CLOSED"
+    },
+    {
+      "id": 434,
+      "time": "06:33:15",
+      "strategy": "HighProbConvergence",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.095716,
+      "exit": 0.504224,
+      "pnl": -0.3,
+      "status": "CLOSED"
+    },
+    {
+      "id": 435,
+      "time": "06:33:15",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.094229,
+      "exit": 0.504526,
+      "pnl": -0.3,
+      "status": "CLOSED"
+    },
+    {
+      "id": 436,
+      "time": "06:33:16",
+      "strategy": "EMAArbitrage",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.094592,
+      "exit": 0.505434,
+      "pnl": 0.3,
+      "status": "CLOSED"
+    },
+    {
+      "id": 437,
+      "time": "06:33:16",
+      "strategy": "BollingerBands",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.095544,
+      "exit": 0.504485,
+      "pnl": -0.3,
+      "status": "CLOSED"
+    },
+    {
+      "id": 438,
+      "time": "06:33:16",
+      "strategy": "PriceSkew",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.095618,
+      "exit": 0.504635,
+      "pnl": -0.3,
+      "status": "CLOSED"
+    },
+    {
+      "id": 439,
+      "time": "06:33:16",
+      "strategy": "IVMR",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.09563,
+      "exit": 0.504305,
+      "pnl": -0.3,
+      "status": "CLOSED"
+    },
+    {
+      "id": 440,
+      "time": "06:33:16",
+      "strategy": "TimeDecayScalper",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.09431,
+      "exit": 0.50441,
+      "pnl": -0.3,
+      "status": "CLOSED"
+    },
+    {
+      "id": 441,
+      "time": "06:33:17",
+      "strategy": "OrderBookSlope",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.094398,
+      "exit": 0.504683,
+      "pnl": -0.3,
+      "status": "CLOSED"
+    },
+    {
+      "id": 442,
+      "time": "06:33:17",
+      "strategy": "KellyCriterion",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.09439,
+      "exit": 0.504358,
+      "pnl": -0.3,
+      "status": "CLOSED"
+    },
+    {
+      "id": 443,
+      "time": "06:33:18",
+      "strategy": "NoFarming",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.094536,
+      "exit": 0.505324,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 444,
+      "time": "06:33:18",
+      "strategy": "AsymmetricMomentum",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.094429,
+      "exit": 0.505623,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 445,
+      "time": "06:33:18",
+      "strategy": "VolatilityClustering",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.094433,
+      "exit": 0.505473,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 446,
+      "time": "06:33:18",
+      "strategy": "FlashCrash",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.095556,
+      "exit": 0.505692,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 447,
+      "time": "06:33:18",
+      "strategy": "ProbabilityConstraintArbitrage",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.095397,
+      "exit": 0.505578,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 448,
+      "time": "06:34:04",
+      "strategy": "FeeOptimizedScalper",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.095419,
+      "exit": 0.495728,
+      "pnl": -0.05,
+      "status": "CLOSED"
+    },
+    {
+      "id": 449,
+      "time": "06:35:07",
+      "strategy": "momentum",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505722,
+      "exit": 0.494559,
+      "pnl": -0.05,
+      "status": "CLOSED"
+    },
+    {
+      "id": 450,
+      "time": "06:35:07",
+      "strategy": "HighProbConvergence",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504689,
+      "exit": 0.575536,
+      "pnl": 0.35,
+      "status": "CLOSED"
+    },
+    {
+      "id": 451,
+      "time": "06:35:07",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505532,
+      "exit": 0.574265,
+      "pnl": -0.4,
+      "status": "CLOSED"
+    },
+    {
+      "id": 452,
+      "time": "06:35:08",
+      "strategy": "EMAArbitrage",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505781,
+      "exit": 0.575325,
+      "pnl": 0.4,
+      "status": "CLOSED"
+    },
+    {
+      "id": 453,
+      "time": "06:35:08",
+      "strategy": "BollingerBands",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504377,
+      "exit": 0.574361,
+      "pnl": -0.4,
+      "status": "CLOSED"
+    },
+    {
+      "id": 454,
+      "time": "06:35:08",
+      "strategy": "IVMR",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504629,
+      "exit": 0.574562,
+      "pnl": -0.4,
+      "status": "CLOSED"
+    },
+    {
+      "id": 455,
+      "time": "06:35:08",
+      "strategy": "GammaScalp",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505784,
+      "exit": 0.575488,
+      "pnl": 0.4,
+      "status": "CLOSED"
+    },
+    {
+      "id": 456,
+      "time": "06:35:08",
+      "strategy": "KellyCriterion",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505323,
+      "exit": 0.575618,
+      "pnl": 0.4,
+      "status": "CLOSED"
+    },
+    {
+      "id": 457,
+      "time": "06:35:09",
+      "strategy": "AsymmetricMomentum",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505599,
+      "exit": 0.575452,
+      "pnl": 0.4,
+      "status": "CLOSED"
+    },
+    {
+      "id": 458,
+      "time": "06:35:10",
+      "strategy": "VolatilityClustering",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505644,
+      "exit": 0.574292,
+      "pnl": -0.4,
+      "status": "CLOSED"
+    },
+    {
+      "id": 459,
+      "time": "06:35:46",
+      "strategy": "OrderBookSlope",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505487,
+      "exit": 0.574225,
+      "pnl": -0.4,
+      "status": "CLOSED"
+    },
+    {
+      "id": 460,
+      "time": "06:39:11",
+      "strategy": "LateEntryMomentum",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.545555,
+      "exit": 0.840375,
+      "pnl": 1.32,
+      "status": "CLOSED"
+    },
+    {
+      "id": 461,
+      "time": "06:40:08",
+      "strategy": "momentum",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504238,
+      "exit": 0.840365,
+      "pnl": 1.32,
+      "status": "CLOSED"
+    },
+    {
+      "id": 462,
+      "time": "06:40:09",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505769,
+      "exit": 0.839443,
+      "pnl": -1.32,
+      "status": "CLOSED"
+    },
+    {
+      "id": 463,
+      "time": "06:40:09",
+      "strategy": "LiquidityShock",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504573,
+      "exit": 0.839286,
+      "pnl": -1.32,
+      "status": "CLOSED"
+    },
+    {
+      "id": 464,
+      "time": "06:40:49",
+      "strategy": "OrderBookSlope",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504271,
+      "exit": 0.840445,
+      "pnl": 1.32,
+      "status": "CLOSED"
+    },
+    {
+      "id": 465,
+      "time": "06:40:55",
+      "strategy": "AsymmetricMomentum",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504466,
+      "exit": 0.839515,
+      "pnl": -1.33,
+      "status": "CLOSED"
+    },
+    {
+      "id": 466,
+      "time": "06:44:41",
+      "strategy": "momentum",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.820332,
+      "exit": 0.840722,
+      "pnl": 1.33,
+      "status": "CLOSED"
+    },
+    {
+      "id": 467,
+      "time": "06:44:42",
+      "strategy": "HighProbConvergence",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.819538,
+      "exit": 0.840645,
+      "pnl": 1.33,
+      "status": "CLOSED"
+    },
+    {
+      "id": 468,
+      "time": "06:44:42",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.819389,
+      "exit": 0.840664,
+      "pnl": 1.33,
+      "status": "CLOSED"
+    },
+    {
+      "id": 469,
+      "time": "06:44:42",
+      "strategy": "EMAArbitrage",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.820389,
+      "exit": 0.840427,
+      "pnl": 1.32,
+      "status": "CLOSED"
+    },
+    {
+      "id": 470,
+      "time": "06:44:42",
+      "strategy": "BollingerBands",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.819309,
+      "exit": 0.840717,
+      "pnl": 1.33,
+      "status": "CLOSED"
+    },
+    {
+      "id": 471,
+      "time": "06:44:43",
+      "strategy": "IVMR",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.819339,
+      "exit": 0.505455,
+      "pnl": -1.67,
+      "status": "CLOSED"
+    },
+    {
+      "id": 472,
+      "time": "06:44:43",
+      "strategy": "OrderBookSlope",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.820429,
+      "exit": 0.50437,
+      "pnl": 1.67,
+      "status": "CLOSED"
+    },
+    {
+      "id": 473,
+      "time": "06:44:43",
+      "strategy": "LateEntryMomentum",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.820406,
+      "exit": 0.504571,
+      "pnl": 1.68,
+      "status": "CLOSED"
+    },
+    {
+      "id": 474,
+      "time": "06:44:43",
+      "strategy": "KellyCriterion",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.820526,
+      "exit": 0.505604,
+      "pnl": -1.67,
+      "status": "CLOSED"
+    },
+    {
+      "id": 475,
+      "time": "06:44:44",
+      "strategy": "AsymmetricMomentum",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.820621,
+      "exit": 0.459665,
+      "pnl": 0.22,
+      "status": "CLOSED"
+    },
+    {
+      "id": 476,
+      "time": "06:44:44",
+      "strategy": "VolatilityClustering",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.820611,
+      "exit": 0.459277,
+      "pnl": 0.23,
+      "status": "CLOSED"
+    },
+    {
+      "id": 477,
+      "time": "06:45:06",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505509,
+      "exit": 0.460446,
+      "pnl": -0.23,
+      "status": "CLOSED"
+    },
+    {
+      "id": 478,
+      "time": "06:45:06",
+      "strategy": "LiquidityShock",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504312,
+      "exit": 0.460753,
+      "pnl": -0.22,
+      "status": "CLOSED"
+    },
+    {
+      "id": 479,
+      "time": "06:45:07",
+      "strategy": "IVMR",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505468,
+      "exit": 0.460607,
+      "pnl": -0.22,
+      "status": "CLOSED"
+    },
+    {
+      "id": 480,
+      "time": "06:45:07",
+      "strategy": "GammaScalp",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504433,
+      "exit": 0.460643,
+      "pnl": -0.22,
+      "status": "CLOSED"
+    },
+    {
+      "id": 481,
+      "time": "06:45:07",
+      "strategy": "FlashCrash",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505667,
+      "exit": 0.50561,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 482,
+      "time": "06:45:33",
+      "strategy": "momentum",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504529,
+      "exit": 0.50538,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 483,
+      "time": "06:45:43",
+      "strategy": "AsymmetricMomentum",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504301,
+      "exit": 0.504213,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 484,
+      "time": "06:45:48",
+      "strategy": "EMAArbitrage",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504423,
+      "exit": 0.505311,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 485,
+      "time": "06:46:24",
+      "strategy": "OrderBookSlope",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504269,
+      "exit": 0.504432,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 486,
+      "time": "06:46:49",
+      "strategy": "InformationDivergence",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505418,
+      "exit": 0.50452,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 487,
+      "time": "06:50:06",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505591,
+      "exit": 0.50425,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 488,
+      "time": "06:52:13",
+      "strategy": "InformationDivergence",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505341,
+      "exit": 0.504395,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 489,
+      "time": "06:53:38",
+      "strategy": "momentum",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.565751,
+      "exit": 0.505546,
+      "pnl": 0.05,
+      "status": "CLOSED"
+    },
+    {
+      "id": 490,
+      "time": "06:53:39",
+      "strategy": "HighProbConvergence",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.564669,
+      "exit": 0.505668,
+      "pnl": 0.05,
+      "status": "CLOSED"
+    },
+    {
+      "id": 491,
+      "time": "06:53:39",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.565315,
+      "exit": 0.50566,
+      "pnl": 0.23,
+      "status": "CLOSED"
+    },
+    {
+      "id": 492,
+      "time": "06:53:39",
+      "strategy": "EMAArbitrage",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.565363,
+      "exit": 0.505442,
+      "pnl": 0.23,
+      "status": "CLOSED"
+    },
+    {
+      "id": 493,
+      "time": "06:53:39",
+      "strategy": "BollingerBands",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.564327,
+      "exit": 0.504374,
+      "pnl": -0.22,
+      "status": "CLOSED"
+    },
+    {
+      "id": 494,
+      "time": "06:53:39",
+      "strategy": "GammaScalp",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.565625,
+      "exit": 0.5046,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 495,
+      "time": "06:53:40",
+      "strategy": "OrderBookSlope",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.565734,
+      "exit": 0.505322,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 496,
+      "time": "06:53:41",
+      "strategy": "AsymmetricMomentum",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.565641,
+      "exit": 0.505415,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 497,
+      "time": "06:53:41",
+      "strategy": "VolatilityClustering",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.565387,
+      "exit": 0.505514,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 498,
+      "time": "06:53:46",
+      "strategy": "LateEntryMomentum",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.565662,
+      "exit": 0.50533,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 499,
+      "time": "06:55:09",
+      "strategy": "momentum",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504326,
+      "exit": 0.505487,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 500,
+      "time": "06:55:09",
+      "strategy": "HighProbConvergence",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505396,
+      "exit": 0.505381,
+      "pnl": 0.2,
+      "status": "CLOSED"
+    },
+    {
+      "id": 501,
+      "time": "06:55:09",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504384,
+      "exit": 0.504376,
+      "pnl": -0.2,
+      "status": "CLOSED"
+    },
+    {
+      "id": 502,
+      "time": "06:55:09",
+      "strategy": "BollingerBands",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505538,
+      "exit": 0.504348,
+      "pnl": -0.2,
+      "status": "CLOSED"
+    },
+    {
+      "id": 503,
+      "time": "06:55:20",
+      "strategy": "EMAArbitrage",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504351,
+      "exit": 0.504388,
+      "pnl": -0.2,
+      "status": "CLOSED"
+    },
+    {
+      "id": 504,
+      "time": "06:55:25",
+      "strategy": "GammaScalp",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504381,
+      "exit": 0.504364,
+      "pnl": -0.2,
+      "status": "CLOSED"
+    },
+    {
+      "id": 505,
+      "time": "06:55:26",
+      "strategy": "AsymmetricMomentum",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504276,
+      "exit": 0.504665,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 506,
+      "time": "06:56:16",
+      "strategy": "OrderBookSlope",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504271,
+      "exit": 0.505625,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 507,
+      "time": "06:56:46",
+      "strategy": "RangeBoundMeanReversion",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.49578,
+      "exit": 0.505681,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 508,
+      "time": "06:56:51",
+      "strategy": "VolatilityClustering",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.494549,
+      "exit": 0.50531,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 509,
+      "time": "06:58:33",
+      "strategy": "momentum",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.55568,
+      "exit": 0.505367,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 510,
+      "time": "06:58:34",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.554436,
+      "exit": 0.505528,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 511,
+      "time": "06:58:34",
+      "strategy": "EMAArbitrage",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.555778,
+      "exit": 0.505573,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 512,
+      "time": "06:58:34",
+      "strategy": "VolatilityExpansion",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.555545,
+      "exit": 0.495469,
+      "pnl": -0.05,
+      "status": "CLOSED"
+    },
+    {
+      "id": 513,
+      "time": "06:58:34",
+      "strategy": "GammaScalp",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.555726,
+      "exit": 0.495757,
+      "pnl": -0.05,
+      "status": "CLOSED"
+    },
+    {
+      "id": 514,
+      "time": "06:58:36",
+      "strategy": "VolatilityClustering",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.555395,
+      "exit": 0.504588,
+      "pnl": -0.05,
+      "status": "CLOSED"
+    },
+    {
+      "id": 515,
+      "time": "06:58:41",
+      "strategy": "LateEntryMomentum",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.555444,
+      "exit": 0.505699,
+      "pnl": 0.05,
+      "status": "CLOSED"
+    },
+    {
+      "id": 516,
+      "time": "06:58:41",
+      "strategy": "AsymmetricMomentum",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.555772,
+      "exit": 0.50555,
+      "pnl": 0.05,
+      "status": "CLOSED"
+    },
+    {
+      "id": 517,
+      "time": "06:58:52",
+      "strategy": "OrderBookSlope",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.555766,
+      "exit": 0.504626,
+      "pnl": -0.05,
+      "status": "CLOSED"
+    },
+    {
+      "id": 518,
+      "time": "07:00:08",
+      "strategy": "SerialCorrelation",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.554628,
+      "exit": 0.50427,
+      "pnl": -0.05,
+      "status": "CLOSED"
+    },
+    {
+      "id": 519,
+      "time": "07:00:14",
+      "strategy": "LiquidityShock",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.555402,
+      "exit": 0.504402,
+      "pnl": -0.05,
+      "status": "CLOSED"
+    },
+    {
+      "id": 520,
+      "time": "07:01:50",
+      "strategy": "InformationDivergence",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.555344,
+      "exit": 0.505783,
+      "pnl": 0.05,
+      "status": "CLOSED"
+    },
+    {
+      "id": 521,
+      "time": "07:03:36",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.554334,
+      "exit": 0.505614,
+      "pnl": 0.05,
+      "status": "CLOSED"
+    },
+    {
+      "id": 522,
+      "time": "07:07:14",
+      "strategy": "InformationDivergence",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.555662,
+      "exit": 0.505663,
+      "pnl": 0.05,
+      "status": "CLOSED"
+    },
+    {
+      "id": 523,
+      "time": "07:08:40",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.555329,
+      "exit": 0.505583,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 524,
+      "time": "07:10:25",
+      "strategy": "momentum",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.499354,
+      "exit": 0.504455,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 525,
+      "time": "07:10:26",
+      "strategy": "HighProbConvergence",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.500412,
+      "exit": 0.50458,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 526,
+      "time": "07:10:26",
+      "strategy": "BollingerBands",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.500491,
+      "exit": 0.505527,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 527,
+      "time": "07:10:26",
+      "strategy": "GammaScalp",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.499584,
+      "exit": 0.504612,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 528,
+      "time": "07:10:26",
+      "strategy": "OrderBookSlope",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.499541,
+      "exit": 0.505337,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 529,
+      "time": "07:10:27",
+      "strategy": "AsymmetricMomentum",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.499341,
+      "exit": 0.505665,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 530,
+      "time": "07:10:28",
+      "strategy": "VolatilityClustering",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.499511,
+      "exit": 0.505692,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 531,
+      "time": "07:12:08",
+      "strategy": "InformationDivergence",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.500658,
+      "exit": 0.50558,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 532,
+      "time": "07:13:45",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.500502,
+      "exit": 0.504508,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 533,
+      "time": "07:17:32",
+      "strategy": "InformationDivergence",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.500751,
+      "exit": 0.504314,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 534,
+      "time": "07:18:48",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.499412,
+      "exit": 0.505445,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 535,
+      "time": "07:20:09",
+      "strategy": "momentum",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505722,
+      "exit": 0.504497,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 536,
+      "time": "07:20:09",
+      "strategy": "OrderBookSlope",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505539,
+      "exit": 0.5055,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 537,
+      "time": "07:20:09",
+      "strategy": "AsymmetricMomentum",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505633,
+      "exit": 0.505407,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 538,
+      "time": "07:20:09",
+      "strategy": "VolatilityClustering",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505481,
+      "exit": 0.504622,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 539,
+      "time": "07:20:15",
+      "strategy": "RangeBoundMeanReversion",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504527,
+      "exit": 0.50447,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 540,
+      "time": "07:23:06",
+      "strategy": "InformationDivergence",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505669,
+      "exit": 0.505757,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 541,
+      "time": "07:23:51",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504412,
+      "exit": 0.50445,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 542,
+      "time": "07:25:12",
+      "strategy": "momentum",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.474271,
+      "exit": 0.495606,
+      "pnl": -0.05,
+      "status": "CLOSED"
+    },
+    {
+      "id": 543,
+      "time": "07:25:13",
+      "strategy": "HighProbConvergence",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.475333,
+      "exit": 0.495409,
+      "pnl": -0.05,
+      "status": "CLOSED"
+    },
+    {
+      "id": 544,
+      "time": "07:25:14",
+      "strategy": "BollingerBands",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.475782,
+      "exit": 0.494605,
+      "pnl": -0.05,
+      "status": "CLOSED"
+    },
+    {
+      "id": 545,
+      "time": "07:25:14",
+      "strategy": "GammaScalp",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.474205,
+      "exit": 0.494644,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 546,
+      "time": "07:25:14",
+      "strategy": "OrderBookSlope",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.474601,
+      "exit": 0.495794,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 547,
+      "time": "07:25:14",
+      "strategy": "AsymmetricMomentum",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.47442,
+      "exit": 0.494682,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 548,
+      "time": "07:25:15",
+      "strategy": "VolatilityClustering",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.474563,
+      "exit": 0.494403,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 549,
+      "time": "07:28:56",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.474208,
+      "exit": 0.494594,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 550,
+      "time": "07:30:19",
+      "strategy": "momentum",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.495412,
+      "exit": 0.495498,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 551,
+      "time": "07:30:19",
+      "strategy": "HighProbConvergence",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.494203,
+      "exit": 0.495566,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 552,
+      "time": "07:30:59",
+      "strategy": "AsymmetricMomentum",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.49562,
+      "exit": 0.494683,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 553,
+      "time": "07:31:31",
+      "strategy": "OrderBookSlope",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.495646,
+      "exit": 0.495635,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 554,
+      "time": "07:31:56",
+      "strategy": "InformationDivergence",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.495503,
+      "exit": 0.494381,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 555,
+      "time": "07:33:57",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.494456,
+      "exit": 0.494401,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 556,
+      "time": "07:37:18",
+      "strategy": "InformationDivergence",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.495579,
+      "exit": 0.494243,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 557,
+      "time": "07:38:59",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.495368,
+      "exit": 0.495572,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 558,
+      "time": "07:40:09",
+      "strategy": "momentum",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505678,
+      "exit": 0.50543,
+      "pnl": 0.05,
+      "status": "CLOSED"
+    },
+    {
+      "id": 559,
+      "time": "07:40:10",
+      "strategy": "HighProbConvergence",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504625,
+      "exit": 0.504212,
+      "pnl": -0.05,
+      "status": "CLOSED"
+    },
+    {
+      "id": 560,
+      "time": "07:40:10",
+      "strategy": "OrderBookSlope",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505773,
+      "exit": 0.505599,
+      "pnl": 0.05,
+      "status": "CLOSED"
+    },
+    {
+      "id": 561,
+      "time": "07:40:10",
+      "strategy": "AsymmetricMomentum",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505546,
+      "exit": 0.505423,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 562,
+      "time": "07:40:10",
+      "strategy": "VolatilityClustering",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505753,
+      "exit": 0.504243,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 563,
+      "time": "07:40:16",
+      "strategy": "BollingerBands",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504399,
+      "exit": 0.50556,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 564,
+      "time": "07:40:16",
+      "strategy": "RangeBoundMeanReversion",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504377,
+      "exit": 0.505504,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 565,
+      "time": "07:42:42",
+      "strategy": "InformationDivergence",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505379,
+      "exit": 0.505356,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 566,
+      "time": "07:43:48",
+      "strategy": "volatility_scorer",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504431,
+      "exit": 0.504654,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 567,
+      "time": "07:44:03",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504286,
+      "exit": 0.504456,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 568,
+      "time": "07:48:06",
+      "strategy": "InformationDivergence",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505562,
+      "exit": 0.504345,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 569,
+      "time": "07:48:52",
+      "strategy": "volatility_scorer",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504261,
+      "exit": 0.504642,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 570,
+      "time": "07:49:07",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504475,
+      "exit": 0.505647,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 571,
+      "time": "07:53:28",
+      "strategy": "InformationDivergence",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.50549,
+      "exit": 0.504356,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 572,
+      "time": "07:53:54",
+      "strategy": "volatility_scorer",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505742,
+      "exit": 0.504606,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 573,
+      "time": "07:54:09",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504571,
+      "exit": 0.475641,
+      "pnl": -0.15,
+      "status": "CLOSED"
+    },
+    {
+      "id": 574,
+      "time": "07:58:50",
+      "strategy": "InformationDivergence",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505504,
+      "exit": 0.495509,
+      "pnl": -0.05,
+      "status": "CLOSED"
+    },
+    {
+      "id": 575,
+      "time": "07:58:56",
+      "strategy": "volatility_scorer",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505578,
+      "exit": 0.49464,
+      "pnl": -0.05,
+      "status": "CLOSED"
+    },
+    {
+      "id": 576,
+      "time": "07:59:12",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505447,
+      "exit": 0.494492,
+      "pnl": -0.1,
+      "status": "CLOSED"
+    },
+    {
+      "id": 577,
+      "time": "08:03:59",
+      "strategy": "volatility_scorer",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504331,
+      "exit": 0.495583,
+      "pnl": 0.1,
+      "status": "CLOSED"
+    },
+    {
+      "id": 578,
+      "time": "08:04:14",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504234,
+      "exit": 0.49562,
+      "pnl": 0.1,
+      "status": "CLOSED"
+    },
+    {
+      "id": 579,
+      "time": "08:04:15",
+      "strategy": "InformationDivergence",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505315,
+      "exit": 0.494585,
+      "pnl": -0.1,
+      "status": "CLOSED"
+    },
+    {
+      "id": 580,
+      "time": "08:09:01",
+      "strategy": "volatility_scorer",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505399,
+      "exit": 0.494563,
+      "pnl": -0.1,
+      "status": "CLOSED"
+    },
+    {
+      "id": 581,
+      "time": "08:09:17",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504524,
+      "exit": 0.494318,
+      "pnl": -0.1,
+      "status": "CLOSED"
+    },
+    {
+      "id": 582,
+      "time": "08:09:37",
+      "strategy": "InformationDivergence",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505771,
+      "exit": 0.494261,
+      "pnl": -0.1,
+      "status": "CLOSED"
+    },
+    {
+      "id": 583,
+      "time": "08:10:03",
+      "strategy": "momentum",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.494384,
+      "exit": 0.505709,
+      "pnl": 0.05,
+      "status": "CLOSED"
+    },
+    {
+      "id": 584,
+      "time": "08:10:03",
+      "strategy": "HighProbConvergence",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.49551,
+      "exit": 0.494369,
+      "pnl": 0.0,
+      "status": "CLOSED"
+    },
+    {
+      "id": 585,
+      "time": "08:10:03",
+      "strategy": "OrderBookSlope",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.49438,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 586,
+      "time": "08:10:04",
+      "strategy": "AsymmetricMomentum",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.494213,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 587,
+      "time": "08:10:05",
+      "strategy": "VolatilityClustering",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.494395,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 588,
+      "time": "08:10:10",
+      "strategy": "BollingerBands",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.495376,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 589,
+      "time": "08:10:10",
+      "strategy": "RangeBoundMeanReversion",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.495486,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 590,
+      "time": "08:14:01",
+      "strategy": "volatility_scorer",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.494583,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 591,
+      "time": "08:14:17",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.495542,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 592,
+      "time": "08:15:02",
+      "strategy": "InformationDivergence",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505397,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 593,
+      "time": "08:15:09",
+      "strategy": "momentum",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505604,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 594,
+      "time": "08:15:09",
+      "strategy": "HighProbConvergence",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504549,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 595,
+      "time": "08:15:50",
+      "strategy": "AsymmetricMomentum",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505743,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 596,
+      "time": "08:16:11",
+      "strategy": "RangeBoundMeanReversion",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504372,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 597,
+      "time": "08:16:21",
+      "strategy": "OrderBookSlope",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505491,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 598,
+      "time": "08:19:02",
+      "strategy": "volatility_scorer",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505673,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 599,
+      "time": "08:19:18",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505481,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 600,
+      "time": "08:20:29",
+      "strategy": "InformationDivergence",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505371,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 601,
+      "time": "08:23:20",
+      "strategy": "momentum",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.484372,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 602,
+      "time": "08:23:21",
+      "strategy": "HighProbConvergence",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.485605,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 603,
+      "time": "08:23:22",
+      "strategy": "BollingerBands",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.485447,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 604,
+      "time": "08:23:22",
+      "strategy": "GammaScalp",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.484367,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 605,
+      "time": "08:23:22",
+      "strategy": "OrderBookSlope",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.484305,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 606,
+      "time": "08:23:22",
+      "strategy": "AsymmetricMomentum",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.48458,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 607,
+      "time": "08:23:23",
+      "strategy": "VolatilityClustering",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.484309,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 608,
+      "time": "08:24:04",
+      "strategy": "volatility_scorer",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.484483,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 609,
+      "time": "08:24:20",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.485315,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 610,
+      "time": "08:25:30",
+      "strategy": "InformationDivergence",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505736,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 611,
+      "time": "08:27:57",
+      "strategy": "RangeBoundMeanReversion",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.495345,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 612,
+      "time": "08:28:24",
+      "strategy": "momentum",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.494296,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 613,
+      "time": "08:28:49",
+      "strategy": "AsymmetricMomentum",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.494625,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 614,
+      "time": "08:29:05",
+      "strategy": "volatility_scorer",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.494371,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 615,
+      "time": "08:29:11",
+      "strategy": "OrderBookSlope",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.494392,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 616,
+      "time": "08:29:22",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.495745,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 617,
+      "time": "08:30:02",
+      "strategy": "HighProbConvergence",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504477,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 618,
+      "time": "08:30:07",
+      "strategy": "BollingerBands",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504257,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 619,
+      "time": "08:30:58",
+      "strategy": "InformationDivergence",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505483,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 620,
+      "time": "08:32:13",
+      "strategy": "GammaScalp",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.474373,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 621,
+      "time": "08:32:15",
+      "strategy": "VolatilityClustering",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.474595,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 622,
+      "time": "08:34:07",
+      "strategy": "volatility_scorer",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.474523,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 623,
+      "time": "08:34:14",
+      "strategy": "momentum",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.28459,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 624,
+      "time": "08:34:15",
+      "strategy": "HighProbConvergence",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.285786,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 625,
+      "time": "08:34:15",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.284661,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 626,
+      "time": "08:34:15",
+      "strategy": "EMAArbitrage",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.284369,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 627,
+      "time": "08:34:16",
+      "strategy": "BollingerBands",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.285686,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 628,
+      "time": "08:34:16",
+      "strategy": "PriceSkew",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.285725,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 629,
+      "time": "08:34:16",
+      "strategy": "IVMR",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.285458,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 630,
+      "time": "08:34:16",
+      "strategy": "LateEntryMomentum",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.284267,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 631,
+      "time": "08:34:17",
+      "strategy": "NoFarming",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.284417,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 632,
+      "time": "08:34:17",
+      "strategy": "VolatilityClustering",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.284215,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 633,
+      "time": "08:34:18",
+      "strategy": "FlashCrash",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.28531,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 634,
+      "time": "08:34:23",
+      "strategy": "KellyCriterion",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.284288,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 635,
+      "time": "08:34:24",
+      "strategy": "AsymmetricMomentum",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.284691,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 636,
+      "time": "08:35:07",
+      "strategy": "momentum",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.495528,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 637,
+      "time": "08:35:08",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.494566,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 638,
+      "time": "08:35:08",
+      "strategy": "LiquidityShock",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.495357,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 639,
+      "time": "08:35:08",
+      "strategy": "IVMR",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.494276,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 640,
+      "time": "08:35:09",
+      "strategy": "GammaScalp",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.495624,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 641,
+      "time": "08:35:19",
+      "strategy": "KellyCriterion",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.495348,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 642,
+      "time": "08:35:19",
+      "strategy": "AsymmetricMomentum",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.495387,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 643,
+      "time": "08:35:45",
+      "strategy": "EMAArbitrage",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.475346,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 644,
+      "time": "08:36:06",
+      "strategy": "OrderBookSlope",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.475478,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 645,
+      "time": "08:36:51",
+      "strategy": "InformationDivergence",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.475736,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 646,
+      "time": "08:37:34",
+      "strategy": "momentum",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.705455,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 647,
+      "time": "08:37:34",
+      "strategy": "HighProbConvergence",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.704558,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 648,
+      "time": "08:37:36",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.704569,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 649,
+      "time": "08:37:36",
+      "strategy": "EMAArbitrage",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.705525,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 650,
+      "time": "08:37:36",
+      "strategy": "BollingerBands",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.704609,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 651,
+      "time": "08:37:37",
+      "strategy": "IVMR",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.704501,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 652,
+      "time": "08:37:37",
+      "strategy": "OrderBookSlope",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.705673,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 653,
+      "time": "08:37:37",
+      "strategy": "VolatilityClustering",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.705592,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 654,
+      "time": "08:37:42",
+      "strategy": "KellyCriterion",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.705569,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 655,
+      "time": "08:37:48",
+      "strategy": "AsymmetricMomentum",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.705364,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 656,
+      "time": "08:40:07",
+      "strategy": "momentum",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504299,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 657,
+      "time": "08:40:07",
+      "strategy": "HighProbConvergence",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505737,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 658,
+      "time": "08:40:07",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.50558,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 659,
+      "time": "08:40:08",
+      "strategy": "EMAArbitrage",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504437,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 660,
+      "time": "08:40:08",
+      "strategy": "BollingerBands",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505752,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 661,
+      "time": "08:40:08",
+      "strategy": "IVMR",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505539,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 662,
+      "time": "08:40:09",
+      "strategy": "GammaScalp",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504252,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 663,
+      "time": "08:40:09",
+      "strategy": "OrderBookSlope",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504676,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 664,
+      "time": "08:40:09",
+      "strategy": "AsymmetricMomentum",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504229,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 665,
+      "time": "08:40:10",
+      "strategy": "FlashCrash",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505625,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 666,
+      "time": "08:40:20",
+      "strategy": "VolatilityClustering",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504262,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 667,
+      "time": "08:40:31",
+      "strategy": "KellyCriterion",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504263,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 668,
+      "time": "08:41:51",
+      "strategy": "InformationDivergence",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504434,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 669,
+      "time": "08:45:10",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504454,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 670,
+      "time": "08:47:17",
+      "strategy": "InformationDivergence",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504373,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 671,
+      "time": "08:50:09",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504678,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 672,
+      "time": "08:52:39",
+      "strategy": "InformationDivergence",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504404,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 673,
+      "time": "08:55:11",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.50534,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 674,
+      "time": "08:58:01",
+      "strategy": "InformationDivergence",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504444,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 675,
+      "time": "09:00:13",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505351,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 676,
+      "time": "09:03:25",
+      "strategy": "InformationDivergence",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504618,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 677,
+      "time": "09:05:16",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.50457,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 678,
+      "time": "09:08:47",
+      "strategy": "InformationDivergence",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504266,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 679,
+      "time": "09:10:02",
+      "strategy": "momentum",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.494434,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 680,
+      "time": "09:10:02",
+      "strategy": "HighProbConvergence",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.49534,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 681,
+      "time": "09:10:03",
+      "strategy": "OrderBookSlope",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.494491,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 682,
+      "time": "09:10:04",
+      "strategy": "AsymmetricMomentum",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.494317,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 683,
+      "time": "09:10:04",
+      "strategy": "VolatilityClustering",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.494337,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 684,
+      "time": "09:10:10",
+      "strategy": "BollingerBands",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.495615,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 685,
+      "time": "09:10:10",
+      "strategy": "RangeBoundMeanReversion",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.495363,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 686,
+      "time": "09:10:21",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.495691,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 687,
+      "time": "09:14:12",
+      "strategy": "InformationDivergence",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.494465,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 688,
+      "time": "09:14:22",
+      "strategy": "LateEntryMomentum",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.484372,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 689,
+      "time": "09:15:04",
+      "strategy": "momentum",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505596,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 690,
+      "time": "09:15:05",
+      "strategy": "HighProbConvergence",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504545,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 691,
+      "time": "09:15:05",
+      "strategy": "LiquidityShock",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505363,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 692,
+      "time": "09:15:06",
+      "strategy": "GammaScalp",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505508,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 693,
+      "time": "09:15:12",
+      "strategy": "AsymmetricMomentum",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505368,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 694,
+      "time": "09:15:22",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504268,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 695,
+      "time": "09:15:38",
+      "strategy": "OrderBookSlope",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505597,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 696,
+      "time": "09:19:30",
+      "strategy": "InformationDivergence",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504498,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 697,
+      "time": "09:20:27",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505563,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 698,
+      "time": "09:21:43",
+      "strategy": "volatility_scorer",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.50424,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 699,
+      "time": "09:23:15",
+      "strategy": "momentum",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.585485,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 700,
+      "time": "09:23:15",
+      "strategy": "volatility_scorer",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.585359,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 701,
+      "time": "09:23:15",
+      "strategy": "HighProbConvergence",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.584419,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 702,
+      "time": "09:23:16",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.585386,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 703,
+      "time": "09:23:16",
+      "strategy": "EMAArbitrage",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.585692,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 704,
+      "time": "09:23:17",
+      "strategy": "BollingerBands",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.584668,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 705,
+      "time": "09:23:17",
+      "strategy": "GammaScalp",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.5858,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 706,
+      "time": "09:23:17",
+      "strategy": "OrderBookSlope",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.585569,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 707,
+      "time": "09:23:18",
+      "strategy": "AsymmetricMomentum",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.58554,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 708,
+      "time": "09:23:18",
+      "strategy": "VolatilityClustering",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.585525,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 709,
+      "time": "09:25:07",
+      "strategy": "momentum",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504506,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 710,
+      "time": "09:25:07",
+      "strategy": "HighProbConvergence",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505795,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 711,
+      "time": "09:25:07",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504572,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 712,
+      "time": "09:25:08",
+      "strategy": "EMAArbitrage",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504233,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 713,
+      "time": "09:25:08",
+      "strategy": "BollingerBands",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.50559,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 714,
+      "time": "09:25:08",
+      "strategy": "GammaScalp",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.50457,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 715,
+      "time": "09:25:39",
+      "strategy": "AsymmetricMomentum",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504399,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 716,
+      "time": "09:25:50",
+      "strategy": "OrderBookSlope",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504527,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 717,
+      "time": "09:26:51",
+      "strategy": "VolatilityClustering",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.535682,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 718,
+      "time": "09:28:22",
+      "strategy": "InformationDivergence",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.535689,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 719,
+      "time": "09:30:10",
+      "strategy": "momentum",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504629,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 720,
+      "time": "09:30:10",
+      "strategy": "HighProbConvergence",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505757,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 721,
+      "time": "09:30:11",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504315,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 722,
+      "time": "09:30:52",
+      "strategy": "AsymmetricMomentum",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504256,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 723,
+      "time": "09:31:22",
+      "strategy": "OrderBookSlope",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504485,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 724,
+      "time": "09:32:34",
+      "strategy": "volatility_scorer",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504622,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 725,
+      "time": "09:34:26",
+      "strategy": "momentum",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.444517,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 726,
+      "time": "09:34:28",
+      "strategy": "volatility_scorer",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.444513,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 727,
+      "time": "09:34:28",
+      "strategy": "HighProbConvergence",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.445534,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 728,
+      "time": "09:34:28",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.444619,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 729,
+      "time": "09:34:29",
+      "strategy": "EMAArbitrage",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.444401,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 730,
+      "time": "09:34:29",
+      "strategy": "BollingerBands",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.445492,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 731,
+      "time": "09:34:29",
+      "strategy": "PriceSkew",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.444699,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 732,
+      "time": "09:34:30",
+      "strategy": "GammaScalp",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.444387,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 733,
+      "time": "09:34:31",
+      "strategy": "OrderBookSlope",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.4445,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 734,
+      "time": "09:34:31",
+      "strategy": "LateEntryMomentum",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.444323,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 735,
+      "time": "09:34:31",
+      "strategy": "AsymmetricMomentum",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.444532,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 736,
+      "time": "09:34:32",
+      "strategy": "VolatilityClustering",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.444331,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 737,
+      "time": "09:35:06",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505623,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 738,
+      "time": "09:35:06",
+      "strategy": "LiquidityShock",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505554,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 739,
+      "time": "09:35:21",
+      "strategy": "momentum",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505488,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 740,
+      "time": "09:35:27",
+      "strategy": "AsymmetricMomentum",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505418,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 741,
+      "time": "09:35:42",
+      "strategy": "EMAArbitrage",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505524,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 742,
+      "time": "09:36:13",
+      "strategy": "OrderBookSlope",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505515,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 743,
+      "time": "09:36:28",
+      "strategy": "volatility_scorer",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504245,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 744,
+      "time": "09:40:05",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505685,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 745,
+      "time": "09:40:57",
+      "strategy": "momentum",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.494294,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 746,
+      "time": "09:40:57",
+      "strategy": "HighProbConvergence",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.4956,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 747,
+      "time": "09:40:58",
+      "strategy": "AsymmetricMomentum",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.494368,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 748,
+      "time": "09:40:58",
+      "strategy": "VolatilityClustering",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.494607,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 749,
+      "time": "09:40:59",
+      "strategy": "InformationDivergence",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.495706,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 750,
+      "time": "09:41:05",
+      "strategy": "BollingerBands",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.495523,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 751,
+      "time": "09:41:05",
+      "strategy": "RangeBoundMeanReversion",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.495736,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 752,
+      "time": "09:41:31",
+      "strategy": "volatility_scorer",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.494267,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 753,
+      "time": "09:42:11",
+      "strategy": "OrderBookSlope",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.494538,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 754,
+      "time": "09:43:00",
+      "strategy": "momentum",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.575792,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 755,
+      "time": "09:43:00",
+      "strategy": "volatility_scorer",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.575389,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 756,
+      "time": "09:43:01",
+      "strategy": "HighProbConvergence",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.57462,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 757,
+      "time": "09:43:01",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.574548,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 758,
+      "time": "09:43:01",
+      "strategy": "EMAArbitrage",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.575579,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 759,
+      "time": "09:43:02",
+      "strategy": "BollingerBands",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.574263,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 760,
+      "time": "09:43:03",
+      "strategy": "VolatilityExpansion",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.575428,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 761,
+      "time": "09:43:03",
+      "strategy": "GammaScalp",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.575489,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 762,
+      "time": "09:43:04",
+      "strategy": "VolatilityClustering",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.575476,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 763,
+      "time": "09:43:20",
+      "strategy": "AsymmetricMomentum",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.575777,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 764,
+      "time": "09:43:32",
+      "strategy": "OrderBookSlope",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.575658,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 765,
+      "time": "09:45:00",
+      "strategy": "momentum",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.840397,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 766,
+      "time": "09:45:01",
+      "strategy": "HighProbConvergence",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.8393,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 767,
+      "time": "09:45:01",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.839578,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 768,
+      "time": "09:45:03",
+      "strategy": "EMAArbitrage",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.840382,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 769,
+      "time": "09:45:03",
+      "strategy": "BollingerBands",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504312,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 770,
+      "time": "09:45:03",
+      "strategy": "IVMR",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504502,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 771,
+      "time": "09:45:04",
+      "strategy": "OrderBookSlope",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505794,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 772,
+      "time": "09:45:04",
+      "strategy": "LateEntryMomentum",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505503,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 773,
+      "time": "09:45:04",
+      "strategy": "KellyCriterion",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505566,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 774,
+      "time": "09:45:05",
+      "strategy": "VolatilityClustering",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505573,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 775,
+      "time": "09:45:12",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505631,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 776,
+      "time": "09:45:13",
+      "strategy": "SerialCorrelation",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505622,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 777,
+      "time": "09:45:13",
+      "strategy": "GammaScalp",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504578,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 778,
+      "time": "09:45:14",
+      "strategy": "FlashCrash",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505616,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 779,
+      "time": "09:45:19",
+      "strategy": "momentum",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.50459,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 780,
+      "time": "09:45:19",
+      "strategy": "LiquidityShock",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504364,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 781,
+      "time": "09:45:25",
+      "strategy": "EMAArbitrage",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504486,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 782,
+      "time": "09:45:46",
+      "strategy": "AsymmetricMomentum",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504204,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 783,
+      "time": "09:46:52",
+      "strategy": "RangeBoundMeanReversion",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.495712,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 784,
+      "time": "09:46:57",
+      "strategy": "InformationDivergence",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.495586,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 785,
+      "time": "09:48:03",
+      "strategy": "HighProbConvergence",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.460313,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 786,
+      "time": "09:48:03",
+      "strategy": "PriceSkew",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.460404,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 787,
+      "time": "09:48:04",
+      "strategy": "VolatilityExpansion",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.459473,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 788,
+      "time": "09:50:07",
+      "strategy": "BollingerBands",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504404,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 789,
+      "time": "09:50:07",
+      "strategy": "OrderBookSlope",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505529,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 790,
+      "time": "09:50:14",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505344,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 791,
+      "time": "09:50:20",
+      "strategy": "momentum",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505355,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 792,
+      "time": "09:50:56",
+      "strategy": "AsymmetricMomentum",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505767,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 793,
+      "time": "09:52:33",
+      "strategy": "InformationDivergence",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505354,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 794,
+      "time": "09:53:39",
+      "strategy": "HighProbConvergence",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.465381,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 795,
+      "time": "09:53:39",
+      "strategy": "PriceSkew",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.464464,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 796,
+      "time": "09:53:40",
+      "strategy": "GammaScalp",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.464437,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 797,
+      "time": "09:53:40",
+      "strategy": "VolatilityClustering",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.46444,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 798,
+      "time": "09:53:46",
+      "strategy": "LateEntryMomentum",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.464505,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 799,
+      "time": "09:55:18",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504249,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 800,
+      "time": "09:55:23",
+      "strategy": "momentum",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505303,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 801,
+      "time": "09:56:09",
+      "strategy": "AsymmetricMomentum",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505799,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 802,
+      "time": "09:56:14",
+      "strategy": "OrderBookSlope",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.5058,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 803,
+      "time": "09:58:10",
+      "strategy": "InformationDivergence",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505396,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 804,
+      "time": "10:00:18",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505395,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 805,
+      "time": "10:03:35",
+      "strategy": "InformationDivergence",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505794,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 806,
+      "time": "10:05:22",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505393,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 807,
+      "time": "10:08:58",
+      "strategy": "InformationDivergence",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505628,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 808,
+      "time": "10:10:24",
+      "strategy": "momentum",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.494604,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 809,
+      "time": "10:10:25",
+      "strategy": "HighProbConvergence",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.495568,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 810,
+      "time": "10:10:25",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.495305,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 811,
+      "time": "10:10:26",
+      "strategy": "OrderBookSlope",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.494596,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 812,
+      "time": "10:10:26",
+      "strategy": "AsymmetricMomentum",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.494527,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 813,
+      "time": "10:10:28",
+      "strategy": "VolatilityClustering",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.494311,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 814,
+      "time": "10:10:33",
+      "strategy": "BollingerBands",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.495448,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 815,
+      "time": "10:10:34",
+      "strategy": "RangeBoundMeanReversion",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.495555,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 816,
+      "time": "10:14:25",
+      "strategy": "InformationDivergence",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.495559,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 817,
+      "time": "10:15:27",
+      "strategy": "momentum",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505457,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 818,
+      "time": "10:15:28",
+      "strategy": "HighProbConvergence",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504425,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 819,
+      "time": "10:15:28",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504522,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 820,
+      "time": "10:15:59",
+      "strategy": "AsymmetricMomentum",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505639,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 821,
+      "time": "10:16:20",
+      "strategy": "RangeBoundMeanReversion",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.50459,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 822,
+      "time": "10:16:30",
+      "strategy": "OrderBookSlope",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.50563,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 823,
+      "time": "10:17:41",
+      "strategy": "volatility_scorer",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505502,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 824,
+      "time": "10:20:28",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.50553,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 825,
+      "time": "10:20:34",
+      "strategy": "InformationDivergence",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505768,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 826,
+      "time": "10:22:46",
+      "strategy": "volatility_scorer",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504211,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 827,
+      "time": "10:25:32",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504361,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 828,
+      "time": "10:25:57",
+      "strategy": "InformationDivergence",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505554,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 829,
+      "time": "10:27:48",
+      "strategy": "volatility_scorer",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504698,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 830,
+      "time": "10:30:34",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505685,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 831,
+      "time": "10:31:20",
+      "strategy": "InformationDivergence",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505373,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 832,
+      "time": "10:32:51",
+      "strategy": "volatility_scorer",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504552,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 833,
+      "time": "10:35:37",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504458,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 834,
+      "time": "10:36:43",
+      "strategy": "InformationDivergence",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505504,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 835,
+      "time": "10:37:54",
+      "strategy": "volatility_scorer",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504672,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 836,
+      "time": "10:40:40",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505692,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 837,
+      "time": "10:42:06",
+      "strategy": "InformationDivergence",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505357,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 838,
+      "time": "10:42:57",
+      "strategy": "volatility_scorer",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504583,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 839,
+      "time": "10:45:12",
+      "strategy": "momentum",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.494483,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 840,
+      "time": "10:45:13",
+      "strategy": "HighProbConvergence",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.495428,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 841,
+      "time": "10:45:13",
+      "strategy": "OrderBookSlope",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.494399,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 842,
+      "time": "10:45:14",
+      "strategy": "AsymmetricMomentum",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.494418,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 843,
+      "time": "10:45:15",
+      "strategy": "VolatilityClustering",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.494261,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 844,
+      "time": "10:45:20",
+      "strategy": "BollingerBands",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.495408,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 845,
+      "time": "10:45:21",
+      "strategy": "RangeBoundMeanReversion",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.495527,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 846,
+      "time": "10:45:42",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.494227,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 847,
+      "time": "10:47:33",
+      "strategy": "InformationDivergence",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.495505,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 848,
+      "time": "10:47:59",
+      "strategy": "volatility_scorer",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.494469,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 849,
+      "time": "10:50:43",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.494332,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 850,
+      "time": "10:53:00",
+      "strategy": "volatility_scorer",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.494282,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 851,
+      "time": "10:53:00",
+      "strategy": "InformationDivergence",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.495452,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 852,
+      "time": "10:55:46",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.495618,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 853,
+      "time": "10:58:03",
+      "strategy": "volatility_scorer",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.494695,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 854,
+      "time": "10:58:24",
+      "strategy": "InformationDivergence",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.495699,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 855,
+      "time": "11:00:05",
+      "strategy": "momentum",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505691,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 856,
+      "time": "11:00:06",
+      "strategy": "HighProbConvergence",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504396,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 857,
+      "time": "11:00:06",
+      "strategy": "OrderBookSlope",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505409,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 858,
+      "time": "11:00:07",
+      "strategy": "AsymmetricMomentum",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505667,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 859,
+      "time": "11:00:07",
+      "strategy": "VolatilityClustering",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505697,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 860,
+      "time": "11:00:13",
+      "strategy": "BollingerBands",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504658,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 861,
+      "time": "11:00:13",
+      "strategy": "RangeBoundMeanReversion",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504603,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 862,
+      "time": "11:00:49",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504407,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 863,
+      "time": "11:03:05",
+      "strategy": "volatility_scorer",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.5046,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 864,
+      "time": "11:03:52",
+      "strategy": "InformationDivergence",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505472,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 865,
+      "time": "11:05:50",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504658,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 866,
+      "time": "11:08:06",
+      "strategy": "volatility_scorer",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504694,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 867,
+      "time": "11:09:17",
+      "strategy": "InformationDivergence",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505678,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 868,
+      "time": "11:10:53",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505546,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 869,
+      "time": "11:13:09",
+      "strategy": "volatility_scorer",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504377,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 870,
+      "time": "11:13:24",
+      "strategy": "momentum",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.474697,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 871,
+      "time": "11:13:25",
+      "strategy": "HighProbConvergence",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.475697,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 872,
+      "time": "11:13:25",
+      "strategy": "BollingerBands",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.475475,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 873,
+      "time": "11:13:26",
+      "strategy": "GammaScalp",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.474475,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 874,
+      "time": "11:13:26",
+      "strategy": "OrderBookSlope",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.474295,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 875,
+      "time": "11:13:27",
+      "strategy": "AsymmetricMomentum",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.474687,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 876,
+      "time": "11:13:27",
+      "strategy": "VolatilityClustering",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.47429,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 877,
+      "time": "11:15:08",
+      "strategy": "InformationDivergence",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.495549,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 878,
+      "time": "11:15:54",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.494682,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 879,
+      "time": "11:18:10",
+      "strategy": "volatility_scorer",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.494278,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 880,
+      "time": "11:20:03",
+      "strategy": "momentum",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505407,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 881,
+      "time": "11:20:04",
+      "strategy": "HighProbConvergence",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504483,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 882,
+      "time": "11:20:05",
+      "strategy": "OrderBookSlope",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505363,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 883,
+      "time": "11:20:05",
+      "strategy": "AsymmetricMomentum",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505604,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 884,
+      "time": "11:20:06",
+      "strategy": "VolatilityClustering",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.505645,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 885,
+      "time": "11:20:12",
+      "strategy": "BollingerBands",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504593,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 886,
+      "time": "11:20:12",
+      "strategy": "RangeBoundMeanReversion",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.504642,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 887,
+      "time": "11:20:33",
+      "strategy": "LiquidityShock",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.494569,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 888,
+      "time": "11:20:33",
+      "strategy": "GammaScalp",
+      "market": "BTC-5M",
+      "side": "SELL",
+      "entry": 0.494497,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 889,
+      "time": "11:20:39",
+      "strategy": "InformationDivergence",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.495382,
+      "exit": 0,
+      "pnl": 0.0,
+      "status": "OPEN"
+    },
+    {
+      "id": 890,
+      "time": "11:20:54",
+      "strategy": "MarketMaking",
+      "market": "BTC-5M",
+      "side": "BUY",
+      "entry": 0.495698,
       "exit": 0,
       "pnl": 0.0,
       "status": "OPEN"
     }
   ],
-  "total": 303,
-  "updated": "2026-02-20T04:40:59.596750"
+  "total": 890,
+  "updated": "2026-02-20T11:22:38.346151"
 }
